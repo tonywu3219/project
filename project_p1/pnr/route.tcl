@@ -21,5 +21,7 @@ optDesign -postRoute -setup -hold
 # Fix DRC errors
 optDesign -postRoute -drv
 optDesign -postRoute -inc
+optDesign -postRoute -drv
+optDesign -postRoute -inc
 
 saveDesign route.enc
