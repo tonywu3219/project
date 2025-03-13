@@ -22,7 +22,7 @@ integer  weight [col*pr-1:0];
 
 
 
-integer  K[2*col-1:0][pr-1:0];
+integer  K[col-1:0][pr-1:0];
 integer  Q[total_cycle-1:0][pr-1:0];
 reg signed  [bw_psum-1:0]result[total_cycle-1:0][col-1:0];
 reg signed  [bw_psum-1:0]abs_result[total_cycle-1:0][col-1:0];
@@ -111,7 +111,7 @@ $display("##### Q data txt reading #####");
     for (j=0; j<pr; j=j+1) begin
           qk_scan_file = $fscanf(qk_file, "%d\n", captured_data);
           Q[q][j] = captured_data;
-          $display("%d\n", Q[q][j]);
+          $display("%d th Q data: %d\n", q*total_cycle+j, Q[q][j]);
     end
   end
 /////////////////////////////////
@@ -148,11 +148,11 @@ $display("##### K data txt reading #####");
 
 
 
-  for (q=0; q<col*2; q=q+1) begin
+  for (q=0; q<col; q=q+1) begin
     for (j=0; j<pr; j=j+1) begin
           qk_scan_file = $fscanf(qk_file, "%d\n", captured_data);
           K[q][j] = captured_data;
-          $display("##### %d\n", K[q][j]);
+          $display("%d th K data: %d\n", q*col+j, K[q][j]);
     end
   end
 /////////////////////////////////
@@ -176,22 +176,23 @@ $display("##### Estimated multiplication result #####");
   end
 
   for (t=0; t<total_cycle; t=t+1) begin
-     for (q=0; q<col; q=q+1) begin
-         for (k=0; k<pr; k=k+1) begin
-            result[t][q] = result[t][q] + Q[t][k] * K[q][k];
-         end
+    for (q=0; q<col; q=q+1) begin
+      for (k=0; k<pr; k=k+1) begin
+        //$display("previous=result[%d][%d]=%d", t, q, result[t][q]);
+        result[t][q] = Q[t][k] * K[q][k] + result[t][q];
+        //$display("Q[%d][%d](%d)*K[%d][%d](%d)+previous=%d", t, k, Q[t][k], t, k, K[t][k], result[t][q]);
+      end
 
-         temp5b = result[t][q];
-         temp16b = {temp16b[139:0], temp5b};
-     end
-
-     //$display("%d %d %d %d %d %d %d %d", result[t][0], result[t][1], result[t][2], result[t][3], result[t][4], result[t][5], result[t][6], result[t][7]);
-     $display("prd @cycle%2d: %40h", t, temp16b);
+      temp5b = result[t][q];
+      //temp16b = {temp16b[139:0], temp5b};
+      temp16b = {temp16b[bw_psum*col-bw_psum-1:0], temp5b};
+    end
+    $display("prd @cycle%2d: %40h", t, temp16b);
   end
 
   norm_result = 0;
   for (t=0; t<total_cycle; t=t+1)begin
-  sum[t] = 0;
+    sum[t] = 0;
   end
   norm = 0;
   
@@ -200,20 +201,24 @@ $display("##### Estimated normalization result #####");
 
   for (t=0; t<total_cycle; t=t+1) begin
      for (q=0; q<col; q=q+1) begin
-	abs_result[t][q] = ((result[t][q] > 0) ? result[t][q] : ~result[t][q]+1);
-	$display("abs_result @cycle %d: %h", t, abs_result[t][q]);
-	sum[t] = sum[t] + abs_result[t][q];
-	end
-	$display("sum @cycle %d: %h", t, sum[t]);
+      //$display("result @cycle %d: %h", t, result[t][q]);
+	    abs_result[t][q] = ((result[t][q] > 0) ? result[t][q] : ~result[t][q]+1);
+	    $display("abs_result @cycle %d: %h", t, abs_result[t][q]);
+	    sum[t] = sum[t] + abs_result[t][q];
+	  end
+	  $display("sum @cycle %d: %h", t, sum[t]);
 
   end
 
   for (t=0; t<total_cycle; t=t+1) begin
-     for (q=0; q<col; q=q+1) begin
-	norm_result = {result[t][q], 8'b0}/sum[t];
-	norm = {norm[139:0],norm_result};
-	 end
-	$display("norm @cycle %d: %h", t, norm);
+    //$display("sum[t]=%d", sum[t]);
+    for (q=0; q<col; q=q+1) begin
+      //$display("{result[t][q], 8'b0}=%d", {result[t][q], 8'b0});
+	    norm_result = {result[t][q], 8'b0}/sum[t];
+      //$display("norm_result=%d", norm_result);
+	    norm = {norm[bw_psum*col-bw_psum-1:0],norm_result};
+	  end
+	  $display("norm @cycle %d: %h", t, norm);
   end
 
 
@@ -234,7 +239,10 @@ $display("##### Qmem writing  #####");
   for (q=0; q<total_cycle; q=q+1) begin
 
     #0.5 clk = 1'b0;  
-    qmem_wr = 1;  if (q>0) qkmem_add = qkmem_add + 1; 
+    qmem_wr = 1;  
+    if (q>0) begin
+      qkmem_add = qkmem_add + 1; 
+    end
     
     mem_in_core0[1*bw-1:0*bw] = Q[q][0];
     mem_in_core0[2*bw-1:1*bw] = Q[q][1];
