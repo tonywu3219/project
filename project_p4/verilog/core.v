@@ -117,12 +117,4 @@ sfp_row #(.col(col), .bw(bw)) sfp_instance (
 	.sfp_out(pmem_in_from_sfp)
 );
 
-  //////////// For printing purpose ////////////
-  //always @(posedge clk) begin
-  //    if(pmem_wr)
-  //       $display("Memory write to PSUM mem add %x %x ", pmem_add, pmem_in); 
-  //end
-
-
-
 endmodule
