@@ -1,0 +1,449 @@
+Warning: Design 'core' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : reference
+Design : core
+Version: K-2015.06-SP2
+Date   : Sat Mar  8 01:57:45 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+INVD0              tcbn65gplustc
+                                  1.080000       2      2.160000  
+INVD1              tcbn65gplustc
+                                  1.080000       1      1.080000  
+MUX2D0             tcbn65gplustc
+                                  3.240000      64    207.360001  
+NR2D0              tcbn65gplustc
+                                  1.440000       2      2.880000  
+NR2XD0             tcbn65gplustc
+                                  1.440000       1      1.440000  
+mac_array_col8_bw8_bw_psum20_pr8
+                              45830.519828       1  45830.519828  h, n
+ofifo_col8_bw20                   0.000000       1      0.000000  b, h
+sram_w16_64b_sram_bit64_0     12142.439876       1  12142.439876  h, n
+sram_w16_64b_sram_bit64_1     12137.399876       1  12137.399876  h, n
+sram_w16_160b_sram_bit160     30074.039091       1  30074.039091  h, n
+-----------------------------------------------------------------------------
+Total 10 references                                 100399.318673
+1
+ 
+****************************************
+Report : reference
+Design : core
+Version: K-2015.06-SP2
+Date   : Sat Mar  8 02:17:50 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+INVD1              tcbn65gplustc
+                                  1.080000       3      3.240000  
+MUX2D0             tcbn65gplustc
+                                  3.240000      64    207.360001  
+NR2D0              tcbn65gplustc
+                                  1.440000       2      2.880000  
+NR2D1              tcbn65gplustc
+                                  1.440000       1      1.440000  
+mac_array_col8_bw8_bw_psum20_pr8
+                              57819.239925       1  57819.239925  h, n
+ofifo_col8_bw20               35343.359906       1  35343.359906  h, n
+sram_w16_64b_sram_bit64_0     12141.719876       1  12141.719876  h, n
+sram_w16_64b_sram_bit64_1     12143.519876       1  12143.519876  h, n
+sram_w16_160b_sram_bit160     30077.999091       1  30077.999091  h, n
+-----------------------------------------------------------------------------
+Total 9 references                                  147740.758675
+1
+ 
+****************************************
+Report : reference
+Design : core
+Version: K-2015.06-SP2
+Date   : Thu Mar 13 13:16:28 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+INVD1              tcbn65gplustc
+                                  1.080000       3      3.240000  
+MUX2D0             tcbn65gplustc
+                                  3.240000      64    207.360001  
+NR2D0              tcbn65gplustc
+                                  1.440000       2      2.880000  
+NR2D1              tcbn65gplustc
+                                  1.440000       1      1.440000  
+mac_array_col8_bw8_bw_psum20_pr8
+                              57805.199919       1  57805.199919  h, n
+ofifo_col8_bw20               35341.199906       1  35341.199906  h, n
+sram_w16_64b_sram_bit64_0     12141.719876       1  12141.719876  h, n
+sram_w16_64b_sram_bit64_1     12143.519876       1  12143.519876  h, n
+sram_w16_160b_sram_bit160     30077.999091       1  30077.999091  h, n
+-----------------------------------------------------------------------------
+Total 9 references                                  147724.558669
+1
+ 
+****************************************
+Report : reference
+Design : core
+Version: K-2015.06-SP2
+Date   : Sat Mar 15 13:53:37 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+INVD0              tcbn65gplustc
+                                  1.080000       1      1.080000  
+INVD1              tcbn65gplustc
+                                  1.080000       2      2.160000  
+MUX2D0             tcbn65gplustc
+                                  3.240000      64    207.360001  
+NR2D0              tcbn65gplustc
+                                  1.440000       1      1.440000  
+NR2D1              tcbn65gplustc
+                                  1.440000       2      2.880000  
+mac_array_col8_bw8_bw_psum20_pr8
+                              58632.119953       1  58632.119953  h, n
+ofifo_col8_bw20               35230.319887       1  35230.319887  h, n
+sram_w16_64b_sram_bit64_0     12141.719876       1  12141.719876  h, n
+sram_w16_64b_sram_bit64_1     12141.719876       1  12141.719876  h, n
+sram_w16_160b_sram_bit160     30069.719092       1  30069.719092  h, n
+-----------------------------------------------------------------------------
+Total 10 references                                 148430.518685
+1
+ 
+****************************************
+Report : reference
+Design : core
+Version: K-2015.06-SP2
+Date   : Sat Mar 15 18:01:15 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+INVD1              tcbn65gplustc
+                                  1.080000       3      3.240000  
+MUX2D0             tcbn65gplustc
+                                  3.240000      64    207.360001  
+NR2D0              tcbn65gplustc
+                                  1.440000       2      2.880000  
+NR2D1              tcbn65gplustc
+                                  1.440000       1      1.440000  
+mac_array_col8_bw8_bw_psum20_pr8
+                              57805.199919       1  57805.199919  h, n
+ofifo_col8_bw20               35341.199906       1  35341.199906  h, n
+sram_w16_64b_sram_bit64_0     12141.719876       1  12141.719876  h, n
+sram_w16_64b_sram_bit64_1     12143.519876       1  12143.519876  h, n
+sram_w16_160b_sram_bit160     30077.999091       1  30077.999091  h, n
+-----------------------------------------------------------------------------
+Total 9 references                                  147724.558669
+1
+ 
+****************************************
+Report : reference
+Design : core
+Version: K-2015.06-SP2
+Date   : Sat Mar 15 18:08:18 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+INVD0              tcbn65gplustc
+                                  1.080000       3      3.240000  
+MUX2D0             tcbn65gplustc
+                                  3.240000      64    207.360001  
+NR2D0              tcbn65gplustc
+                                  1.440000       3      4.320000  
+mac_array_col8_bw8_bw_psum20_pr8
+                              46037.879772       1  46037.879772  h, n
+ofifo_col8_bw20               33877.439955       1  33877.439955  h, n
+sram_w16_64b_sram_bit64_0     12122.279877       1  12122.279877  h, n
+sram_w16_64b_sram_bit64_1     12121.199877       1  12121.199877  h, n
+sram_w16_160b_sram_bit160     30034.799095       1  30034.799095  h, n
+-----------------------------------------------------------------------------
+Total 8 references                                  134408.518578
+1
+ 
+****************************************
+Report : reference
+Design : core
+Version: K-2015.06-SP2
+Date   : Sat Mar 15 20:13:26 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+INVD0              tcbn65gplustc
+                                  1.080000       3      3.240000  
+MUX2D0             tcbn65gplustc
+                                  3.240000      64    207.360001  
+NR2D0              tcbn65gplustc
+                                  1.440000       3      4.320000  
+mac_array_col8_bw8_bw_psum20_pr8
+                              45821.159831       1  45821.159831  h, n
+ofifo_col8_bw20               33877.439955       1  33877.439955  h, n
+sram_w16_64b_sram_bit64_0     12131.999879       1  12131.999879  h, n
+sram_w16_64b_sram_bit64_1     12131.999879       1  12131.999879  h, n
+sram_w16_160b_sram_bit160     30052.799096       1  30052.799096  h, n
+-----------------------------------------------------------------------------
+Total 8 references                                  134230.318642
+1
+ 
+****************************************
+Report : reference
+Design : core
+Version: K-2015.06-SP2
+Date   : Sat Mar 15 20:57:20 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+INVD0              tcbn65gplustc
+                                  1.080000       3      3.240000  
+MUX2D0             tcbn65gplustc
+                                  3.240000      64    207.360001  
+NR2D0              tcbn65gplustc
+                                  1.440000       3      4.320000  
+mac_array_col8_bw8_bw_psum20_pr8
+                              45821.159831       1  45821.159831  h, n
+ofifo_col8_bw20               33877.439955       1  33877.439955  h, n
+sram_w16_64b_sram_bit64_0     12131.999879       1  12131.999879  h, n
+sram_w16_64b_sram_bit64_1     12131.999879       1  12131.999879  h, n
+sram_w16_160b_sram_bit160     30052.799096       1  30052.799096  h, n
+-----------------------------------------------------------------------------
+Total 8 references                                  134230.318642
+1
+ 
+****************************************
+Report : reference
+Design : core
+Version: K-2015.06-SP2
+Date   : Sat Mar 15 21:41:35 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+INVD0              tcbn65gplustc
+                                  1.080000       3      3.240000  
+MUX2D0             tcbn65gplustc
+                                  3.240000      64    207.360001  
+NR2D0              tcbn65gplustc
+                                  1.440000       3      4.320000  
+mac_array_col8_bw8_bw_psum20_pr8
+                              45821.159831       1  45821.159831  h, n
+ofifo_col8_bw20               33877.439955       1  33877.439955  h, n
+sram_w16_64b_sram_bit64_0     12131.999879       1  12131.999879  h, n
+sram_w16_64b_sram_bit64_1     12131.999879       1  12131.999879  h, n
+sram_w16_160b_sram_bit160     30052.799096       1  30052.799096  h, n
+-----------------------------------------------------------------------------
+Total 8 references                                  134230.318642
+1
+ 
+****************************************
+Report : reference
+Design : core
+Version: K-2015.06-SP2
+Date   : Sun Mar 16 11:20:11 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+INVD0              tcbn65gplustc
+                                  1.080000       3      3.240000  
+MUX2D0             tcbn65gplustc
+                                  3.240000      64    207.360001  
+NR2D0              tcbn65gplustc
+                                  1.440000       3      4.320000  
+mac_array_col8_bw8_bw_psum20_pr8
+                              45391.679516       1  45391.679516  h, n
+ofifo_col8_bw20               33877.439955       1  33877.439955  h, n
+sram_w16_64b_sram_bit64_0     12131.999879       1  12131.999879  h, n
+sram_w16_64b_sram_bit64_1     12131.999879       1  12131.999879  h, n
+sram_w16_160b_sram_bit160     30052.799096       1  30052.799096  h, n
+-----------------------------------------------------------------------------
+Total 8 references                                  133800.838326
+1
+ 
+****************************************
+Report : reference
+Design : core
+Version: K-2015.06-SP2
+Date   : Sun Mar 16 11:29:09 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+INVD0              tcbn65gplustc
+                                  1.080000       3      3.240000  
+MUX2D0             tcbn65gplustc
+                                  3.240000      64    207.360001  
+NR2D0              tcbn65gplustc
+                                  1.440000       3      4.320000  
+mac_array_col8_bw8_bw_psum20_pr8
+                              45391.679516       1  45391.679516  h, n
+ofifo_col8_bw20               33949.439953       1  33949.439953  h, n
+sram_w16_64b_sram_bit64_0     12130.919879       1  12130.919879  h, n
+sram_w16_64b_sram_bit64_1     12130.919879       1  12130.919879  h, n
+sram_w16_160b_sram_bit160     30052.799096       1  30052.799096  h, n
+-----------------------------------------------------------------------------
+Total 8 references                                  133870.678324
+1
+ 
+****************************************
+Report : reference
+Design : core
+Version: K-2015.06-SP2
+Date   : Sun Mar 16 11:44:41 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+INVD1              tcbn65gplustc
+                                  1.080000       3      3.240000  
+MUX2D0             tcbn65gplustc
+                                  3.240000      64    207.360001  
+NR2D0              tcbn65gplustc
+                                  1.440000       1      1.440000  
+NR2D1              tcbn65gplustc
+                                  1.440000       2      2.880000  
+mac_array_col8_bw8_bw_psum20_pr8
+                              57563.999775       1  57563.999775  h, n
+ofifo_col8_bw20               35442.359901       1  35442.359901  h, n
+sram_w16_64b_sram_bit64_0     12142.439876       1  12142.439876  h, n
+sram_w16_64b_sram_bit64_1     12140.999875       1  12140.999875  h, n
+sram_w16_160b_sram_bit160     30077.279092       1  30077.279092  h, n
+-----------------------------------------------------------------------------
+Total 9 references                                  147581.998521
+1
