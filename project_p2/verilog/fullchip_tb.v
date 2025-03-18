@@ -208,7 +208,7 @@ $display("##### Estimated normalization result #####");
 
   for (t=0; t<total_cycle; t=t+1) begin
      for (q=0; q<col; q=q+1) begin
-	norm_result = {result[t][q], 8'b0}/sum[t];
+	norm_result = {abs_result[t][q], 8'b0}/sum[t];
 	norm = {norm[139:0],norm_result};
 	 end
 	$display("norm @cycle %d: %h", t, norm);
