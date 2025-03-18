@@ -78,7 +78,7 @@ core #(.bw(bw), .bw_psum(bw_psum), .col(col), .pr(pr)) core_instance (
       .out(out)
 );
 
-#initial $sdf_annotate("../pnr/core_WC.sdf", core_instance, , ,"MAXIMUM","1:1:1","FROM_MTM");
+//initial $sdf_annotate("../pnr/core_WC.sdf", core_instance, , ,"MAXIMUM","1:1:1","FROM_MTM");
 
 initial begin 
 
