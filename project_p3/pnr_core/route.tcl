@@ -16,10 +16,14 @@ extractRC
 
 # Post-route timing optimization
 setAnalysisMode -analysisType onChipVariation -cppr both
-# optDesign -postRoute -setup -hold
+optDesign -postRoute -setup -hold
 
 # Fix DRC errors
-# optDesign -postRoute -drv
-# optDesign -postRoute -inc
+optDesign -postRoute -drv
+optDesign -postRoute -inc
+optDesign -postRoute -drv
+optDesign -postRoute -inc
+optDesign -postRoute -drv
+optDesign -postRoute -inc
 
 saveDesign route.enc

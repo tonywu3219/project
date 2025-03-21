@@ -1,15 +1,16 @@
 # Floorplan
 floorPlan -site core -s 1100 1100 10 10 10 10
 
-#addRing -spacing {top 2 bottom 2 left 2 right 2} -width {top 2 bottom 2 left 2 right 2}  -layer {top M1 bottom M1 left M2 right M2} -center 1 -type core_rings -nets {VSS  VDD}
-
-#setAddStripeMode -break_at {block_ring}
+addRing -spacing {top 2 bottom 2 left 2 right 2} -width {top 2 bottom 2 left 2 right 2}  -layer {top M1 bottom M1 left M2 right M2} -center 1 -type core_rings -nets {VSS  VDD}
 
 placeInstance psum_mem_instance 400.0 400.0 R0
 placeInstance qmem_instance 50.0 50.0 R0
-placeInstance kmem_instance 50.0 400.0 R0
+placeInstance kmem_instance 400.0 50.0 R0
 
-flipOrRotateObject -flip MY -name psum_mem_instance
+#placeInstance mac_array_instance 50.0 400.0 R0
+#placeInstance fifo_inst 50.0 800.0 R0
+
+#flipOrRotateObject -flip MY -name psum_mem_instance
 
 addHaloToBlock {3 3 3 3} qmem_instance
 addHaloToBlock {3 3 3 3} kmem_instance
@@ -28,6 +29,8 @@ globalNetConnect VDD -type pgpin -pin VDD -sinst kmem_instance -verbose -overrid
 globalNetConnect VSS -type pgpin -pin VSS -sinst kmem_instance -verbose -override
 globalNetConnect VDD -type pgpin -pin VDD -sinst psum_mem_instance -verbose -override
 globalNetConnect VSS -type pgpin -pin VSS -sinst psum_mem_instance -verbose -override
+
+#setAddStripeMode -break_at {block_ring}
 
 addStripe -skip_via_on_wire_shape Noshape -block_ring_top_layer_limit M1 -max_same_layer_jog_length 0.8 -padcore_ring_bottom_layer_limit M1 -number_of_sets 155 -skip_via_on_pin Standardcell -stacked_via_top_layer M8 -padcore_ring_top_layer_limit M1 -spacing 3 -merge_stripes_value 0.1 -direction horizontal -layer M5 -block_ring_bottom_layer_limit M1 -width 2 -area {} -nets {VDD VSS} -stacked_via_bottom_layer M1
 
