@@ -23,7 +23,7 @@ set init_lef_file "$lef ./subckt/sram_w16_64b.lef ./subckt/sram_w16_160b.lef"
 
 # MCMM setup
 create_library_set -name WC_LIB -timing "$worst_timing_lib ./subckt/sram_w16_64b_WC.lib ./subckt/sram_w16_160b_WC.lib"
-create_library_set -name BC_LIB -timing "$best_timing_lib ./subckt/sram_w16_64b_WC.lib ./subckt/sram_w16_160b_WC.lib"
+create_library_set -name BC_LIB -timing "$best_timing_lib ./subckt/sram_w16_64b_BC.lib ./subckt/sram_w16_160b_BC.lib"
 create_rc_corner -name Cmax -cap_table $worst_captbl -T 125
 create_rc_corner -name Cmin -cap_table $best_captbl -T -40
 create_delay_corner -name WC -library_set WC_LIB -rc_corner Cmax

@@ -1,6 +1,6 @@
 streamOut ${design}.gds2 -merge {./subckt/sram_w16_64b.gds2 ./subckt/sram_w16_160b.gds2}
-write_lef_abstract -stripePin -PGPinLayers {4} -extractBlockPGPinLayers {4} ${design}.lef -specifyTopLayer 4
-# write_lef_abstract ${design}.lef
+# write_lef_abstract -stripePin -PGPinLayers {4} -extractBlockPGPinLayers {4} ${design}.lef -specifyTopLayer 4
+write_lef_abstract ${design}.lef
 defOut -netlist -routing ${design}.def
 saveNetlist ${design}.pnr.v
 

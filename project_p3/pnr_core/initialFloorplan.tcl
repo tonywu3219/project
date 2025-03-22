@@ -1,11 +1,17 @@
 # Floorplan
 floorPlan -site core -s 1100 1100 10 10 10 10
 
-addRing -spacing {top 2 bottom 2 left 2 right 2} -width {top 2 bottom 2 left 2 right 2}  -layer {top M1 bottom M1 left M2 right M2} -center 1 -type core_rings -nets {VSS  VDD}
+#addRing -spacing {top 2 bottom 2 left 2 right 2} -width {top 2 bottom 2 left 2 right 2}  -layer {top M1 bottom M1 left M2 right M2} -center 1 -type core_rings -nets {VSS  VDD}
 
-placeInstance psum_mem_instance 400.0 400.0 R0
-placeInstance qmem_instance 50.0 50.0 R0
-placeInstance kmem_instance 400.0 50.0 R0
+setObjFPlanBox Instance kmem_instance 42.935 399.9755 332.935 689.9755
+setObjFPlanBox Instance qmem_instance 53.708 752.784 343.708 1042.784
+setObjFPlanBox Instance psum_mem_instance 389.855 396.203 1059.855 1066.203
+setObjFPlanBox Module mac_array_instance 432.429 36.558 743.029 347.958
+setObjFPlanBox Module ofifo_inst 771.3905 75.8895 1016.9905 320.6895
+
+#placeInstance psum_mem_instance 400.0 400.0 R0
+#placeInstance qmem_instance 50.0 50.0 R0
+#placeInstance kmem_instance 400.0 50.0 R0
 
 #placeInstance mac_array_instance 50.0 400.0 R0
 #placeInstance fifo_inst 50.0 800.0 R0
@@ -32,7 +38,8 @@ globalNetConnect VSS -type pgpin -pin VSS -sinst psum_mem_instance -verbose -ove
 
 #setAddStripeMode -break_at {block_ring}
 
-addStripe -skip_via_on_wire_shape Noshape -block_ring_top_layer_limit M1 -max_same_layer_jog_length 0.8 -padcore_ring_bottom_layer_limit M1 -number_of_sets 155 -skip_via_on_pin Standardcell -stacked_via_top_layer M8 -padcore_ring_top_layer_limit M1 -spacing 3 -merge_stripes_value 0.1 -direction horizontal -layer M5 -block_ring_bottom_layer_limit M1 -width 2 -area {} -nets {VDD VSS} -stacked_via_bottom_layer M1
+#addStripe -skip_via_on_wire_shape Noshape -block_ring_top_layer_limit M1 -max_same_layer_jog_length 0.8 -padcore_ring_bottom_layer_limit M1 -number_of_sets 155 -skip_via_on_pin Standardcell -stacked_via_top_layer M8 -padcore_ring_top_layer_limit M1 -spacing 3 -merge_stripes_value 0.1 -direction horizontal -layer M5 -block_ring_bottom_layer_limit M1 -width 2 -area {} -nets {VDD VSS} -stacked_via_bottom_layer M1
+addStripe -nets {VDD VSS} -layer M5 -direction horizontal -width 2 -spacing 3 -number_of_sets 100
 
 ### Note: Change the number of strip  by looking at the layout #########
 #addStripe -number_of_sets 32 -direction vertical -spacing 2 -layer M4 -width 2 -nets { VSS VDD }

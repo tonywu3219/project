@@ -1,5 +1,5 @@
 # Placement
-setMaxRouteLayer 4
+#setMaxRouteLayer 4
 saveDesign floorplan.enc
 setPlaceMode -timingDriven true -reorderScan false -congEffort medium -modulePlan True -placeIOPins False
 #setPlaceMode -timingDriven true -reorderScan false -congEffort medium -modulePlan false
