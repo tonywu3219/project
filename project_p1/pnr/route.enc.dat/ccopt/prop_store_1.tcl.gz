@@ -1,0 +1,1096 @@
+## RestorePhase1: Pre-clock-tree extraction.
+## Tcl commands to replicate state of the design_saved property.
+set_ccopt_property design_saved 1
+## Tcl commands to replicate state of the extract_through_to property.
+# extract_through_to has default value for all objects.
+## Tcl commands to replicate state of the library_trace_through_to property.
+# library_trace_through_to has default value for all objects.
+## Tcl commands to replicate state of the primary_delay_corner property.
+set_ccopt_property primary_delay_corner WC
+## Tcl commands to replicate state of the sink_type property.
+# sink_type has default value for all objects.
+## Tcl commands to replicate state of the sink_type_reasons property.
+# sink_type_reasons has default value for all objects.
+#### End of writing state for properties.
+## Tcl commands to replicate state of the ccopt_auto_limit_insertion_delay global property
+# ccopt_auto_limit_insertion_delay has default value.
+## Tcl commands to replicate state of the ccopt_cluster_nodes_and_sinks_separately global property
+# ccopt_cluster_nodes_and_sinks_separately has default value.
+## Tcl commands to replicate state of the ccopt_consider_auto_limit_insertion_delay_to_be_soft global property
+# ccopt_consider_auto_limit_insertion_delay_to_be_soft has default value.
+## Tcl commands to replicate state of the ccopt_constraint_analysis_aim_for_zero_skew global property
+# ccopt_constraint_analysis_aim_for_zero_skew has default value.
+## Tcl commands to replicate state of the ccopt_downsize_tree_in_legal_rounds global property
+# ccopt_downsize_tree_in_legal_rounds has default value.
+## Tcl commands to replicate state of the ccopt_early_implementation1_region global property
+# ccopt_early_implementation1_region has default value.
+## Tcl commands to replicate state of the ccopt_early_implementation2_region global property
+# ccopt_early_implementation2_region has default value.
+## Tcl commands to replicate state of the ccopt_invalidate_parasitics_on_every_cluster global property
+# ccopt_invalidate_parasitics_on_every_cluster has default value.
+## Tcl commands to replicate state of the ccopt_micro_clustering global property
+# ccopt_micro_clustering has default value.
+## Tcl commands to replicate state of the ccopt_micro_clustering_allow_window_outage_to_fix_non_overlap global property
+# ccopt_micro_clustering_allow_window_outage_to_fix_non_overlap has default value.
+## Tcl commands to replicate state of the ccopt_mini_clustering_levels global property
+# ccopt_mini_clustering_levels has default value.
+## Tcl commands to replicate state of the ccopt_opt_force_sink_slews global property
+# ccopt_opt_force_sink_slews has default value.
+## Tcl commands to replicate state of the ccopt_opt_manage_sink_slews global property
+# ccopt_opt_manage_sink_slews has default value.
+## Tcl commands to replicate state of the ccopt_report_implementation global property
+# ccopt_report_implementation has default value.
+## Tcl commands to replicate state of the cell_separation_optimizer_ease_factor global property
+# cell_separation_optimizer_ease_factor has default value.
+## Tcl commands to replicate state of the clock_gating_depth_top_down global property
+# clock_gating_depth_top_down has default value.
+## Tcl commands to replicate state of the clock_gating_only_clone_above_flops global property
+# clock_gating_only_clone_above_flops has default value.
+## Tcl commands to replicate state of the clock_gating_only_optimize_above_flops global property
+# clock_gating_only_optimize_above_flops has default value.
+## Tcl commands to replicate state of the clock_tree_clock_gate_logic_always_dont_touch global property
+# clock_tree_clock_gate_logic_always_dont_touch has default value.
+## Tcl commands to replicate state of the clock_tree_generator_sink_is_leaf global property
+# clock_tree_generator_sink_is_leaf has default value.
+## Tcl commands to replicate state of the clock_tree_report_delay_to_sink global property
+# clock_tree_report_delay_to_sink has default value.
+## Tcl commands to replicate state of the consider_obstructions_on_preferred_layers_only_for_clock_nets global property
+# consider_obstructions_on_preferred_layers_only_for_clock_nets has default value.
+## Tcl commands to replicate state of the cts_add_wire_delay_in_detailed_balancer global property
+# cts_add_wire_delay_in_detailed_balancer has default value.
+## Tcl commands to replicate state of the cts_adjust_overslew_threshold_factor global property
+# cts_adjust_overslew_threshold_factor has default value.
+## Tcl commands to replicate state of the cts_aeb_rising_edge_scaling_factor global property
+# cts_aeb_rising_edge_scaling_factor has default value.
+## Tcl commands to replicate state of the cts_allow_auto_promotion global property
+# cts_allow_auto_promotion has default value.
+## Tcl commands to replicate state of the cts_allow_buffering global property
+# cts_allow_buffering has default value.
+## Tcl commands to replicate state of the cts_allow_buffering_in_slew_fixing global property
+# cts_allow_buffering_in_slew_fixing has default value.
+## Tcl commands to replicate state of the cts_allow_buffering_in_slew_fixing_during_mini_clusters global property
+# cts_allow_buffering_in_slew_fixing_during_mini_clusters has default value.
+## Tcl commands to replicate state of the cts_allow_delay_cell_overload global property
+# cts_allow_delay_cell_overload has default value.
+## Tcl commands to replicate state of the cts_allow_id_tolerance_with_advanced_insertion_delay_optimization global property
+# cts_allow_id_tolerance_with_advanced_insertion_delay_optimization has default value.
+## Tcl commands to replicate state of the cts_allow_ignore_skew_in_primary_corner_for_mmmc global property
+# cts_allow_ignore_skew_in_primary_corner_for_mmmc has default value.
+## Tcl commands to replicate state of the cts_allow_invalid_skew_group_sources global property
+# cts_allow_invalid_skew_group_sources has default value.
+## Tcl commands to replicate state of the cts_allow_munging_of_skip_reducing_total_underdelay global property
+# cts_allow_munging_of_skip_reducing_total_underdelay has default value.
+## Tcl commands to replicate state of the cts_allow_non_standard_inputs_clock_gate global property
+# cts_allow_non_standard_inputs_clock_gate has default value.
+## Tcl commands to replicate state of the cts_allow_timing_update_when_describing_criteria global property
+# cts_allow_timing_update_when_describing_criteria has default value.
+## Tcl commands to replicate state of the cts_allow_wrong_edge_clock_gates global property
+# cts_allow_wrong_edge_clock_gates has default value.
+## Tcl commands to replicate state of the cts_always_do_global_update_in_skew_group_summary global property
+# cts_always_do_global_update_in_skew_group_summary has default value.
+## Tcl commands to replicate state of the cts_always_refine_placement_after_resynthesis global property
+# cts_always_refine_placement_after_resynthesis has default value.
+## Tcl commands to replicate state of the cts_approximate_balance_buffer_must_keep_subsets global property
+# cts_approximate_balance_buffer_must_keep_subsets has default value.
+## Tcl commands to replicate state of the cts_approximate_balance_buffer_subsets_by_unbuffering global property
+# cts_approximate_balance_buffer_subsets_by_unbuffering has default value.
+## Tcl commands to replicate state of the cts_approximate_balance_filter_buffers_by_min_delay global property
+# cts_approximate_balance_filter_buffers_by_min_delay has default value.
+## Tcl commands to replicate state of the cts_approximate_balance_try_all_buffers global property
+# cts_approximate_balance_try_all_buffers has default value.
+## Tcl commands to replicate state of the cts_approximate_balancing_paths_area_limit global property
+# cts_approximate_balancing_paths_area_limit has default value.
+## Tcl commands to replicate state of the cts_assume_empty_skew_group_sources_means_use_lowest_common_parent global property
+# cts_assume_empty_skew_group_sources_means_use_lowest_common_parent has default value.
+## Tcl commands to replicate state of the cts_auto_isolate_max_capacitive_load_scaling_factor global property
+# cts_auto_isolate_max_capacitive_load_scaling_factor has default value.
+## Tcl commands to replicate state of the cts_auto_promotion_fanout_bounding_box_area_limit global property
+# cts_auto_promotion_fanout_bounding_box_area_limit has default value.
+## Tcl commands to replicate state of the cts_auto_promotion_fanout_bounding_box_half_perimeter_limit global property
+# cts_auto_promotion_fanout_bounding_box_half_perimeter_limit has default value.
+## Tcl commands to replicate state of the cts_auto_skew_wire_amount global property
+# cts_auto_skew_wire_amount has default value.
+## Tcl commands to replicate state of the cts_avoid_local_values_in_criteria global property
+# cts_avoid_local_values_in_criteria has default value.
+## Tcl commands to replicate state of the cts_balance_mode global property
+# cts_balance_mode has default value.
+## Tcl commands to replicate state of the cts_balance_wire_delay global property
+# cts_balance_wire_delay has default value.
+## Tcl commands to replicate state of the cts_balance_wire_ignore_total_insertion_delay global property
+# cts_balance_wire_ignore_total_insertion_delay has default value.
+## Tcl commands to replicate state of the cts_best_slew_for_balancing_skew_factor global property
+# cts_best_slew_for_balancing_skew_factor has default value.
+## Tcl commands to replicate state of the cts_best_slew_for_balancing_unit_delay_factor global property
+# cts_best_slew_for_balancing_unit_delay_factor has default value.
+## Tcl commands to replicate state of the cts_best_slew_for_power_tolerance global property
+# cts_best_slew_for_power_tolerance has default value.
+## Tcl commands to replicate state of the cts_case_h_point_limit global property
+# cts_case_h_point_limit has default value.
+## Tcl commands to replicate state of the cts_cell_density_consider_cells_with_relocation_distance_restrictions global property
+# cts_cell_density_consider_cells_with_relocation_distance_restrictions has default value.
+## Tcl commands to replicate state of the cts_cell_density_regions global property
+# cts_cell_density_regions has default value.
+## Tcl commands to replicate state of the cts_check_cluster_skew_before_partitioning_for_delay global property
+# cts_check_cluster_skew_before_partitioning_for_delay has default value.
+## Tcl commands to replicate state of the cts_clone_clock_cells_with_skew_group_constraints global property
+# cts_clone_clock_cells_with_skew_group_constraints has default value.
+## Tcl commands to replicate state of the cts_clone_inverters global property
+# cts_clone_inverters has default value.
+## Tcl commands to replicate state of the cts_clone_power_management_cells global property
+# cts_clone_power_management_cells has default value.
+## Tcl commands to replicate state of the cts_cloning_unit_delay_factor global property
+# cts_cloning_unit_delay_factor has default value.
+## Tcl commands to replicate state of the cts_cluster_compatible_nodes global property
+# cts_cluster_compatible_nodes has default value.
+## Tcl commands to replicate state of the cts_cluster_ignore_pins_separately global property
+# cts_cluster_ignore_pins_separately has default value.
+## Tcl commands to replicate state of the cts_cluster_in_fragment_mode global property
+# cts_cluster_in_fragment_mode has default value.
+## Tcl commands to replicate state of the cts_cluster_minimize_insertion_delay global property
+# cts_cluster_minimize_insertion_delay has default value.
+## Tcl commands to replicate state of the cts_cluster_ram_pins_together global property
+# cts_cluster_ram_pins_together has default value.
+## Tcl commands to replicate state of the cts_clustering_added_power_domain_crossing_limit global property
+# cts_clustering_added_power_domain_crossing_limit has default value.
+## Tcl commands to replicate state of the cts_clustering_caseh_use_extra_regions global property
+# cts_clustering_caseh_use_extra_regions has default value.
+## Tcl commands to replicate state of the cts_clustering_clone_cells_to_reduce_balancing_conflicts global property
+# cts_clustering_clone_cells_to_reduce_balancing_conflicts has default value.
+## Tcl commands to replicate state of the cts_clustering_clone_logic_with_differing_skew_groups_at_inputs global property
+# cts_clustering_clone_logic_with_differing_skew_groups_at_inputs has default value.
+## Tcl commands to replicate state of the cts_clustering_consider_skew_target global property
+# cts_clustering_consider_skew_target has default value.
+## Tcl commands to replicate state of the cts_clustering_criticality_based_downsizing global property
+# cts_clustering_criticality_based_downsizing has default value.
+## Tcl commands to replicate state of the cts_clustering_downsize_before_legalization global property
+# cts_clustering_downsize_before_legalization has default value.
+## Tcl commands to replicate state of the cts_clustering_downsizing_for_relocation_restricted_cells global property
+# cts_clustering_downsizing_for_relocation_restricted_cells has default value.
+## Tcl commands to replicate state of the cts_clustering_downsizing_unit_delay_factor global property
+# cts_clustering_downsizing_unit_delay_factor has default value.
+## Tcl commands to replicate state of the cts_clustering_edge_partitioning global property
+# cts_clustering_edge_partitioning has default value.
+## Tcl commands to replicate state of the cts_clustering_enable_ccr_1237366 global property
+# cts_clustering_enable_ccr_1237366 has default value.
+## Tcl commands to replicate state of the cts_clustering_enable_source_group_partitioning global property
+# cts_clustering_enable_source_group_partitioning has default value.
+## Tcl commands to replicate state of the cts_clustering_fanout_optimization_downsizing global property
+# cts_clustering_fanout_optimization_downsizing has default value.
+## Tcl commands to replicate state of the cts_clustering_ignore_r_load global property
+# cts_clustering_ignore_r_load has default value.
+## Tcl commands to replicate state of the cts_clustering_leave_cmf_drivers_alone global property
+# cts_clustering_leave_cmf_drivers_alone has default value.
+## Tcl commands to replicate state of the cts_clustering_length_constrained_smarter_placement global property
+# cts_clustering_length_constrained_smarter_placement has default value.
+## Tcl commands to replicate state of the cts_clustering_length_constraint_factor global property
+# cts_clustering_length_constraint_factor has default value.
+## Tcl commands to replicate state of the cts_clustering_lock_level_shifters_and_isolation_cells global property
+# cts_clustering_lock_level_shifters_and_isolation_cells has default value.
+## Tcl commands to replicate state of the cts_clustering_log_cell_additions global property
+# cts_clustering_log_cell_additions has default value.
+## Tcl commands to replicate state of the cts_clustering_make_better_gate_driving_code_regions global property
+# cts_clustering_make_better_gate_driving_code_regions has default value.
+## Tcl commands to replicate state of the cts_clustering_move_nodes global property
+# cts_clustering_move_nodes has default value.
+## Tcl commands to replicate state of the cts_clustering_net_skew_limit_as_proportion_of_skew_target global property
+# cts_clustering_net_skew_limit_as_proportion_of_skew_target has default value.
+## Tcl commands to replicate state of the cts_clustering_num_region_position_samples_in_gate_driving_code global property
+# cts_clustering_num_region_position_samples_in_gate_driving_code has default value.
+## Tcl commands to replicate state of the cts_clustering_only_use_single_height_clock_gates global property
+# cts_clustering_only_use_single_height_clock_gates has default value.
+## Tcl commands to replicate state of the cts_clustering_partition_by_spine global property
+# cts_clustering_partition_by_spine has default value.
+## Tcl commands to replicate state of the cts_clustering_position_cells_diagonally global property
+# cts_clustering_position_cells_diagonally has default value.
+## Tcl commands to replicate state of the cts_clustering_position_cells_legally global property
+# cts_clustering_position_cells_legally has default value.
+## Tcl commands to replicate state of the cts_clustering_position_cells_legally_for_isolation global property
+# cts_clustering_position_cells_legally_for_isolation has default value.
+## Tcl commands to replicate state of the cts_clustering_position_clock_logic_nearer_fanout global property
+# cts_clustering_position_clock_logic_nearer_fanout has default value.
+## Tcl commands to replicate state of the cts_clustering_progress_fanout_threshold global property
+# cts_clustering_progress_fanout_threshold has default value.
+## Tcl commands to replicate state of the cts_clustering_recluster_overdriven_clusters_transition_factor global property
+# cts_clustering_recluster_overdriven_clusters_transition_factor has default value.
+## Tcl commands to replicate state of the cts_clustering_reduce_wire_cap global property
+# cts_clustering_reduce_wire_cap has default value.
+## Tcl commands to replicate state of the cts_clustering_refine_regions_to_improve_wire_cap global property
+# cts_clustering_refine_regions_to_improve_wire_cap has default value.
+## Tcl commands to replicate state of the cts_clustering_region_expansion_make_delay_window global property
+# cts_clustering_region_expansion_make_delay_window has default value.
+## Tcl commands to replicate state of the cts_clustering_remove_existing_inversions global property
+# cts_clustering_remove_existing_inversions has default value.
+## Tcl commands to replicate state of the cts_clustering_restrict_downsize_region_expansion_toward_parent global property
+# cts_clustering_restrict_downsize_region_expansion_toward_parent has default value.
+## Tcl commands to replicate state of the cts_clustering_source_group_assignment_method global property
+# cts_clustering_source_group_assignment_method has default value.
+## Tcl commands to replicate state of the cts_clustering_source_group_cluster_threshold global property
+# cts_clustering_source_group_cluster_threshold has default value.
+## Tcl commands to replicate state of the cts_clustering_source_group_preallocation_distance_multiplier global property
+# cts_clustering_source_group_preallocation_distance_multiplier has default value.
+## Tcl commands to replicate state of the cts_clustering_source_group_preallocation_root_separation_distance global property
+# cts_clustering_source_group_preallocation_root_separation_distance has default value.
+## Tcl commands to replicate state of the cts_clustering_source_group_small_cluster_threshold global property
+# cts_clustering_source_group_small_cluster_threshold has default value.
+## Tcl commands to replicate state of the cts_clustering_source_group_transitive_fanout_threshold global property
+# cts_clustering_source_group_transitive_fanout_threshold has default value.
+## Tcl commands to replicate state of the cts_clustering_source_group_workaround_ccr1193145 global property
+# cts_clustering_source_group_workaround_ccr1193145 has default value.
+## Tcl commands to replicate state of the cts_clustering_treat_parent_of_unbufferable_port_bit_as_locked global property
+# cts_clustering_treat_parent_of_unbufferable_port_bit_as_locked has default value.
+## Tcl commands to replicate state of the cts_clustering_use_all_net_length_constraint global property
+# cts_clustering_use_all_net_length_constraint has default value.
+## Tcl commands to replicate state of the cts_clustering_use_fastest_driver_wire_delay_as_net_skew_limit global property
+# cts_clustering_use_fastest_driver_wire_delay_as_net_skew_limit has default value.
+## Tcl commands to replicate state of the cts_clustering_use_incremental_legalizer global property
+# cts_clustering_use_incremental_legalizer has default value.
+## Tcl commands to replicate state of the cts_clustering_use_maximum_vertical_and_horizontal_region_expansion global property
+# cts_clustering_use_maximum_vertical_and_horizontal_region_expansion has default value.
+## Tcl commands to replicate state of the cts_compute_fastest_drivers_and_slews_for_clustering global property
+# cts_compute_fastest_drivers_and_slews_for_clustering has default value.
+## Tcl commands to replicate state of the cts_congestion_based_capacitance_update global property
+# cts_congestion_based_capacitance_update has default value.
+## Tcl commands to replicate state of the cts_consider_all_clock_gates_to_have_non_standard_inputs global property
+# cts_consider_all_clock_gates_to_have_non_standard_inputs has default value.
+## Tcl commands to replicate state of the cts_consider_buffer_depth_when_crossing_power_domains global property
+# cts_consider_buffer_depth_when_crossing_power_domains has default value.
+## Tcl commands to replicate state of the cts_consider_min_cell_delay_during_resize global property
+# cts_consider_min_cell_delay_during_resize has default value.
+## Tcl commands to replicate state of the cts_consider_wire_delay_in_cell_delay_estimate global property
+# cts_consider_wire_delay_in_cell_delay_estimate has default value.
+## Tcl commands to replicate state of the cts_constrain_net_length_equality_throughout_cts global property
+# cts_constrain_net_length_equality_throughout_cts has default value.
+## Tcl commands to replicate state of the cts_constraint_analysis_aim_for_zero_skew global property
+# cts_constraint_analysis_aim_for_zero_skew has default value.
+## Tcl commands to replicate state of the cts_constraint_analysis_disable_aeb_scaling_constraint global property
+# cts_constraint_analysis_disable_aeb_scaling_constraint has default value.
+## Tcl commands to replicate state of the cts_constraint_analysis_dot_file global property
+# cts_constraint_analysis_dot_file has default value.
+## Tcl commands to replicate state of the cts_constraint_analysis_for_adjustors global property
+# cts_constraint_analysis_for_adjustors has default value.
+## Tcl commands to replicate state of the cts_constraint_analysis_in_six_variables global property
+# cts_constraint_analysis_in_six_variables has default value.
+## Tcl commands to replicate state of the cts_constraint_analysis_initial_tolerance global property
+# cts_constraint_analysis_initial_tolerance has default value.
+## Tcl commands to replicate state of the cts_constraint_analysis_lock_leaf_fraglet_skew global property
+# cts_constraint_analysis_lock_leaf_fraglet_skew has default value.
+## Tcl commands to replicate state of the cts_constraint_analysis_min_target_id_tolerance global property
+# cts_constraint_analysis_min_target_id_tolerance has default value.
+## Tcl commands to replicate state of the cts_constraint_analysis_only_override_explicit_targets global property
+# cts_constraint_analysis_only_override_explicit_targets has default value.
+## Tcl commands to replicate state of the cts_constraint_analysis_prioritize_simple_skew_groups global property
+# cts_constraint_analysis_prioritize_simple_skew_groups has default value.
+## Tcl commands to replicate state of the cts_constraint_analysis_report global property
+# cts_constraint_analysis_report has default value.
+## Tcl commands to replicate state of the cts_constraint_analysis_solver_tolerance global property
+# cts_constraint_analysis_solver_tolerance has default value.
+## Tcl commands to replicate state of the cts_constraint_analysis_variable_tolerance global property
+# cts_constraint_analysis_variable_tolerance has default value.
+## Tcl commands to replicate state of the cts_constraint_analysis_wire_skew_factor global property
+# cts_constraint_analysis_wire_skew_factor has default value.
+## Tcl commands to replicate state of the cts_constraints_consider_restricted_regions global property
+# cts_constraints_consider_restricted_regions has default value.
+## Tcl commands to replicate state of the cts_continue_with_cant_use_cells_in_clock_tree global property
+# cts_continue_with_cant_use_cells_in_clock_tree has default value.
+## Tcl commands to replicate state of the cts_continue_with_undefined_modules_in_clock_tree global property
+# cts_continue_with_undefined_modules_in_clock_tree has default value.
+## Tcl commands to replicate state of the cts_create_skew_groups_for_fraglets global property
+# cts_create_skew_groups_for_fraglets has default value.
+## Tcl commands to replicate state of the cts_cross_power_domains_early_for_clock_gates global property
+# cts_cross_power_domains_early_for_clock_gates has default value.
+## Tcl commands to replicate state of the cts_debug_clustering_placement_dir global property
+# cts_debug_clustering_placement_dir has default value.
+## Tcl commands to replicate state of the cts_debug_output_db_dir global property
+# cts_debug_output_db_dir has default value.
+## Tcl commands to replicate state of the cts_debug_output_visualizations_dir global property
+# cts_debug_output_visualizations_dir has default value.
+## Tcl commands to replicate state of the cts_debug_output_visualizations_mode global property
+# cts_debug_output_visualizations_mode has default value.
+## Tcl commands to replicate state of the cts_debug_timing_engine_summary_data global property
+# cts_debug_timing_engine_summary_data has default value.
+## Tcl commands to replicate state of the cts_debug_visualize_clustering_regions global property
+# cts_debug_visualize_clustering_regions has default value.
+## Tcl commands to replicate state of the cts_detailed_balance_allow_insertion_delay_overshoot global property
+# cts_detailed_balance_allow_insertion_delay_overshoot has default value.
+## Tcl commands to replicate state of the cts_detailed_balance_check_insertion_delays global property
+# cts_detailed_balance_check_insertion_delays has default value.
+## Tcl commands to replicate state of the cts_detailed_balance_insertion_delay_margin global property
+# cts_detailed_balance_insertion_delay_margin has default value.
+## Tcl commands to replicate state of the cts_detailed_balance_iteration_limit global property
+# cts_detailed_balance_iteration_limit has default value.
+## Tcl commands to replicate state of the cts_detailed_balance_match_load_to_driver global property
+# cts_detailed_balance_match_load_to_driver has default value.
+## Tcl commands to replicate state of the cts_detailed_balance_match_load_to_driver_underload_factor global property
+# cts_detailed_balance_match_load_to_driver_underload_factor has default value.
+## Tcl commands to replicate state of the cts_detailed_balance_move_nodes global property
+# cts_detailed_balance_move_nodes has default value.
+## Tcl commands to replicate state of the cts_detailed_balance_restart_if_buffering_reduced_delay global property
+# cts_detailed_balance_restart_if_buffering_reduced_delay has default value.
+## Tcl commands to replicate state of the cts_detailed_balance_update_max_latency global property
+# cts_detailed_balance_update_max_latency has default value.
+## Tcl commands to replicate state of the cts_detailed_balance_upsize_nodes global property
+# cts_detailed_balance_upsize_nodes has default value.
+## Tcl commands to replicate state of the cts_detailed_balance_wire_buffer_when_min_wire_ratio_not_met global property
+# cts_detailed_balance_wire_buffer_when_min_wire_ratio_not_met has default value.
+## Tcl commands to replicate state of the cts_detailed_balance_wire_call_resize_move_gate global property
+# cts_detailed_balance_wire_call_resize_move_gate has default value.
+## Tcl commands to replicate state of the cts_detailed_balance_wire_dist_reduction_factor_decrement global property
+# cts_detailed_balance_wire_dist_reduction_factor_decrement has default value.
+## Tcl commands to replicate state of the cts_detailed_balance_wire_dist_reduction_factor_max global property
+# cts_detailed_balance_wire_dist_reduction_factor_max has default value.
+## Tcl commands to replicate state of the cts_detailed_balance_wire_dist_reduction_factor_min global property
+# cts_detailed_balance_wire_dist_reduction_factor_min has default value.
+## Tcl commands to replicate state of the cts_detailed_balance_wire_use_max_of_total_bufferability_underdelay global property
+# cts_detailed_balance_wire_use_max_of_total_bufferability_underdelay has default value.
+## Tcl commands to replicate state of the cts_detailed_balance_wire_use_min_wire_ratio global property
+# cts_detailed_balance_wire_use_min_wire_ratio has default value.
+## Tcl commands to replicate state of the cts_distance_quantization_factor global property
+# cts_distance_quantization_factor has default value.
+## Tcl commands to replicate state of the cts_do_extra_ripples_in_skew_fixing global property
+# cts_do_extra_ripples_in_skew_fixing has default value.
+## Tcl commands to replicate state of the cts_do_one_node_and_no_sinks_recursion global property
+# cts_do_one_node_and_no_sinks_recursion has default value.
+## Tcl commands to replicate state of the cts_do_sink_buffering_in_detailed_balancer global property
+# cts_do_sink_buffering_in_detailed_balancer has default value.
+## Tcl commands to replicate state of the cts_driver_separation_ratio_spacing_factor global property
+# cts_driver_separation_ratio_spacing_factor has default value.
+## Tcl commands to replicate state of the cts_driver_separation_ratio_tolerance global property
+# cts_driver_separation_ratio_tolerance has default value.
+## Tcl commands to replicate state of the cts_equalize_net_lengths_after_reducing_insertion_delay_2 global property
+# cts_equalize_net_lengths_after_reducing_insertion_delay_2 has default value.
+## Tcl commands to replicate state of the cts_equalize_net_lengths_iterations global property
+# cts_equalize_net_lengths_iterations has default value.
+## Tcl commands to replicate state of the cts_equalize_net_lengths_use_directed_move_gate global property
+# cts_equalize_net_lengths_use_directed_move_gate has default value.
+## Tcl commands to replicate state of the cts_error_on_problematic_slew_violating_nets global property
+# cts_error_on_problematic_slew_violating_nets has default value.
+## Tcl commands to replicate state of the cts_error_on_problematic_slew_violating_nets_ignore_in_prebalance global property
+# cts_error_on_problematic_slew_violating_nets_ignore_in_prebalance has default value.
+## Tcl commands to replicate state of the cts_error_on_problematic_slew_violating_nets_max_printout global property
+# cts_error_on_problematic_slew_violating_nets_max_printout has default value.
+## Tcl commands to replicate state of the cts_evaluate_all_power_domains_for_buffering global property
+# cts_evaluate_all_power_domains_for_buffering has default value.
+## Tcl commands to replicate state of the cts_expand_clock_gate_regions global property
+# cts_expand_clock_gate_regions has default value.
+## Tcl commands to replicate state of the cts_expand_clock_logic_regions global property
+# cts_expand_clock_logic_regions has default value.
+## Tcl commands to replicate state of the cts_expand_regions_for_fanout_at_same_location global property
+# cts_expand_regions_for_fanout_at_same_location has default value.
+## Tcl commands to replicate state of the cts_fast_override global property
+# cts_fast_override has default value.
+## Tcl commands to replicate state of the cts_fastest_driver_congestion_level global property
+# cts_fastest_driver_congestion_level has default value.
+## Tcl commands to replicate state of the cts_fine_balance_max_push_pull_layers global property
+# cts_fine_balance_max_push_pull_layers has default value.
+## Tcl commands to replicate state of the cts_fine_balance_resize_gates_iteration_limit global property
+# cts_fine_balance_resize_gates_iteration_limit has default value.
+## Tcl commands to replicate state of the cts_force_cluster_only global property
+# cts_force_cluster_only has default value.
+## Tcl commands to replicate state of the cts_force_trial_balance global property
+# cts_force_trial_balance has default value.
+## Tcl commands to replicate state of the cts_fraction_max_wire_to_add global property
+# cts_fraction_max_wire_to_add has default value.
+## Tcl commands to replicate state of the cts_gate_driving_code_better_first_guess global property
+# cts_gate_driving_code_better_first_guess has default value.
+## Tcl commands to replicate state of the cts_ignore_enable_latches global property
+# cts_ignore_enable_latches has default value.
+## Tcl commands to replicate state of the cts_insertion_delay_tolerance global property
+# cts_insertion_delay_tolerance has default value.
+## Tcl commands to replicate state of the cts_insertion_delay_tolerance_detailed global property
+# cts_insertion_delay_tolerance_detailed has default value.
+## Tcl commands to replicate state of the cts_insertion_delay_tolerance_reclustering global property
+# cts_insertion_delay_tolerance_reclustering has default value.
+## Tcl commands to replicate state of the cts_invalidate_timing_engine_after_each_step global property
+# cts_invalidate_timing_engine_after_each_step has default value.
+## Tcl commands to replicate state of the cts_keep_clock_network_connected global property
+# cts_keep_clock_network_connected has default value.
+## Tcl commands to replicate state of the cts_keep_clock_network_connected_in_reclustering global property
+# cts_keep_clock_network_connected_in_reclustering has default value.
+## Tcl commands to replicate state of the cts_keep_existing_cells_in_pre_cts_power_domain_sub_regions global property
+# cts_keep_existing_cells_in_pre_cts_power_domain_sub_regions has default value.
+## Tcl commands to replicate state of the cts_keep_test_enables_connected_throughout_icts global property
+# cts_keep_test_enables_connected_throughout_icts has default value.
+## Tcl commands to replicate state of the cts_lazy_constraint_values global property
+# cts_lazy_constraint_values has default value.
+## Tcl commands to replicate state of the cts_legalize_clock_gates_first global property
+# cts_legalize_clock_gates_first has default value.
+## Tcl commands to replicate state of the cts_legalize_max_butting_dist global property
+# cts_legalize_max_butting_dist has default value.
+## Tcl commands to replicate state of the cts_legalize_relocation_restricted_cells_first global property
+# cts_legalize_relocation_restricted_cells_first has default value.
+## Tcl commands to replicate state of the cts_legalizer_orientation_control global property
+# cts_legalizer_orientation_control has default value.
+## Tcl commands to replicate state of the cts_legalizer_placeable_area_always_use_strongest_lib_cell global property
+# cts_legalizer_placeable_area_always_use_strongest_lib_cell has default value.
+## Tcl commands to replicate state of the cts_legalizer_placeable_area_max_num_grid_squares global property
+# cts_legalizer_placeable_area_max_num_grid_squares has default value.
+## Tcl commands to replicate state of the cts_legalizer_placeable_area_resolution global property
+# cts_legalizer_placeable_area_resolution has default value.
+## Tcl commands to replicate state of the cts_linear_expand_clustering_window global property
+# cts_linear_expand_clustering_window has default value.
+## Tcl commands to replicate state of the cts_lock_sink_pin_node_locations global property
+# cts_lock_sink_pin_node_locations has default value.
+## Tcl commands to replicate state of the cts_locked_node_error_threshold_absolute global property
+# cts_locked_node_error_threshold_absolute has default value.
+## Tcl commands to replicate state of the cts_locked_node_error_threshold_factor global property
+# cts_locked_node_error_threshold_factor has default value.
+## Tcl commands to replicate state of the cts_locked_node_warning_threshold_absolute global property
+# cts_locked_node_warning_threshold_absolute has default value.
+## Tcl commands to replicate state of the cts_locked_node_warning_threshold_factor global property
+# cts_locked_node_warning_threshold_factor has default value.
+## Tcl commands to replicate state of the cts_manage_local_overskew global property
+# cts_manage_local_overskew has default value.
+## Tcl commands to replicate state of the cts_match_sink_types_override_overlap_factor global property
+# cts_match_sink_types_override_overlap_factor has default value.
+## Tcl commands to replicate state of the cts_max_clock_cell_count global property
+# cts_max_clock_cell_count has default value.
+## Tcl commands to replicate state of the cts_max_fixing_insertion_delay_cycles_per_chain global property
+# cts_max_fixing_insertion_delay_cycles_per_chain has default value.
+## Tcl commands to replicate state of the cts_max_fixing_insertion_delay_iterations global property
+# cts_max_fixing_insertion_delay_iterations has default value.
+## Tcl commands to replicate state of the cts_max_improving_clock_tree_routing_iterations global property
+# cts_max_improving_clock_tree_routing_iterations has default value.
+## Tcl commands to replicate state of the cts_max_moving_gates_to_balance_delay_iterations global property
+# cts_max_moving_gates_to_balance_delay_iterations has default value.
+## Tcl commands to replicate state of the cts_max_power_reduction_iterations global property
+# cts_max_power_reduction_iterations has default value.
+## Tcl commands to replicate state of the cts_max_reducing_clock_tree_power_1_iterations global property
+# cts_max_reducing_clock_tree_power_1_iterations has default value.
+## Tcl commands to replicate state of the cts_max_reducing_clock_tree_power_bottom_up_iterations global property
+# cts_max_reducing_clock_tree_power_bottom_up_iterations has default value.
+## Tcl commands to replicate state of the cts_max_skew_fixing_iterations global property
+# cts_max_skew_fixing_iterations has default value.
+## Tcl commands to replicate state of the cts_max_source_to_sink_net_length_clustering_safety_margin global property
+# cts_max_source_to_sink_net_length_clustering_safety_margin has default value.
+## Tcl commands to replicate state of the cts_maximum_allowed_net_length_inequality global property
+# cts_maximum_allowed_net_length_inequality has default value.
+## Tcl commands to replicate state of the cts_maximum_permitted_match_value global property
+# cts_maximum_permitted_match_value has default value.
+## Tcl commands to replicate state of the cts_may_choose_to_put_driver_in_centre_of_fanout_bounding_box global property
+# cts_may_choose_to_put_driver_in_centre_of_fanout_bounding_box has default value.
+## Tcl commands to replicate state of the cts_merge_clock_cells_with_skew_group_constraints global property
+# cts_merge_clock_cells_with_skew_group_constraints has default value.
+## Tcl commands to replicate state of the cts_merge_clock_gates_allow_undriven_enable_pin global property
+# cts_merge_clock_gates_allow_undriven_enable_pin has default value.
+## Tcl commands to replicate state of the cts_merge_clock_gates_allow_undriven_retention_pin global property
+# cts_merge_clock_gates_allow_undriven_retention_pin has default value.
+## Tcl commands to replicate state of the cts_merge_clock_gates_allow_undriven_test_pin global property
+# cts_merge_clock_gates_allow_undriven_test_pin has default value.
+## Tcl commands to replicate state of the cts_min_max_latency_skew_factor global property
+# cts_min_max_latency_skew_factor has default value.
+## Tcl commands to replicate state of the cts_min_max_path_delay_limit_skew_mode global property
+# cts_min_max_path_delay_limit_skew_mode has default value.
+## Tcl commands to replicate state of the cts_min_max_path_delay_limit_skew_target global property
+# cts_min_max_path_delay_limit_skew_target has default value.
+## Tcl commands to replicate state of the cts_minimize_insertion_delay_for_unrelated_skew_groups global property
+# cts_minimize_insertion_delay_for_unrelated_skew_groups has default value.
+## Tcl commands to replicate state of the cts_minimum_nonfixing_slewfix_improvement global property
+# cts_minimum_nonfixing_slewfix_improvement has default value.
+## Tcl commands to replicate state of the cts_minimum_normalized_delay_per_buffer global property
+# cts_minimum_normalized_delay_per_buffer has default value.
+## Tcl commands to replicate state of the cts_minimum_skew_target_factor global property
+# cts_minimum_skew_target_factor has default value.
+## Tcl commands to replicate state of the cts_minimum_valid_balancing_delay global property
+# cts_minimum_valid_balancing_delay has default value.
+## Tcl commands to replicate state of the cts_move_clock_gates global property
+# cts_move_clock_gates has default value.
+## Tcl commands to replicate state of the cts_move_clock_gates_in_slew_fixer global property
+# cts_move_clock_gates_in_slew_fixer has default value.
+## Tcl commands to replicate state of the cts_move_gate_consecutive_failure_invocations_per_node_limit global property
+# cts_move_gate_consecutive_failure_invocations_per_node_limit has default value.
+## Tcl commands to replicate state of the cts_move_gate_failure_invocations_per_node_limit global property
+# cts_move_gate_failure_invocations_per_node_limit has default value.
+## Tcl commands to replicate state of the cts_move_gate_max_move_distance global property
+# cts_move_gate_max_move_distance has default value.
+## Tcl commands to replicate state of the cts_move_gate_max_move_distance_divisor global property
+# cts_move_gate_max_move_distance_divisor has default value.
+## Tcl commands to replicate state of the cts_move_gate_max_move_iterations global property
+# cts_move_gate_max_move_iterations has default value.
+## Tcl commands to replicate state of the cts_move_gate_max_move_row_height_multiple global property
+# cts_move_gate_max_move_row_height_multiple has default value.
+## Tcl commands to replicate state of the cts_move_gate_try_smaller_distance_first global property
+# cts_move_gate_try_smaller_distance_first has default value.
+## Tcl commands to replicate state of the cts_move_gate_use_advanced_criteria_moves global property
+# cts_move_gate_use_advanced_criteria_moves has default value.
+## Tcl commands to replicate state of the cts_move_gates_towards_original_location global property
+# cts_move_gates_towards_original_location has default value.
+## Tcl commands to replicate state of the cts_move_nodes_for_power global property
+# cts_move_nodes_for_power has default value.
+## Tcl commands to replicate state of the cts_move_type_1a_only global property
+# cts_move_type_1a_only has default value.
+## Tcl commands to replicate state of the cts_must_buffer_for_min_insertion_delay global property
+# cts_must_buffer_for_min_insertion_delay has default value.
+## Tcl commands to replicate state of the cts_only_merge_multi_input_logic_with_same_skew_groups_at_each_input global property
+# cts_only_merge_multi_input_logic_with_same_skew_groups_at_each_input has default value.
+## Tcl commands to replicate state of the cts_optimize_fanout_in_reducing_insertion_delay_2 global property
+# cts_optimize_fanout_in_reducing_insertion_delay_2 has default value.
+## Tcl commands to replicate state of the cts_parallel_downsize_similarity_threshold global property
+# cts_parallel_downsize_similarity_threshold has default value.
+## Tcl commands to replicate state of the cts_parallel_upsize_similarity_threshold global property
+# cts_parallel_upsize_similarity_threshold has default value.
+## Tcl commands to replicate state of the cts_path_optimization_max_optimzations_per_node global property
+# cts_path_optimization_max_optimzations_per_node has default value.
+## Tcl commands to replicate state of the cts_path_optimization_max_stage_delay_updates global property
+# cts_path_optimization_max_stage_delay_updates has default value.
+## Tcl commands to replicate state of the cts_path_optimization_work_on_multi_input_nodes global property
+# cts_path_optimization_work_on_multi_input_nodes has default value.
+## Tcl commands to replicate state of the cts_per_move_minimum_skew_or_insertion_delay_improvement global property
+# cts_per_move_minimum_skew_or_insertion_delay_improvement has default value.
+## Tcl commands to replicate state of the cts_power_reduction_per_iteration_cap_reduction_factor global property
+# cts_power_reduction_per_iteration_cap_reduction_factor has default value.
+## Tcl commands to replicate state of the cts_prefer_fragment_sinks_on_output_pins global property
+# cts_prefer_fragment_sinks_on_output_pins has default value.
+## Tcl commands to replicate state of the cts_preserve_cells_driving_power_domain_crossings global property
+# cts_preserve_cells_driving_power_domain_crossings has default value.
+## Tcl commands to replicate state of the cts_put_driver_in_centre_of_fanout_bounding_box global property
+# cts_put_driver_in_centre_of_fanout_bounding_box has default value.
+## Tcl commands to replicate state of the cts_reclustering_accept_first_good_result global property
+# cts_reclustering_accept_first_good_result has default value.
+## Tcl commands to replicate state of the cts_reclustering_avoid_dont_touch_modules global property
+# cts_reclustering_avoid_dont_touch_modules has default value.
+## Tcl commands to replicate state of the cts_reclustering_full_legalization global property
+# cts_reclustering_full_legalization has default value.
+## Tcl commands to replicate state of the cts_reclustering_ignore_overslew global property
+# cts_reclustering_ignore_overslew has default value.
+## Tcl commands to replicate state of the cts_reclustering_minimum_considered_depth global property
+# cts_reclustering_minimum_considered_depth has default value.
+## Tcl commands to replicate state of the cts_reclustering_report_overlatency global property
+# cts_reclustering_report_overlatency has default value.
+## Tcl commands to replicate state of the cts_reclustering_skip_slew_fixing global property
+# cts_reclustering_skip_slew_fixing has default value.
+## Tcl commands to replicate state of the cts_reclustering_window_size_unit_delay_factor global property
+# cts_reclustering_window_size_unit_delay_factor has default value.
+## Tcl commands to replicate state of the cts_reduce_clock_tree_power_after_constraint_analysis global property
+# cts_reduce_clock_tree_power_after_constraint_analysis has default value.
+## Tcl commands to replicate state of the cts_reduce_clock_tree_power_before_balancing_wire global property
+# cts_reduce_clock_tree_power_before_balancing_wire has default value.
+## Tcl commands to replicate state of the cts_region_expansion_resolution global property
+# cts_region_expansion_resolution has default value.
+## Tcl commands to replicate state of the cts_remove_unnecessary_buffers_after_clustering global property
+# cts_remove_unnecessary_buffers_after_clustering has default value.
+## Tcl commands to replicate state of the cts_report_warning_for_added_slew_fix_buffering global property
+# cts_report_warning_for_added_slew_fix_buffering has default value.
+## Tcl commands to replicate state of the cts_report_worst_n_slews_after_each_step global property
+# cts_report_worst_n_slews_after_each_step has default value.
+## Tcl commands to replicate state of the cts_resize_gates_dag_traversal global property
+# cts_resize_gates_dag_traversal has default value.
+## Tcl commands to replicate state of the cts_respect_max_capacitance global property
+# cts_respect_max_capacitance has default value.
+## Tcl commands to replicate state of the cts_restrict_clock_gate_movement global property
+# cts_restrict_clock_gate_movement has default value.
+## Tcl commands to replicate state of the cts_restrict_clock_gate_movement_more global property
+# cts_restrict_clock_gate_movement_more has default value.
+## Tcl commands to replicate state of the cts_restrict_clock_gate_movement_more_bound global property
+# cts_restrict_clock_gate_movement_more_bound has default value.
+## Tcl commands to replicate state of the cts_route_buffering_blockage_avoidance global property
+# cts_route_buffering_blockage_avoidance has default value.
+## Tcl commands to replicate state of the cts_route_buffering_blockage_avoidance_routing global property
+# cts_route_buffering_blockage_avoidance_routing has default value.
+## Tcl commands to replicate state of the cts_route_buffering_blockage_punch_through_multiplier global property
+# cts_route_buffering_blockage_punch_through_multiplier has default value.
+## Tcl commands to replicate state of the cts_route_buffering_driver_separation_multiplier global property
+# cts_route_buffering_driver_separation_multiplier has default value.
+## Tcl commands to replicate state of the cts_route_buffering_dump_blockages global property
+# cts_route_buffering_dump_blockages has default value.
+## Tcl commands to replicate state of the cts_route_buffering_dump_route global property
+# cts_route_buffering_dump_route has default value.
+## Tcl commands to replicate state of the cts_route_buffering_enable global property
+# cts_route_buffering_enable has default value.
+## Tcl commands to replicate state of the cts_route_buffering_include_delay_in_score global property
+# cts_route_buffering_include_delay_in_score has default value.
+## Tcl commands to replicate state of the cts_route_buffering_location_multiplier global property
+# cts_route_buffering_location_multiplier has default value.
+## Tcl commands to replicate state of the cts_route_buffering_move_row_number_limit global property
+# cts_route_buffering_move_row_number_limit has default value.
+## Tcl commands to replicate state of the cts_route_buffering_multi_driver_mode global property
+# cts_route_buffering_multi_driver_mode has default value.
+## Tcl commands to replicate state of the cts_route_buffering_prim_dijkstra_factor global property
+# cts_route_buffering_prim_dijkstra_factor has default value.
+## Tcl commands to replicate state of the cts_route_buffering_prune_number_to_keep global property
+# cts_route_buffering_prune_number_to_keep has default value.
+## Tcl commands to replicate state of the cts_route_buffering_route_within_power_domains global property
+# cts_route_buffering_route_within_power_domains has default value.
+## Tcl commands to replicate state of the cts_route_buffering_route_within_power_domains_threshold_good_domains global property
+# cts_route_buffering_route_within_power_domains_threshold_good_domains has default value.
+## Tcl commands to replicate state of the cts_route_buffering_route_within_power_domains_threshold_unknown_domains global property
+# cts_route_buffering_route_within_power_domains_threshold_unknown_domains has default value.
+## Tcl commands to replicate state of the cts_route_buffering_sink_cost global property
+# cts_route_buffering_sink_cost has default value.
+## Tcl commands to replicate state of the cts_safe_skew_multiple_for_approximate_balancing global property
+# cts_safe_skew_multiple_for_approximate_balancing has default value.
+## Tcl commands to replicate state of the cts_safe_skew_multiple_for_approximate_balancing_regions global property
+# cts_safe_skew_multiple_for_approximate_balancing_regions has default value.
+## Tcl commands to replicate state of the cts_size_clock_gates global property
+# cts_size_clock_gates has default value.
+## Tcl commands to replicate state of the cts_skew_fixing_per_iteration_min_skew_reduction_factor global property
+# cts_skew_fixing_per_iteration_min_skew_reduction_factor has default value.
+## Tcl commands to replicate state of the cts_skew_group_summary_storage_type global property
+# cts_skew_group_summary_storage_type has default value.
+## Tcl commands to replicate state of the cts_skew_target_margin global property
+# cts_skew_target_margin has default value.
+## Tcl commands to replicate state of the cts_skip_analyzing_constraints global property
+# cts_skip_analyzing_constraints has default value.
+## Tcl commands to replicate state of the cts_skip_approximate_rctp1_latency_fixing global property
+# cts_skip_approximate_rctp1_latency_fixing has default value.
+## Tcl commands to replicate state of the cts_skip_approximate_rctp1_slew_fixing global property
+# cts_skip_approximate_rctp1_slew_fixing has default value.
+## Tcl commands to replicate state of the cts_skip_approximately_balancing global property
+# cts_skip_approximately_balancing has default value.
+## Tcl commands to replicate state of the cts_skip_approximately_balancing_fragments_bottom_up global property
+# cts_skip_approximately_balancing_fragments_bottom_up has default value.
+## Tcl commands to replicate state of the cts_skip_approximately_balancing_paths global property
+# cts_skip_approximately_balancing_paths has default value.
+## Tcl commands to replicate state of the cts_skip_approximately_balancing_regions global property
+# cts_skip_approximately_balancing_regions has default value.
+## Tcl commands to replicate state of the cts_skip_artificially_removing_long_paths global property
+# cts_skip_artificially_removing_long_paths has default value.
+## Tcl commands to replicate state of the cts_skip_clustering global property
+# cts_skip_clustering has default value.
+## Tcl commands to replicate state of the cts_skip_clustering_criticality_based_downsizing global property
+# cts_skip_clustering_criticality_based_downsizing has default value.
+## Tcl commands to replicate state of the cts_skip_equalizing_net_lengths global property
+# cts_skip_equalizing_net_lengths has default value.
+## Tcl commands to replicate state of the cts_skip_fixing_broken_stage_depths global property
+# cts_skip_fixing_broken_stage_depths has default value.
+## Tcl commands to replicate state of the cts_skip_fixing_clock_tree_overload global property
+# cts_skip_fixing_clock_tree_overload has default value.
+## Tcl commands to replicate state of the cts_skip_global_route_of_clustering_chains global property
+# cts_skip_global_route_of_clustering_chains has default value.
+## Tcl commands to replicate state of the cts_skip_improving_clock_skew global property
+# cts_skip_improving_clock_skew has default value.
+## Tcl commands to replicate state of the cts_skip_improving_clock_tree_routing global property
+# cts_skip_improving_clock_tree_routing has default value.
+## Tcl commands to replicate state of the cts_skip_improving_fragments_clock_skew global property
+# cts_skip_improving_fragments_clock_skew has default value.
+## Tcl commands to replicate state of the cts_skip_improving_insertion_delay global property
+# cts_skip_improving_insertion_delay has default value.
+## Tcl commands to replicate state of the cts_skip_legalizing_on_preferred_cell_stripes global property
+# cts_skip_legalizing_on_preferred_cell_stripes has default value.
+## Tcl commands to replicate state of the cts_skip_moving_gates_to_balance_delay global property
+# cts_skip_moving_gates_to_balance_delay has default value.
+## Tcl commands to replicate state of the cts_skip_moving_gates_to_balance_wire_delay global property
+# cts_skip_moving_gates_to_balance_wire_delay has default value.
+## Tcl commands to replicate state of the cts_skip_moving_short_path_gates global property
+# cts_skip_moving_short_path_gates has default value.
+## Tcl commands to replicate state of the cts_skip_placing_spine_cells global property
+# cts_skip_placing_spine_cells has default value.
+## Tcl commands to replicate state of the cts_skip_reclustering_to_reduce_power global property
+# cts_skip_reclustering_to_reduce_power has default value.
+## Tcl commands to replicate state of the cts_skip_reducing_clock_tree_power_1 global property
+# cts_skip_reducing_clock_tree_power_1 has default value.
+## Tcl commands to replicate state of the cts_skip_reducing_clock_tree_power_2 global property
+# cts_skip_reducing_clock_tree_power_2 has default value.
+## Tcl commands to replicate state of the cts_skip_reducing_clock_tree_power_3 global property
+# cts_skip_reducing_clock_tree_power_3 has default value.
+## Tcl commands to replicate state of the cts_skip_reducing_clock_tree_power_4 global property
+# cts_skip_reducing_clock_tree_power_4 has default value.
+## Tcl commands to replicate state of the cts_skip_reducing_clock_tree_power_bottom_up global property
+# cts_skip_reducing_clock_tree_power_bottom_up has default value.
+## Tcl commands to replicate state of the cts_skip_reducing_insertion_delay_1 global property
+# cts_skip_reducing_insertion_delay_1 has default value.
+## Tcl commands to replicate state of the cts_skip_reducing_insertion_delay_2 global property
+# cts_skip_reducing_insertion_delay_2 has default value.
+## Tcl commands to replicate state of the cts_skip_reducing_total_underdelay global property
+# cts_skip_reducing_total_underdelay has default value.
+## Tcl commands to replicate state of the cts_skip_removing_longest_path_buffering global property
+# cts_skip_removing_longest_path_buffering has default value.
+## Tcl commands to replicate state of the cts_skip_removing_unconstrained_drivers global property
+# cts_skip_removing_unconstrained_drivers has default value.
+## Tcl commands to replicate state of the cts_skip_source_group_root_reallocation global property
+# cts_skip_source_group_root_reallocation has default value.
+## Tcl commands to replicate state of the cts_slew_adjustment_in_cell_delay_estimate global property
+# cts_slew_adjustment_in_cell_delay_estimate has default value.
+## Tcl commands to replicate state of the cts_slew_fixer_enable global property
+# cts_slew_fixer_enable has default value.
+## Tcl commands to replicate state of the cts_slew_fixer_move_driver_before_fanout global property
+# cts_slew_fixer_move_driver_before_fanout has default value.
+## Tcl commands to replicate state of the cts_slew_fixer_position_cells_along_wire_route global property
+# cts_slew_fixer_position_cells_along_wire_route has default value.
+## Tcl commands to replicate state of the cts_spine_cell_placement_num_rounds global property
+# cts_spine_cell_placement_num_rounds has default value.
+## Tcl commands to replicate state of the cts_spines_align_highest_layer_pin_metal global property
+# cts_spines_align_highest_layer_pin_metal has default value.
+## Tcl commands to replicate state of the cts_spines_align_pins global property
+# cts_spines_align_pins has default value.
+## Tcl commands to replicate state of the cts_spines_also_place_sinks global property
+# cts_spines_also_place_sinks has default value.
+## Tcl commands to replicate state of the cts_spines_consider_only_closest_spine global property
+# cts_spines_consider_only_closest_spine has default value.
+## Tcl commands to replicate state of the cts_spines_optimize_for_delay_below global property
+# cts_spines_optimize_for_delay_below has default value.
+## Tcl commands to replicate state of the cts_sub_block_sink_outlier_ignore_factor global property
+# cts_sub_block_sink_outlier_ignore_factor has default value.
+## Tcl commands to replicate state of the cts_target_slew_clustering_safety_margin global property
+# cts_target_slew_clustering_safety_margin has default value.
+## Tcl commands to replicate state of the cts_threshold_for_adding_buffers_on_unfixed_slew global property
+# cts_threshold_for_adding_buffers_on_unfixed_slew has default value.
+## Tcl commands to replicate state of the cts_time_clock_gate_delay_for_cloning global property
+# cts_time_clock_gate_delay_for_cloning has default value.
+## Tcl commands to replicate state of the cts_timing_quantization_factor global property
+# cts_timing_quantization_factor has default value.
+## Tcl commands to replicate state of the cts_trim_cell_lists global property
+# cts_trim_cell_lists has default value.
+## Tcl commands to replicate state of the cts_trim_cell_lists_min_cells global property
+# cts_trim_cell_lists_min_cells has default value.
+## Tcl commands to replicate state of the cts_try_harder_to_buffer_subsets_of_fanout global property
+# cts_try_harder_to_buffer_subsets_of_fanout has default value.
+## Tcl commands to replicate state of the cts_try_parallel_downsize global property
+# cts_try_parallel_downsize has default value.
+## Tcl commands to replicate state of the cts_try_parallel_upsize global property
+# cts_try_parallel_upsize has default value.
+## Tcl commands to replicate state of the cts_typical_delay_computation_cell_selection global property
+# cts_typical_delay_computation_cell_selection has default value.
+## Tcl commands to replicate state of the cts_unbufferable_driven_gate_cap_threshold_factor global property
+# cts_unbufferable_driven_gate_cap_threshold_factor has default value.
+## Tcl commands to replicate state of the cts_undo_slew_fixing_before_adding_a_buffer global property
+# cts_undo_slew_fixing_before_adding_a_buffer has default value.
+## Tcl commands to replicate state of the cts_unit_delay_factor global property
+# cts_unit_delay_factor has default value.
+## Tcl commands to replicate state of the cts_unit_delay_factor_sink global property
+# cts_unit_delay_factor_sink has default value.
+## Tcl commands to replicate state of the cts_unit_delay_factor_skew_target global property
+# cts_unit_delay_factor_skew_target has default value.
+## Tcl commands to replicate state of the cts_update_remembered_power_contexts_on_resynthesis global property
+# cts_update_remembered_power_contexts_on_resynthesis has default value.
+## Tcl commands to replicate state of the cts_upsize_inverters_in_detailed_balancer global property
+# cts_upsize_inverters_in_detailed_balancer has default value.
+## Tcl commands to replicate state of the cts_use_best_leaf_slew_for_power global property
+# cts_use_best_leaf_slew_for_power has default value.
+## Tcl commands to replicate state of the cts_use_best_nonleaf_slew_for_power global property
+# cts_use_best_nonleaf_slew_for_power has default value.
+## Tcl commands to replicate state of the cts_use_best_slew_for_balancing global property
+# cts_use_best_slew_for_balancing has default value.
+## Tcl commands to replicate state of the cts_use_clustering_fastest_driver_distance_for_whole_of_cts global property
+# cts_use_clustering_fastest_driver_distance_for_whole_of_cts has default value.
+## Tcl commands to replicate state of the cts_use_fastest_drivers_and_slews_for_clustering_leaf global property
+# cts_use_fastest_drivers_and_slews_for_clustering_leaf has default value.
+## Tcl commands to replicate state of the cts_use_fastest_drivers_and_slews_for_clustering_multiple_fanout global property
+# cts_use_fastest_drivers_and_slews_for_clustering_multiple_fanout has default value.
+## Tcl commands to replicate state of the cts_use_id_targets_for_adjustability global property
+# cts_use_id_targets_for_adjustability has default value.
+## Tcl commands to replicate state of the cts_use_inverters_detailed_balancing_override global property
+# cts_use_inverters_detailed_balancing_override has default value.
+## Tcl commands to replicate state of the cts_use_inverters_slew_fixing_override global property
+# cts_use_inverters_slew_fixing_override has default value.
+## Tcl commands to replicate state of the cts_use_load_dependent_delay_at_clock_root global property
+# cts_use_load_dependent_delay_at_clock_root has default value.
+## Tcl commands to replicate state of the cts_use_load_dependent_delay_for_guessed_source_driver global property
+# cts_use_load_dependent_delay_for_guessed_source_driver has default value.
+## Tcl commands to replicate state of the cts_use_min_max_path_delays global property
+# cts_use_min_max_path_delays has default value.
+## Tcl commands to replicate state of the cts_use_min_max_path_delays_fallback_to_other_corners global property
+# cts_use_min_max_path_delays_fallback_to_other_corners has default value.
+## Tcl commands to replicate state of the cts_use_ripple_sizing_for_skew_fixing global property
+# cts_use_ripple_sizing_for_skew_fixing has default value.
+## Tcl commands to replicate state of the cts_use_wire_segment_for_auto_slew_target_estimation global property
+# cts_use_wire_segment_for_auto_slew_target_estimation has default value.
+## Tcl commands to replicate state of the cts_virtual_delay_half_corner_scaling_cell_selection global property
+# cts_virtual_delay_half_corner_scaling_cell_selection has default value.
+## Tcl commands to replicate state of the cts_virtual_delay_half_corner_scaling_include_wire global property
+# cts_virtual_delay_half_corner_scaling_include_wire has default value.
+## Tcl commands to replicate state of the cts_weight_over_skew_by_skew_target_cut_off global property
+# cts_weight_over_skew_by_skew_target_cut_off has default value.
+## Tcl commands to replicate state of the cts_worst_n_slew_violating_pins_count global property
+# cts_worst_n_slew_violating_pins_count has default value.
+## Tcl commands to replicate state of the cutback_obstructions_to_obstruction_boundaries global property
+# cutback_obstructions_to_obstruction_boundaries has default value.
+## Tcl commands to replicate state of the do_not_munge_list global property
+# do_not_munge_list has default value.
+## Tcl commands to replicate state of the enable_datapoints global property
+# enable_datapoints has default value.
+## Tcl commands to replicate state of the enable_dp_mode global property
+# enable_dp_mode has default value.
+## Tcl commands to replicate state of the explain_skew_group_constraints_max_search_breadth global property
+# explain_skew_group_constraints_max_search_breadth has default value.
+## Tcl commands to replicate state of the extract_allow_stop_and_ignore_pins_as_generator_inputs global property
+# extract_allow_stop_and_ignore_pins_as_generator_inputs has default value.
+## Tcl commands to replicate state of the extract_balance_multi_source_clocks global property
+# extract_balance_multi_source_clocks has default value.
+## Tcl commands to replicate state of the extract_clock_generator_adjacent_pins_stage_level global property
+# extract_clock_generator_adjacent_pins_stage_level has default value.
+## Tcl commands to replicate state of the extract_clock_generator_skew_group_name_prefix global property
+# extract_clock_generator_skew_group_name_prefix has default value.
+## Tcl commands to replicate state of the extract_clock_generator_skew_groups global property
+# extract_clock_generator_skew_groups has default value.
+## Tcl commands to replicate state of the extract_clock_group_skew_groups global property
+# extract_clock_group_skew_groups has default value.
+## Tcl commands to replicate state of the extract_create_clock_group_for_default_group global property
+# extract_create_clock_group_for_default_group has default value.
+## Tcl commands to replicate state of the extract_create_explicit_ignores_beyond_sta_clock_network global property
+# extract_create_explicit_ignores_beyond_sta_clock_network has default value.
+## Tcl commands to replicate state of the extract_cts_case_analysis global property
+# extract_cts_case_analysis has default value.
+## Tcl commands to replicate state of the extract_descriptive_extensions_for_generated_clock_trees global property
+# extract_descriptive_extensions_for_generated_clock_trees has default value.
+## Tcl commands to replicate state of the extract_drivers_and_clock_gates_below_sdc_clock_boundary global property
+# extract_drivers_and_clock_gates_below_sdc_clock_boundary has default value.
+## Tcl commands to replicate state of the extract_enable_neg_edge_clock_gate_handling global property
+# extract_enable_neg_edge_clock_gate_handling has default value.
+## Tcl commands to replicate state of the extract_faster_sdc_clocks_as_clock_trees global property
+# extract_faster_sdc_clocks_as_clock_trees has default value.
+## Tcl commands to replicate state of the extract_generated_clock_skew_group_sources_from_ultimate_master global property
+# extract_generated_clock_skew_group_sources_from_ultimate_master has default value.
+## Tcl commands to replicate state of the extract_generated_clock_tree_parents global property
+# extract_generated_clock_tree_parents has default value.
+## Tcl commands to replicate state of the extract_merge_identical_skew_groups global property
+# extract_merge_identical_skew_groups has default value.
+## Tcl commands to replicate state of the extract_network_latency global property
+# extract_network_latency has default value.
+## Tcl commands to replicate state of the extract_no_exclude_pins global property
+# extract_no_exclude_pins has default value.
+## Tcl commands to replicate state of the extract_pin_insertion_delays global property
+# extract_pin_insertion_delays has default value.
+## Tcl commands to replicate state of the extract_preserve_observability_clock_gates global property
+# extract_preserve_observability_clock_gates has default value.
+## Tcl commands to replicate state of the extract_reporting_only_skew_groups global property
+# extract_reporting_only_skew_groups has default value.
+## Tcl commands to replicate state of the extract_skew_group_sinks_at_clock_node_timing_endpoints global property
+# extract_skew_group_sinks_at_clock_node_timing_endpoints has default value.
+## Tcl commands to replicate state of the extract_source_latency global property
+# extract_source_latency has default value.
+## Tcl commands to replicate state of the extract_subsumed_non_generated_sdc_clocks_as_clock_trees global property
+# extract_subsumed_non_generated_sdc_clocks_as_clock_trees has default value.
+## Tcl commands to replicate state of the extract_through_multi_output_cells_with_single_clock_output global property
+# extract_through_multi_output_cells_with_single_clock_output has default value.
+## Tcl commands to replicate state of the extract_through_timing_checks global property
+# extract_through_timing_checks has default value.
+## Tcl commands to replicate state of the gsynth_rename_clock_gates global property
+# gsynth_rename_clock_gates has default value.
+## Tcl commands to replicate state of the internalreport_clocktree global property
+# internalreport_clocktree has default value.
+## Tcl commands to replicate state of the kmeans_cluster_iterate global property
+# kmeans_cluster_iterate has default value.
+## Tcl commands to replicate state of the kmeans_initial_points_algorithm global property
+# kmeans_initial_points_algorithm has default value.
+## Tcl commands to replicate state of the kmeans_rload_constant global property
+# kmeans_rload_constant has default value.
+## Tcl commands to replicate state of the kmeans_tie_break_only_on_cluster_size global property
+# kmeans_tie_break_only_on_cluster_size has default value.
+## Tcl commands to replicate state of the kmeans_use_linf global property
+# kmeans_use_linf has default value.
+## Tcl commands to replicate state of the list_dffs_in_report global property
+# list_dffs_in_report has default value.
+## Tcl commands to replicate state of the lp_solver global property
+# lp_solver has default value.
+## Tcl commands to replicate state of the maintain_power_domain_module_correspondence global property
+# maintain_power_domain_module_correspondence has default value.
+## Tcl commands to replicate state of the minimum_intervals_for_cell_separation_calculation global property
+# minimum_intervals_for_cell_separation_calculation has default value.
+## Tcl commands to replicate state of the obstruction_block_threshold global property
+# obstruction_block_threshold has default value.
+## Tcl commands to replicate state of the obstruction_grid_size_factor global property
+# obstruction_grid_size_factor has default value.
+## Tcl commands to replicate state of the obstruction_large_rectangle_factor global property
+# obstruction_large_rectangle_factor has default value.
+## Tcl commands to replicate state of the optimize_ir_drop global property
+# optimize_ir_drop has default value.
+## Tcl commands to replicate state of the optimize_ir_drop_algorithm global property
+# optimize_ir_drop_algorithm has default value.
+## Tcl commands to replicate state of the optimize_ir_drop_effort global property
+# optimize_ir_drop_effort has default value.
+## Tcl commands to replicate state of the optimize_ir_drop_flop_fraction_down global property
+# optimize_ir_drop_flop_fraction_down has default value.
+## Tcl commands to replicate state of the optimize_ir_drop_flop_fraction_up global property
+# optimize_ir_drop_flop_fraction_up has default value.
+## Tcl commands to replicate state of the optimize_ir_drop_grid_size global property
+# optimize_ir_drop_grid_size has default value.
+## Tcl commands to replicate state of the optimize_ir_drop_levels global property
+# optimize_ir_drop_levels has default value.
+## Tcl commands to replicate state of the optimize_ir_drop_levels_down global property
+# optimize_ir_drop_levels_down has default value.
+## Tcl commands to replicate state of the optimize_ir_drop_levels_up global property
+# optimize_ir_drop_levels_up has default value.
+## Tcl commands to replicate state of the optimize_ir_drop_max_skew_down global property
+# optimize_ir_drop_max_skew_down has default value.
+## Tcl commands to replicate state of the optimize_ir_drop_max_skew_up global property
+# optimize_ir_drop_max_skew_up has default value.
+## Tcl commands to replicate state of the optimize_ir_drop_point_windows_for_skewed_flops global property
+# optimize_ir_drop_point_windows_for_skewed_flops has default value.
+## Tcl commands to replicate state of the optimize_ir_drop_restrict_movement_of_skewed_flops global property
+# optimize_ir_drop_restrict_movement_of_skewed_flops has default value.
+## Tcl commands to replicate state of the optimize_ir_drop_unit_delay_factor global property
+# optimize_ir_drop_unit_delay_factor has default value.
+## Tcl commands to replicate state of the profiler_measure_clock_trees_separately global property
+# profiler_measure_clock_trees_separately has default value.
+## Tcl commands to replicate state of the profiler_min_multicore_estimate_wall_secs global property
+# profiler_min_multicore_estimate_wall_secs has default value.
+## Tcl commands to replicate state of the profiler_report_decorated_functions global property
+# profiler_report_decorated_functions has default value.
+## Tcl commands to replicate state of the profiler_split_nodes_for_multithreading global property
+# profiler_split_nodes_for_multithreading has default value.
+## Tcl commands to replicate state of the profiler_verbose_reports global property
+# profiler_verbose_reports has default value.
+## Tcl commands to replicate state of the report_clock_trees_show_min_max_depth global property
+# report_clock_trees_show_min_max_depth has default value.
+## Tcl commands to replicate state of the report_only_skew_group_with_target global property
+# report_only_skew_group_with_target has default value.
+## Tcl commands to replicate state of the report_only_timing_corners_associated_with_skew_groups global property
+# report_only_timing_corners_associated_with_skew_groups has default value.
+## Tcl commands to replicate state of the reset_clock_tree_latencies global property
+# reset_clock_tree_latencies has default value.
+## Tcl commands to replicate state of the route_inside_power_domains global property
+# route_inside_power_domains has default value.
+## Tcl commands to replicate state of the routing_add_pin_via_parasitics_to_abstract_routes global property
+# routing_add_pin_via_parasitics_to_abstract_routes has default value.
+## Tcl commands to replicate state of the routing_bug_8799_factor global property
+# routing_bug_8799_factor has default value.
+## Tcl commands to replicate state of the routing_debug_blockage_avoiding_route global property
+# routing_debug_blockage_avoiding_route has default value.
+## Tcl commands to replicate state of the routing_do_late_conversion global property
+# routing_do_late_conversion has default value.
+## Tcl commands to replicate state of the routing_max_num_obstruction_grid_cells global property
+# routing_max_num_obstruction_grid_cells has default value.
+## Tcl commands to replicate state of the routing_model_wires_in_max_driver_cap_precharacterization global property
+# routing_model_wires_in_max_driver_cap_precharacterization has default value.
+## Tcl commands to replicate state of the routing_mst_expand_bounding_box_factor global property
+# routing_mst_expand_bounding_box_factor has default value.
+## Tcl commands to replicate state of the routing_mst_use_manhattan_metric global property
+# routing_mst_use_manhattan_metric has default value.
+## Tcl commands to replicate state of the routing_prim_dijkstra_mfn_tradeoff_parameter global property
+# routing_prim_dijkstra_mfn_tradeoff_parameter has default value.
+## Tcl commands to replicate state of the routing_prim_dijkstra_tradeoff_parameter global property
+# routing_prim_dijkstra_tradeoff_parameter has default value.
+## Tcl commands to replicate state of the row_height_scale_factor_for_search_interval global property
+# row_height_scale_factor_for_search_interval has default value.
+## Tcl commands to replicate state of the show_labels_in_report global property
+# show_labels_in_report has default value.
+## Tcl commands to replicate state of the signal_on_assert global property
+# signal_on_assert has default value.
+## Tcl commands to replicate state of the simplify_blockages global property
+# simplify_blockages has default value.
+## Tcl commands to replicate state of the simplify_lef_obstructions global property
+# simplify_lef_obstructions has default value.
+## Tcl commands to replicate state of the snap_obstructed_terminals_to_obstruction_boundary global property
+# snap_obstructed_terminals_to_obstruction_boundary has default value.
+## Tcl commands to replicate state of the stacktrace_on_non_fatal_assert global property
+# stacktrace_on_non_fatal_assert has default value.
+## Tcl commands to replicate state of the undefine_clock_tree_skew_group_actions global property
+# undefine_clock_tree_skew_group_actions has default value.
+## Tcl commands to replicate state of the use_derivative_based_optimum_cell_separation_calculation global property
+# use_derivative_based_optimum_cell_separation_calculation has default value.
+## Tcl commands to replicate state of the use_macro_model_pin_cap_only global property
+# use_macro_model_pin_cap_only has default value.
+## Tcl commands to replicate state of the use_simple_partitioner global property
+# use_simple_partitioner has default value.
+## Tcl commands to replicate state of the useful_skew_adjust_for_hold global property
+# useful_skew_adjust_for_hold has default value.
+## Tcl commands to replicate state of the useful_skew_allow_adjustment_of_unbufferable_gates global property
+# useful_skew_allow_adjustment_of_unbufferable_gates has default value.
+## Tcl commands to replicate state of the useful_skew_allowable_setup_breakage_to_fix_hold global property
+# useful_skew_allowable_setup_breakage_to_fix_hold has default value.
+## Tcl commands to replicate state of the useful_skew_bottleneck_score_extra_ram_weighting global property
+# useful_skew_bottleneck_score_extra_ram_weighting has default value.
+## Tcl commands to replicate state of the useful_skew_bottleneck_score_use_endpoint_tns global property
+# useful_skew_bottleneck_score_use_endpoint_tns has default value.
+## Tcl commands to replicate state of the useful_skew_clock_gate_restriction_buffer_tree_speed_factor global property
+# useful_skew_clock_gate_restriction_buffer_tree_speed_factor has default value.
+## Tcl commands to replicate state of the useful_skew_cluster_with_point_windows_for_unadjusted_sinks global property
+# useful_skew_cluster_with_point_windows_for_unadjusted_sinks has default value.
+## Tcl commands to replicate state of the useful_skew_compute_removable_clustering_delay global property
+# useful_skew_compute_removable_clustering_delay has default value.
+## Tcl commands to replicate state of the useful_skew_consider_slew_effects_at_sinks_during_implement global property
+# useful_skew_consider_slew_effects_at_sinks_during_implement has default value.
+## Tcl commands to replicate state of the useful_skew_dont_move_sinks_with_positive_slack global property
+# useful_skew_dont_move_sinks_with_positive_slack has default value.
+## Tcl commands to replicate state of the useful_skew_enable_26602 global property
+# useful_skew_enable_26602 has default value.
+## Tcl commands to replicate state of the useful_skew_equalize_offsets_negative_clip_rule global property
+# useful_skew_equalize_offsets_negative_clip_rule has default value.
+## Tcl commands to replicate state of the useful_skew_falling_edge_delay_correction global property
+# useful_skew_falling_edge_delay_correction has default value.
+## Tcl commands to replicate state of the useful_skew_hold_margin global property
+# useful_skew_hold_margin has default value.
+## Tcl commands to replicate state of the useful_skew_hyperspace_uplift_as_extra_effort global property
+# useful_skew_hyperspace_uplift_as_extra_effort has default value.
+## Tcl commands to replicate state of the useful_skew_hyperspace_uplift_as_preconditioning global property
+# useful_skew_hyperspace_uplift_as_preconditioning has default value.
+## Tcl commands to replicate state of the useful_skew_hyperspace_uplift_recluster_as_ignore_pins global property
+# useful_skew_hyperspace_uplift_recluster_as_ignore_pins has default value.
+## Tcl commands to replicate state of the useful_skew_ideal_delta_ignore_opt_off_slack global property
+# useful_skew_ideal_delta_ignore_opt_off_slack has default value.
+## Tcl commands to replicate state of the useful_skew_implement_move_sinks_up_into_windows global property
+# useful_skew_implement_move_sinks_up_into_windows has default value.
+## Tcl commands to replicate state of the useful_skew_implement_using_wns_windows global property
+# useful_skew_implement_using_wns_windows has default value.
+## Tcl commands to replicate state of the useful_skew_initial_window_overlap_factor global property
+# useful_skew_initial_window_overlap_factor has default value.
+## Tcl commands to replicate state of the useful_skew_max_delta global property
+# useful_skew_max_delta has default value.
+## Tcl commands to replicate state of the useful_skew_min_node_timing_offset_unit_delay global property
+# useful_skew_min_node_timing_offset_unit_delay has default value.
+## Tcl commands to replicate state of the useful_skew_min_window_size_scale_factor global property
+# useful_skew_min_window_size_scale_factor has default value.
+## Tcl commands to replicate state of the useful_skew_minimum_balancing_slack global property
+# useful_skew_minimum_balancing_slack has default value.
+## Tcl commands to replicate state of the useful_skew_multi_corner global property
+# useful_skew_multi_corner has default value.
+## Tcl commands to replicate state of the useful_skew_non_auto_max_window_size_delay_factor global property
+# useful_skew_non_auto_max_window_size_delay_factor has default value.
+## Tcl commands to replicate state of the useful_skew_only_adjust_critical_sinks global property
+# useful_skew_only_adjust_critical_sinks has default value.
+## Tcl commands to replicate state of the useful_skew_overconstrain_early_slews global property
+# useful_skew_overconstrain_early_slews has default value.
+## Tcl commands to replicate state of the useful_skew_post_implement_db global property
+# useful_skew_post_implement_db has default value.
+## Tcl commands to replicate state of the useful_skew_post_initial_global_db global property
+# useful_skew_post_initial_global_db has default value.
+## Tcl commands to replicate state of the useful_skew_pre_and_post_every_adjustment_db global property
+# useful_skew_pre_and_post_every_adjustment_db has default value.
+## Tcl commands to replicate state of the useful_skew_pre_and_post_every_cluster_db global property
+# useful_skew_pre_and_post_every_cluster_db has default value.
+## Tcl commands to replicate state of the useful_skew_pre_implement_db global property
+# useful_skew_pre_implement_db has default value.
+## Tcl commands to replicate state of the useful_skew_pre_initial_global_db global property
+# useful_skew_pre_initial_global_db has default value.
+## Tcl commands to replicate state of the useful_skew_preconditioning_uplift_iterations global property
+# useful_skew_preconditioning_uplift_iterations has default value.
+## Tcl commands to replicate state of the useful_skew_preconditioning_uplift_max_adjustment_delta_factor global property
+# useful_skew_preconditioning_uplift_max_adjustment_delta_factor has default value.
+## Tcl commands to replicate state of the useful_skew_preconditioning_uplift_min_delta_factor global property
+# useful_skew_preconditioning_uplift_min_delta_factor has default value.
+## Tcl commands to replicate state of the useful_skew_reclustering_region global property
+# useful_skew_reclustering_region has default value.
+## Tcl commands to replicate state of the useful_skew_report_slack_after_each_adjustment global property
+# useful_skew_report_slack_after_each_adjustment has default value.
+## Tcl commands to replicate state of the useful_skew_schedule_rebuild_adjustment_points_ignore_port_bit_changes global property
+# useful_skew_schedule_rebuild_adjustment_points_ignore_port_bit_changes has default value.
+## Tcl commands to replicate state of the useful_skew_setup_margin global property
+# useful_skew_setup_margin has default value.
+## Tcl commands to replicate state of the useful_skew_shift_schedule_on_recluster global property
+# useful_skew_shift_schedule_on_recluster has default value.
+## Tcl commands to replicate state of the useful_skew_slack_priority global property
+# useful_skew_slack_priority has default value.
+## Tcl commands to replicate state of the useful_skew_slack_priority_margin global property
+# useful_skew_slack_priority_margin has default value.
+## Tcl commands to replicate state of the useful_skew_slack_windows_up_proportion global property
+# useful_skew_slack_windows_up_proportion has default value.
+## Tcl commands to replicate state of the useful_skew_sort_sinks_by_tns_impact global property
+# useful_skew_sort_sinks_by_tns_impact has default value.
+## Tcl commands to replicate state of the useful_skew_target_number_of_hold_violations global property
+# useful_skew_target_number_of_hold_violations has default value.
+## Tcl commands to replicate state of the useful_skew_use_clock_gate_skew_groups_in_implementation_mode global property
+# useful_skew_use_clock_gate_skew_groups_in_implementation_mode has default value.
+## Tcl commands to replicate state of the useful_skew_use_hold_timing global property
+# useful_skew_use_hold_timing has default value.
+## Tcl commands to replicate state of the useful_skew_use_min_intervals global property
+# useful_skew_use_min_intervals has default value.
+## Tcl commands to replicate state of the useful_skew_use_window_constraints global property
+# useful_skew_use_window_constraints has default value.
+## Tcl commands to replicate state of the useful_skew_use_wire_delay_targets_for_hold_windows global property
+# useful_skew_use_wire_delay_targets_for_hold_windows has default value.
+## Tcl commands to replicate state of the useful_skew_window_calculation_estimate_worst_up_down_slacks global property
+# useful_skew_window_calculation_estimate_worst_up_down_slacks has default value.
+## Tcl commands to replicate state of the useful_skew_window_target_wns_fraction global property
+# useful_skew_window_target_wns_fraction has default value.
+## Tcl commands to replicate state of the useful_skew_wire_delay_target_use_max_wire_fraction global property
+# useful_skew_wire_delay_target_use_max_wire_fraction has default value.
+## Tcl commands to replicate state of the useful_skew_zero_ideal_delta_for_internal_sinks global property
+# useful_skew_zero_ideal_delta_for_internal_sinks has default value.
+## Tcl commands to replicate state of the wire_delay_solver_max_ratio global property
+# wire_delay_solver_max_ratio has default value.
+## Tcl commands to replicate state of the wire_delay_solver_min_ratio global property
+# wire_delay_solver_min_ratio has default value.
+## Tcl commands to replicate state of the wire_delay_solver_use_inverters global property
+# wire_delay_solver_use_inverters has default value.
+## Tcl commands to replicate state of the wire_delay_solver_utilisation global property
+# wire_delay_solver_utilisation has default value.
