@@ -95,7 +95,7 @@ current_design $top_module
 
 # Compile
 # Source user compile options
-compile_ultra -no_autoungroup -exact_map
+compile_ultra -no_autoungroup -exact_map 
 #ungroup -flatten -all
 #compile_ultra -timing_high_effort_script -exact_map
 
