@@ -1,0 +1,1 @@
+create_ccopt_clock_tree -name clk -source clk -no_skew_group 
