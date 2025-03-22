@@ -1,0 +1,1810 @@
+## RestorePhase2: Post-clock-tree extraction.
+## Tcl commands to replicate state of the add_buffers_in_reducing_clock_tree_power_bottom_up property.
+# add_buffers_in_reducing_clock_tree_power_bottom_up has default value.
+## Tcl commands to replicate state of the add_driver_cell property.
+# add_driver_cell has default value for all objects.
+## Tcl commands to replicate state of the add_exclusion_drivers property.
+# add_exclusion_drivers has default value.
+## Tcl commands to replicate state of the add_new_ports_to_avoid_buffering_nets_with_assigns property.
+# add_new_ports_to_avoid_buffering_nets_with_assigns has default value.
+## Tcl commands to replicate state of the additional_buffer_depth property.
+set_ccopt_property additional_buffer_depth -skew_group icts.clk/CON auto
+## Tcl commands to replicate state of the additional_buffer_depth_skew_group_fraction property.
+# additional_buffer_depth_skew_group_fraction has default value.
+## Tcl commands to replicate state of the adjacent_rows_legal property.
+# adjacent_rows_legal has default value.
+## Tcl commands to replicate state of the advanced_insertion_delay_optimization property.
+# advanced_insertion_delay_optimization has default value for all objects.
+## Tcl commands to replicate state of the allow_cg_moves_during_implementation property.
+# allow_cg_moves_during_implementation has default value.
+## Tcl commands to replicate state of the allow_cloning_in_slew_fixing property.
+# allow_cloning_in_slew_fixing has default value.
+## Tcl commands to replicate state of the allow_clustering_with_weak_drivers property.
+# allow_clustering_with_weak_drivers has default value.
+## Tcl commands to replicate state of the allow_looser_generated_clock_tree_max_trans_targets property.
+# allow_looser_generated_clock_tree_max_trans_targets has default value.
+## Tcl commands to replicate state of the allow_nano_route_second_pass_for_drc property.
+# allow_nano_route_second_pass_for_drc has default value.
+## Tcl commands to replicate state of the allow_no_row_cells property.
+# allow_no_row_cells has default value.
+## Tcl commands to replicate state of the allow_non_fterm_identical_swaps property.
+set_ccopt_property allow_non_fterm_identical_swaps 1
+## Tcl commands to replicate state of the allow_preroute_spef_annotation property.
+# allow_preroute_spef_annotation has default value.
+## Tcl commands to replicate state of the allow_resize_of_dont_touch_cells property.
+# allow_resize_of_dont_touch_cells has default value.
+## Tcl commands to replicate state of the aocv_estimate_default_stage_count property.
+# aocv_estimate_default_stage_count has default value.
+## Tcl commands to replicate state of the approximate_balance_attempt_to_buffer_bufferable_subsets property.
+# approximate_balance_attempt_to_buffer_bufferable_subsets has default value.
+## Tcl commands to replicate state of the approximate_balance_buffer_subsets property.
+# approximate_balance_buffer_subsets has default value.
+## Tcl commands to replicate state of the artificially_remove_long_paths_considers_id_targets property.
+# artificially_remove_long_paths_considers_id_targets has default value.
+## Tcl commands to replicate state of the artificially_remove_long_paths_skew_target_window_multiple property.
+# artificially_remove_long_paths_skew_target_window_multiple has default value.
+## Tcl commands to replicate state of the assigned_clock_trees property.
+# assigned_clock_trees has default value for all objects.
+## Tcl commands to replicate state of the auto_design_state_for_ilms property.
+# auto_design_state_for_ilms has default value.
+## Tcl commands to replicate state of the auto_detect_and_tie_lockup_latches property.
+# auto_detect_and_tie_lockup_latches has default value.
+## Tcl commands to replicate state of the auto_limit_insertion_delay_factor property.
+# auto_limit_insertion_delay_factor has default value.
+## Tcl commands to replicate state of the auto_limit_insertion_delay_factor_skew_group property.
+# auto_limit_insertion_delay_factor_skew_group has default value for all objects.
+## Tcl commands to replicate state of the auto_limit_insertion_delay_max_increment property.
+# auto_limit_insertion_delay_max_increment has default value.
+## Tcl commands to replicate state of the auto_limit_insertion_delay_max_increment_skew_group property.
+# auto_limit_insertion_delay_max_increment_skew_group has default value for all objects.
+## Tcl commands to replicate state of the auto_select_vias property.
+# auto_select_vias has default value.
+## Tcl commands to replicate state of the avoid_escaped_naming property.
+# avoid_escaped_naming has default value.
+## Tcl commands to replicate state of the avoid_placing_non_spine_cells_on_hard_spines property.
+# avoid_placing_non_spine_cells_on_hard_spines has default value.
+## Tcl commands to replicate state of the balance_edge property.
+# balance_edge has default value for all objects.
+## Tcl commands to replicate state of the bash_timing_graph_after_cluster property.
+# bash_timing_graph_after_cluster has default value.
+## Tcl commands to replicate state of the bash_timing_graph_before_cluster property.
+# bash_timing_graph_before_cluster has default value.
+## Tcl commands to replicate state of the boolexp_enable_extra_checks property.
+# boolexp_enable_extra_checks has default value.
+## Tcl commands to replicate state of the bound_transition_time_to_greater_than_zero property.
+# bound_transition_time_to_greater_than_zero has default value.
+## Tcl commands to replicate state of the breakpoint_tcl_function property.
+# breakpoint_tcl_function has default value.
+## Tcl commands to replicate state of the buffer_cells property.
+# buffer_cells has default value for all objects.
+## Tcl commands to replicate state of the call_cong_repair_after_buffering_in_implementation property.
+# call_cong_repair_after_buffering_in_implementation has default value.
+## Tcl commands to replicate state of the call_cong_repair_after_initial_clustering property.
+# call_cong_repair_after_initial_clustering has default value.
+## Tcl commands to replicate state of the call_cong_repair_before_implementation property.
+# call_cong_repair_before_implementation has default value.
+## Tcl commands to replicate state of the call_cong_repair_during_final_implementation property.
+# call_cong_repair_during_final_implementation has default value.
+## Tcl commands to replicate state of the call_cong_repair_during_final_implementation_threshold property.
+# call_cong_repair_during_final_implementation_threshold has default value.
+## Tcl commands to replicate state of the call_cong_repair_during_final_implementation_use_hotspots property.
+# call_cong_repair_during_final_implementation_use_hotspots has default value.
+## Tcl commands to replicate state of the call_cong_repair_using_flow_tcl property.
+# call_cong_repair_using_flow_tcl has default value.
+## Tcl commands to replicate state of the call_nanoroute_after_early_global property.
+# call_nanoroute_after_early_global has default value.
+## Tcl commands to replicate state of the can_add_new_port_checks_if_all_ports_constrained property.
+# can_add_new_port_checks_if_all_ports_constrained has default value.
+## Tcl commands to replicate state of the can_drive_computation_method property.
+# can_drive_computation_method has default value.
+## Tcl commands to replicate state of the cannot_clone_reason property.
+# cannot_clone_reason has default value for all objects.
+## Tcl commands to replicate state of the cannot_merge_reason property.
+# cannot_merge_reason has default value for all objects.
+## Tcl commands to replicate state of the capacitance_margin_absolute property.
+# capacitance_margin_absolute has default value.
+## Tcl commands to replicate state of the capacitance_margin_percentage property.
+# capacitance_margin_percentage has default value.
+## Tcl commands to replicate state of the capacitance_override property.
+# capacitance_override has default value for all objects.
+## Tcl commands to replicate state of the case_analysis property.
+# case_analysis has default value for all objects.
+## Tcl commands to replicate state of the caseh_find_better_location_for_node_above_isolated_sink property.
+# caseh_find_better_location_for_node_above_isolated_sink has default value.
+## Tcl commands to replicate state of the ccopt_adjust_latches_for_hold property.
+# ccopt_adjust_latches_for_hold has default value.
+## Tcl commands to replicate state of the ccopt_check_db_continue_after_error property.
+# ccopt_check_db_continue_after_error has default value.
+## Tcl commands to replicate state of the ccopt_check_db_every_tcl_command property.
+# ccopt_check_db_every_tcl_command has default value.
+## Tcl commands to replicate state of the ccopt_check_db_release_error_object property.
+# ccopt_check_db_release_error_object has default value.
+## Tcl commands to replicate state of the ccopt_clear_famous_modes_on_exit property.
+# ccopt_clear_famous_modes_on_exit has default value.
+## Tcl commands to replicate state of the ccopt_clear_implementation_mode_on_exit property.
+# ccopt_clear_implementation_mode_on_exit has default value.
+## Tcl commands to replicate state of the ccopt_debug_clock_tree_timing property.
+# ccopt_debug_clock_tree_timing has default value.
+## Tcl commands to replicate state of the ccopt_debug_line_after_initial_clustering property.
+# ccopt_debug_line_after_initial_clustering has default value.
+## Tcl commands to replicate state of the ccopt_debug_line_before_final_routing property.
+# ccopt_debug_line_before_final_routing has default value.
+## Tcl commands to replicate state of the ccopt_debug_line_before_post_conditioning property.
+# ccopt_debug_line_before_post_conditioning has default value.
+## Tcl commands to replicate state of the ccopt_design_default_full_flow_automation property.
+# ccopt_design_default_full_flow_automation has default value.
+## Tcl commands to replicate state of the ccopt_design_enable_default_tuning property.
+# ccopt_design_enable_default_tuning has default value.
+## Tcl commands to replicate state of the ccopt_design_localize_cppr_settings property.
+# ccopt_design_localize_cppr_settings has default value.
+## Tcl commands to replicate state of the ccopt_design_post_db property.
+# ccopt_design_post_db has default value.
+## Tcl commands to replicate state of the ccopt_design_pre_db property.
+# ccopt_design_pre_db has default value.
+## Tcl commands to replicate state of the ccopt_design_use_incremental_cppr property.
+# ccopt_design_use_incremental_cppr has default value.
+## Tcl commands to replicate state of the ccopt_effort_internal_copy property.
+# ccopt_effort_internal_copy has default value.
+## Tcl commands to replicate state of the ccopt_enable_detailed_balancer property.
+# ccopt_enable_detailed_balancer has default value.
+## Tcl commands to replicate state of the ccopt_enable_route_buffering_skew_fixer property.
+# ccopt_enable_route_buffering_skew_fixer has default value.
+## Tcl commands to replicate state of the ccopt_engine_before_implement_update_timing property.
+# ccopt_engine_before_implement_update_timing has default value.
+## Tcl commands to replicate state of the ccopt_engine_do_trial_route property.
+# ccopt_engine_do_trial_route has default value.
+## Tcl commands to replicate state of the ccopt_engine_do_trial_route_before_recluster property.
+# ccopt_engine_do_trial_route_before_recluster has default value.
+## Tcl commands to replicate state of the ccopt_engine_pin_state property.
+# ccopt_engine_pin_state has default value for all objects.
+## Tcl commands to replicate state of the ccopt_engine_state property.
+# ccopt_engine_state has default value.
+## Tcl commands to replicate state of the ccopt_engine_state_reset_on_destroy property.
+# ccopt_engine_state_reset_on_destroy has default value.
+## Tcl commands to replicate state of the ccopt_implementation_recalculate_windows property.
+# ccopt_implementation_recalculate_windows has default value.
+## Tcl commands to replicate state of the ccopt_merge_clock_gates property.
+# ccopt_merge_clock_gates has default value for all objects.
+## Tcl commands to replicate state of the ccopt_merge_clock_logic property.
+# ccopt_merge_clock_logic has default value for all objects.
+## Tcl commands to replicate state of the ccopt_operations_after_tns_opt property.
+# ccopt_operations_after_tns_opt has default value.
+## Tcl commands to replicate state of the ccopt_operations_critical_high property.
+# ccopt_operations_critical_high has default value.
+## Tcl commands to replicate state of the ccopt_operations_critical_low property.
+# ccopt_operations_critical_low has default value.
+## Tcl commands to replicate state of the ccopt_operations_critical_medium property.
+# ccopt_operations_critical_medium has default value.
+## Tcl commands to replicate state of the ccopt_operations_extended_high property.
+# ccopt_operations_extended_high has default value.
+## Tcl commands to replicate state of the ccopt_operations_extended_low property.
+# ccopt_operations_extended_low has default value.
+## Tcl commands to replicate state of the ccopt_operations_extended_medium property.
+# ccopt_operations_extended_medium has default value.
+## Tcl commands to replicate state of the ccopt_post_route_leave_clock_tree_cells_placed property.
+# ccopt_post_route_leave_clock_tree_cells_placed has default value.
+## Tcl commands to replicate state of the ccopt_property_return_display_limit property.
+# ccopt_property_return_display_limit has default value.
+## Tcl commands to replicate state of the ccopt_refresh_schedule_before_hyperspace_cluster property.
+# ccopt_refresh_schedule_before_hyperspace_cluster has default value.
+## Tcl commands to replicate state of the ccopt_refresh_schedule_before_implementation property.
+# ccopt_refresh_schedule_before_implementation has default value.
+## Tcl commands to replicate state of the ccopt_refresh_schedule_before_mini_cluster property.
+# ccopt_refresh_schedule_before_mini_cluster has default value.
+## Tcl commands to replicate state of the ccopt_speedup property.
+# ccopt_speedup has default value.
+## Tcl commands to replicate state of the ccopt_worst_chain_report_timing_too property.
+# ccopt_worst_chain_report_timing_too has default value.
+## Tcl commands to replicate state of the cell_density property.
+# cell_density has default value for all objects.
+## Tcl commands to replicate state of the cell_halo_x property.
+# cell_halo_x has default value for all objects.
+## Tcl commands to replicate state of the cell_halo_y property.
+# cell_halo_y has default value for all objects.
+## Tcl commands to replicate state of the change_fences_to_guides property.
+# change_fences_to_guides has default value.
+## Tcl commands to replicate state of the channel_graph_ignore_routing_blockages_with_detour_smaller_than property.
+# channel_graph_ignore_routing_blockages_with_detour_smaller_than has default value.
+## Tcl commands to replicate state of the check_route_follows_guide property.
+# check_route_follows_guide has default value.
+## Tcl commands to replicate state of the check_route_follows_guide_max_deviation property.
+# check_route_follows_guide_max_deviation has default value.
+## Tcl commands to replicate state of the check_route_follows_guide_min_length property.
+# check_route_follows_guide_min_length has default value.
+## Tcl commands to replicate state of the choose_aon_cell_by_bias_type property.
+# choose_aon_cell_by_bias_type has default value.
+## Tcl commands to replicate state of the clock_domain_skew_group property.
+# clock_domain_skew_group has default value for all objects.
+## Tcl commands to replicate state of the clock_gate_buffering_location property.
+# clock_gate_buffering_location has default value for all objects.
+## Tcl commands to replicate state of the clock_gating_cells property.
+# clock_gating_cells has default value for all objects.
+## Tcl commands to replicate state of the clock_nets_detailed_routed property.
+set_ccopt_property clock_nets_detailed_routed 1
+## Tcl commands to replicate state of the clock_period property.
+set_ccopt_property clock_period -pin clk 5
+## Tcl commands to replicate state of the clock_spine_cell_do_not_flip property.
+# clock_spine_cell_do_not_flip has default value.
+## Tcl commands to replicate state of the clock_spine_cell_preserve_orient property.
+# clock_spine_cell_preserve_orient has default value.
+## Tcl commands to replicate state of the clone_clock_gates property.
+# clone_clock_gates has default value for all objects.
+## Tcl commands to replicate state of the clone_clock_gates_band_size property.
+# clone_clock_gates_band_size has default value.
+## Tcl commands to replicate state of the clone_clock_gates_follow_parent_placement_restriction property.
+# clone_clock_gates_follow_parent_placement_restriction has default value.
+## Tcl commands to replicate state of the clone_clock_logic property.
+# clone_clock_logic has default value for all objects.
+## Tcl commands to replicate state of the cloned_gates_always_movable property.
+# cloned_gates_always_movable has default value.
+## Tcl commands to replicate state of the cloned_logics_always_movable property.
+# cloned_logics_always_movable has default value.
+## Tcl commands to replicate state of the cloned_power_management_cells_always_movable property.
+# cloned_power_management_cells_always_movable has default value.
+## Tcl commands to replicate state of the cloning_ignore_dont_touch_sdc property.
+# cloning_ignore_dont_touch_sdc has default value.
+## Tcl commands to replicate state of the cluster_adjust_algorithm property.
+# cluster_adjust_algorithm has default value.
+## Tcl commands to replicate state of the cluster_adjust_limit property.
+# cluster_adjust_limit has default value.
+## Tcl commands to replicate state of the cluster_adjust_metric property.
+# cluster_adjust_metric has default value.
+## Tcl commands to replicate state of the cluster_algorithm property.
+# cluster_algorithm has default value.
+## Tcl commands to replicate state of the cluster_grow_distance property.
+# cluster_grow_distance has default value.
+## Tcl commands to replicate state of the cluster_grow_metric property.
+# cluster_grow_metric has default value.
+## Tcl commands to replicate state of the cluster_kmeans_calculate_k property.
+# cluster_kmeans_calculate_k has default value.
+## Tcl commands to replicate state of the cluster_kmeans_debug_tcl property.
+# cluster_kmeans_debug_tcl has default value.
+## Tcl commands to replicate state of the cluster_kmeans_fix_small_clusters property.
+# cluster_kmeans_fix_small_clusters has default value.
+## Tcl commands to replicate state of the cluster_kmeans_fix_small_clusters_limit property.
+# cluster_kmeans_fix_small_clusters_limit has default value.
+## Tcl commands to replicate state of the cluster_kmeans_get_min_clusters property.
+# cluster_kmeans_get_min_clusters has default value.
+## Tcl commands to replicate state of the cluster_kmeans_max_inner_iterations property.
+# cluster_kmeans_max_inner_iterations has default value.
+## Tcl commands to replicate state of the cluster_kmeans_new_rload_normalisation property.
+# cluster_kmeans_new_rload_normalisation has default value.
+## Tcl commands to replicate state of the cluster_kmeans_preserve_rload property.
+# cluster_kmeans_preserve_rload has default value.
+## Tcl commands to replicate state of the cluster_kmeans_split_limit property.
+# cluster_kmeans_split_limit has default value.
+## Tcl commands to replicate state of the cluster_kmeans_split_proportion property.
+# cluster_kmeans_split_proportion has default value.
+## Tcl commands to replicate state of the cluster_kmeans_trivial_increment_value property.
+# cluster_kmeans_trivial_increment_value has default value.
+## Tcl commands to replicate state of the cluster_when_starting_skewing property.
+# cluster_when_starting_skewing has default value.
+## Tcl commands to replicate state of the clustering_avoid_adding_ccd_gates property.
+# clustering_avoid_adding_ccd_gates has default value.
+## Tcl commands to replicate state of the clustering_balance_stage_depths property.
+# clustering_balance_stage_depths has default value.
+## Tcl commands to replicate state of the clustering_consider_cap_for_cluster_acceptance property.
+# clustering_consider_cap_for_cluster_acceptance has default value.
+## Tcl commands to replicate state of the clustering_debug_plots property.
+# clustering_debug_plots has default value.
+## Tcl commands to replicate state of the clustering_downsizing property.
+# clustering_downsizing has default value for all objects.
+## Tcl commands to replicate state of the clustering_downsizing_stage_depth_limit property.
+# clustering_downsizing_stage_depth_limit has default value for all objects.
+## Tcl commands to replicate state of the clustering_fix_region_expansion_offsets property.
+# clustering_fix_region_expansion_offsets has default value.
+## Tcl commands to replicate state of the clustering_id_safe_downsizing property.
+# clustering_id_safe_downsizing has default value.
+## Tcl commands to replicate state of the clustering_id_safe_downsizing_extra_unit_delays_factor property.
+# clustering_id_safe_downsizing_extra_unit_delays_factor has default value.
+## Tcl commands to replicate state of the clustering_id_safe_downsizing_inversion_unit_delay_factor property.
+# clustering_id_safe_downsizing_inversion_unit_delay_factor has default value.
+## Tcl commands to replicate state of the clustering_id_safe_downsizing_stage_depth_limit property.
+# clustering_id_safe_downsizing_stage_depth_limit has default value.
+## Tcl commands to replicate state of the clustering_id_safe_downsizing_unit_delay_limit property.
+# clustering_id_safe_downsizing_unit_delay_limit has default value.
+## Tcl commands to replicate state of the clustering_id_safe_region_adjustment property.
+# clustering_id_safe_region_adjustment has default value.
+## Tcl commands to replicate state of the clustering_per_stage_total_delay_limit property.
+# clustering_per_stage_total_delay_limit has default value.
+## Tcl commands to replicate state of the clustering_per_stage_total_delay_limit_clock_gates property.
+# clustering_per_stage_total_delay_limit_clock_gates has default value.
+## Tcl commands to replicate state of the clustering_per_stage_total_delay_limit_clock_logic property.
+# clustering_per_stage_total_delay_limit_clock_logic has default value.
+## Tcl commands to replicate state of the clustering_per_stage_total_delay_limit_drivers property.
+# clustering_per_stage_total_delay_limit_drivers has default value.
+## Tcl commands to replicate state of the clustering_per_stage_total_delay_limit_transitively property.
+# clustering_per_stage_total_delay_limit_transitively has default value.
+## Tcl commands to replicate state of the clustering_per_stage_wire_delay_limit property.
+# clustering_per_stage_wire_delay_limit has default value.
+## Tcl commands to replicate state of the clustering_region property.
+# clustering_region has default value for all objects.
+## Tcl commands to replicate state of the clustering_source_group_assign_fanout_by_distance_only property.
+# clustering_source_group_assign_fanout_by_distance_only has default value.
+## Tcl commands to replicate state of the clustering_source_group_debug_file_directory property.
+# clustering_source_group_debug_file_directory has default value.
+## Tcl commands to replicate state of the clustering_source_group_distance_metric property.
+# clustering_source_group_distance_metric has default value.
+## Tcl commands to replicate state of the clustering_source_group_icg_aware_assignment property.
+# clustering_source_group_icg_aware_assignment has default value.
+## Tcl commands to replicate state of the clustering_source_group_icg_driving_distances property.
+# clustering_source_group_icg_driving_distances has default value.
+## Tcl commands to replicate state of the clustering_source_group_max_cloned_percentage property.
+# clustering_source_group_max_cloned_percentage has default value.
+## Tcl commands to replicate state of the clustering_source_group_max_sink_per_tap property.
+# clustering_source_group_max_sink_per_tap has default value.
+## Tcl commands to replicate state of the clustering_source_group_max_sink_per_tap_ratio property.
+# clustering_source_group_max_sink_per_tap_ratio has default value.
+## Tcl commands to replicate state of the clustering_source_group_min_sink_per_tap_ratio property.
+# clustering_source_group_min_sink_per_tap_ratio has default value.
+## Tcl commands to replicate state of the clustering_source_group_optimization_effort property.
+# clustering_source_group_optimization_effort has default value.
+## Tcl commands to replicate state of the clustering_source_group_single_root_sink_assignment_warning_threshold property.
+# clustering_source_group_single_root_sink_assignment_warning_threshold has default value.
+## Tcl commands to replicate state of the clustering_source_group_when_to_implement property.
+# clustering_source_group_when_to_implement has default value.
+## Tcl commands to replicate state of the clustering_tighten_input_transitions property.
+# clustering_tighten_input_transitions has default value.
+## Tcl commands to replicate state of the clustering_tighten_input_transitions_at_clock_root_fanout property.
+# clustering_tighten_input_transitions_at_clock_root_fanout has default value.
+## Tcl commands to replicate state of the clustering_tighten_input_transitions_pre_char_distance_factor property.
+# clustering_tighten_input_transitions_pre_char_distance_factor has default value.
+## Tcl commands to replicate state of the clustering_tighten_input_transitions_pre_char_fanout_factor property.
+# clustering_tighten_input_transitions_pre_char_fanout_factor has default value.
+## Tcl commands to replicate state of the clustering_use_disjoint_region_count_for_expanding_regions property.
+# clustering_use_disjoint_region_count_for_expanding_regions has default value.
+## Tcl commands to replicate state of the clustering_with_clones_fallback_to_buffering property.
+# clustering_with_clones_fallback_to_buffering has default value.
+## Tcl commands to replicate state of the compatibility_warning property.
+# compatibility_warning has default value.
+## Tcl commands to replicate state of the congestion_override property.
+# congestion_override has default value for all objects.
+## Tcl commands to replicate state of the congestion_override_for_clustering property.
+# congestion_override_for_clustering has default value for all objects.
+## Tcl commands to replicate state of the consider_bus_ports_dont_touch property.
+# consider_bus_ports_dont_touch has default value.
+## Tcl commands to replicate state of the consider_during_latency_update property.
+# consider_during_latency_update has default value for all objects.
+## Tcl commands to replicate state of the consider_em_constraints property.
+# consider_em_constraints has default value.
+## Tcl commands to replicate state of the consider_em_distance_factor property.
+# consider_em_distance_factor has default value.
+## Tcl commands to replicate state of the consider_liberty_pin_max_trans property.
+# consider_liberty_pin_max_trans has default value.
+## Tcl commands to replicate state of the consider_power_management property.
+# consider_power_management has default value.
+## Tcl commands to replicate state of the constrain_for_right_size_after_delay property.
+# constrain_for_right_size_after_delay has default value.
+## Tcl commands to replicate state of the constrain_output_pin_max_trans property.
+# constrain_output_pin_max_trans has default value.
+## Tcl commands to replicate state of the constrained_node_delay_cache_max_size property.
+# constrained_node_delay_cache_max_size has default value.
+## Tcl commands to replicate state of the constrained_node_transform_cache_max_size property.
+# constrained_node_transform_cache_max_size has default value.
+## Tcl commands to replicate state of the constrains property.
+set_ccopt_property constrains -skew_group icts.clk/CON {ccopt_initial icts}
+## Tcl commands to replicate state of the convert_special_wires property.
+# convert_special_wires has default value.
+## Tcl commands to replicate state of the ctd_debug_always_show_windows property.
+# ctd_debug_always_show_windows has default value.
+## Tcl commands to replicate state of the ctd_debug_min_object_count property.
+# ctd_debug_min_object_count has default value.
+## Tcl commands to replicate state of the ctd_debug_min_sink_count property.
+# ctd_debug_min_sink_count has default value.
+## Tcl commands to replicate state of the ctd_debug_skip_path_timing property.
+# ctd_debug_skip_path_timing has default value.
+## Tcl commands to replicate state of the cte_identify_clock_tree_incremental_mode property.
+# cte_identify_clock_tree_incremental_mode has default value.
+## Tcl commands to replicate state of the cts_binary_chop_to_validate_cell_lists property.
+# cts_binary_chop_to_validate_cell_lists has default value.
+## Tcl commands to replicate state of the cts_clock_gate_movement_limit property.
+# cts_clock_gate_movement_limit has default value.
+## Tcl commands to replicate state of the cts_critical_capture_pin property.
+# cts_critical_capture_pin has default value for all objects.
+## Tcl commands to replicate state of the cts_critical_capture_slew property.
+# cts_critical_capture_slew has default value for all objects.
+## Tcl commands to replicate state of the cts_critical_launch_load property.
+# cts_critical_launch_load has default value for all objects.
+## Tcl commands to replicate state of the cts_critical_launch_pin property.
+# cts_critical_launch_pin has default value for all objects.
+## Tcl commands to replicate state of the cts_def_lock_clock_network_after_resynthesis property.
+# cts_def_lock_clock_network_after_resynthesis has default value.
+## Tcl commands to replicate state of the cts_def_lock_clock_sinks property.
+# cts_def_lock_clock_sinks has default value.
+## Tcl commands to replicate state of the cts_def_lock_clock_sinks_after_routing property.
+# cts_def_lock_clock_sinks_after_routing has default value.
+## Tcl commands to replicate state of the cts_def_lock_clock_sinks_at_ccopt_engine_destroy property.
+# cts_def_lock_clock_sinks_at_ccopt_engine_destroy has default value.
+## Tcl commands to replicate state of the cts_edge_sensitivity property.
+# cts_edge_sensitivity has default value for all objects.
+## Tcl commands to replicate state of the cts_enable_generator_path_fragments property.
+# cts_enable_generator_path_fragments has default value.
+## Tcl commands to replicate state of the cts_force_clock_objects_to_propagated property.
+# cts_force_clock_objects_to_propagated has default value.
+## Tcl commands to replicate state of the cts_isolated property.
+# cts_isolated has default value for all objects.
+## Tcl commands to replicate state of the cts_mark_clock_tree_insts_with_high_placement_priority property.
+# cts_mark_clock_tree_insts_with_high_placement_priority has default value.
+## Tcl commands to replicate state of the cts_max_driver_height property.
+# cts_max_driver_height has default value.
+## Tcl commands to replicate state of the cts_max_thread_override property.
+set_ccopt_property cts_max_thread_override auto
+## Tcl commands to replicate state of the cts_merge_clock_gates property.
+set_ccopt_property cts_merge_clock_gates 0
+## Tcl commands to replicate state of the cts_merge_clock_gates_vertically property.
+# cts_merge_clock_gates_vertically has default value.
+## Tcl commands to replicate state of the cts_merge_clock_logic property.
+set_ccopt_property cts_merge_clock_logic 0
+## Tcl commands to replicate state of the cts_multi_corner_slew_targets property.
+# cts_multi_corner_slew_targets has default value.
+## Tcl commands to replicate state of the cts_multi_sink_node_to_node_fragments property.
+# cts_multi_sink_node_to_node_fragments has default value.
+## Tcl commands to replicate state of the cts_relax_skew_target property.
+# cts_relax_skew_target has default value.
+## Tcl commands to replicate state of the cts_relax_skew_target_ratio property.
+# cts_relax_skew_target_ratio has default value.
+## Tcl commands to replicate state of the cts_relax_skew_target_restore property.
+# cts_relax_skew_target_restore has default value.
+## Tcl commands to replicate state of the cts_route_buffering_include_root_in_timing property.
+# cts_route_buffering_include_root_in_timing has default value.
+## Tcl commands to replicate state of the cts_route_buffering_include_sinks_in_timing property.
+# cts_route_buffering_include_sinks_in_timing has default value.
+## Tcl commands to replicate state of the cts_route_buffering_loose_skew_margin_multiplier property.
+# cts_route_buffering_loose_skew_margin_multiplier has default value.
+## Tcl commands to replicate state of the cts_route_buffering_max_merged_solutions property.
+# cts_route_buffering_max_merged_solutions has default value.
+## Tcl commands to replicate state of the cts_route_buffering_split_branch_and_buffer property.
+# cts_route_buffering_split_branch_and_buffer has default value.
+## Tcl commands to replicate state of the cts_unfixable_overload_use_override_targets property.
+# cts_unfixable_overload_use_override_targets has default value.
+## Tcl commands to replicate state of the cts_use_sp_ideal_orientation property.
+# cts_use_sp_ideal_orientation has default value.
+## Tcl commands to replicate state of the debug_log_errors_during_ccopt_restore property.
+# debug_log_errors_during_ccopt_restore has default value.
+## Tcl commands to replicate state of the debug_output_db_step_list property.
+# debug_output_db_step_list has default value.
+## Tcl commands to replicate state of the debug_saved_ccopt_state_to_dir property.
+# debug_saved_ccopt_state_to_dir has default value.
+## Tcl commands to replicate state of the debug_stacktrace_on_designobject_uid_list property.
+# debug_stacktrace_on_designobject_uid_list has default value.
+## Tcl commands to replicate state of the debug_stacktrace_on_length property.
+# debug_stacktrace_on_length has default value.
+## Tcl commands to replicate state of the debug_stacktrace_on_netlist_object_fhn_list property.
+# debug_stacktrace_on_netlist_object_fhn_list has default value.
+## Tcl commands to replicate state of the debug_stacktrace_on_uid_list property.
+# debug_stacktrace_on_uid_list has default value.
+## Tcl commands to replicate state of the debug_stage_delays_for_nodes property.
+# debug_stage_delays_for_nodes has default value.
+## Tcl commands to replicate state of the define_clock_tree_release_nonclock_gates_patch property.
+# define_clock_tree_release_nonclock_gates_patch has default value.
+## Tcl commands to replicate state of the degenerate_routing_estimate_cap_factor property.
+# degenerate_routing_estimate_cap_factor has default value.
+## Tcl commands to replicate state of the degrade_asserted_transition property.
+# degrade_asserted_transition has default value.
+## Tcl commands to replicate state of the delay_cells property.
+# delay_cells has default value for all objects.
+## Tcl commands to replicate state of the detach_gates_iterate_over_all_hnets_in_hinst property.
+# detach_gates_iterate_over_all_hnets_in_hinst has default value.
+## Tcl commands to replicate state of the detailed_balance_max_drive_cell property.
+# detailed_balance_max_drive_cell has default value.
+## Tcl commands to replicate state of the detailed_cell_warnings property.
+# detailed_cell_warnings has default value.
+## Tcl commands to replicate state of the detailed_final_ignore_exclusion property.
+# detailed_final_ignore_exclusion has default value.
+## Tcl commands to replicate state of the disable_cell_renaming property.
+# disable_cell_renaming has default value.
+## Tcl commands to replicate state of the disable_timing_arc_across_ilm_boundary property.
+# disable_timing_arc_across_ilm_boundary has default value.
+## Tcl commands to replicate state of the distance_from_locked_parent_restriction property.
+# distance_from_locked_parent_restriction has default value for all objects.
+## Tcl commands to replicate state of the distributed_design_is_ready_for_distribution property.
+# distributed_design_is_ready_for_distribution has default value.
+## Tcl commands to replicate state of the distributed_load_eco_def_files property.
+# distributed_load_eco_def_files has default value.
+## Tcl commands to replicate state of the distributed_load_existing_slave_data property.
+# distributed_load_existing_slave_data has default value.
+## Tcl commands to replicate state of the distributed_partition_ratio_x1 property.
+# distributed_partition_ratio_x1 has default value.
+## Tcl commands to replicate state of the distributed_partition_ratio_x2 property.
+# distributed_partition_ratio_x2 has default value.
+## Tcl commands to replicate state of the distributed_partition_ratio_y1 property.
+# distributed_partition_ratio_y1 has default value.
+## Tcl commands to replicate state of the distributed_partition_ratio_y2 property.
+# distributed_partition_ratio_y2 has default value.
+## Tcl commands to replicate state of the distributed_process_step property.
+# distributed_process_step has default value.
+## Tcl commands to replicate state of the distributed_slave_clock_tree_names property.
+# distributed_slave_clock_tree_names has default value.
+## Tcl commands to replicate state of the distributed_slave_clock_tree_sources property.
+# distributed_slave_clock_tree_sources has default value.
+## Tcl commands to replicate state of the distributed_slave_eco_prefix property.
+# distributed_slave_eco_prefix has default value.
+## Tcl commands to replicate state of the distributed_stop_after_slave_completion property.
+# distributed_stop_after_slave_completion has default value.
+## Tcl commands to replicate state of the distributed_stop_before_slave_init property.
+# distributed_stop_before_slave_init has default value.
+## Tcl commands to replicate state of the driver_levels property.
+## Tcl commands to replicate state of the driver_movement_limit property.
+# driver_movement_limit has default value.
+## Tcl commands to replicate state of the early_global_leaf_congestion_ratio property.
+# early_global_leaf_congestion_ratio has default value.
+## Tcl commands to replicate state of the early_global_leaf_rows_per_gcell property.
+# early_global_leaf_rows_per_gcell has default value.
+## Tcl commands to replicate state of the early_global_leaf_scenic_ratio property.
+# early_global_leaf_scenic_ratio has default value.
+## Tcl commands to replicate state of the early_global_leaf_source_sink_ratio property.
+# early_global_leaf_source_sink_ratio has default value.
+## Tcl commands to replicate state of the early_global_trunk_congestion_ratio property.
+# early_global_trunk_congestion_ratio has default value.
+## Tcl commands to replicate state of the early_global_trunk_rows_per_gcell property.
+# early_global_trunk_rows_per_gcell has default value.
+## Tcl commands to replicate state of the early_global_trunk_scenic_ratio property.
+# early_global_trunk_scenic_ratio has default value.
+## Tcl commands to replicate state of the early_global_trunk_source_sink_ratio property.
+# early_global_trunk_source_sink_ratio has default value.
+## Tcl commands to replicate state of the early_global_use_existing_estimate_as_guide property.
+# early_global_use_existing_estimate_as_guide has default value.
+## Tcl commands to replicate state of the echo_sylog_to_debug property.
+# echo_sylog_to_debug has default value.
+## Tcl commands to replicate state of the enable_all_views_for_io_latency_update property.
+# enable_all_views_for_io_latency_update has default value.
+## Tcl commands to replicate state of the enable_assert_single_threaded property.
+# enable_assert_single_threaded has default value.
+## Tcl commands to replicate state of the enable_channel_graph_line_coverage property.
+# enable_channel_graph_line_coverage has default value.
+## Tcl commands to replicate state of the enable_clustering_multithreaded property.
+# enable_clustering_multithreaded has default value.
+## Tcl commands to replicate state of the enable_constraints_from_xhinsts property.
+# enable_constraints_from_xhinsts has default value.
+## Tcl commands to replicate state of the enable_correlation_report_extra_stats property.
+# enable_correlation_report_extra_stats has default value.
+## Tcl commands to replicate state of the enable_evaluate_cluster_cache property.
+# enable_evaluate_cluster_cache has default value.
+## Tcl commands to replicate state of the enable_globalupdate_multithreaded property.
+# enable_globalupdate_multithreaded has default value.
+## Tcl commands to replicate state of the enable_implementation property.
+# enable_implementation has default value.
+## Tcl commands to replicate state of the enable_initial_clustering property.
+# enable_initial_clustering has default value.
+## Tcl commands to replicate state of the enable_latch_sta_updates property.
+# enable_latch_sta_updates has default value.
+## Tcl commands to replicate state of the enable_locked_node_check_failure property.
+# enable_locked_node_check_failure has default value.
+## Tcl commands to replicate state of the enable_movegate_multithreaded property.
+# enable_movegate_multithreaded has default value.
+## Tcl commands to replicate state of the enable_movegates_multithreaded property.
+# enable_movegates_multithreaded has default value.
+## Tcl commands to replicate state of the enable_new_stage_depth_counting property.
+# enable_new_stage_depth_counting has default value.
+## Tcl commands to replicate state of the enable_pathoptimization_multithreaded property.
+# enable_pathoptimization_multithreaded has default value.
+## Tcl commands to replicate state of the enable_primdijkstra_xgraph_dump property.
+# enable_primdijkstra_xgraph_dump has default value.
+## Tcl commands to replicate state of the enable_pro_multithreaded property.
+# enable_pro_multithreaded has default value.
+## Tcl commands to replicate state of the enable_ratchet_detailed_balancer property.
+# enable_ratchet_detailed_balancer has default value.
+## Tcl commands to replicate state of the enable_resizegate_multithreaded property.
+# enable_resizegate_multithreaded has default value.
+## Tcl commands to replicate state of the enable_resizegates_multithreaded property.
+# enable_resizegates_multithreaded has default value.
+## Tcl commands to replicate state of the enable_resynthesis_correlation_report property.
+# enable_resynthesis_correlation_report has default value.
+## Tcl commands to replicate state of the enable_routing_correlation_report property.
+# enable_routing_correlation_report has default value.
+## Tcl commands to replicate state of the enable_timing_chain_manager_in_ccopt_design property.
+# enable_timing_chain_manager_in_ccopt_design has default value.
+## Tcl commands to replicate state of the enable_worst_chain_report_in_ccopt_design property.
+# enable_worst_chain_report_in_ccopt_design has default value.
+## Tcl commands to replicate state of the equalize_net_lengths property.
+set_ccopt_property equalize_net_lengths -skew_group icts.clk/CON 0
+## Tcl commands to replicate state of the estimate_to_detailed_route_capacitance_scaling_factor property.
+# estimate_to_detailed_route_capacitance_scaling_factor has default value.
+## Tcl commands to replicate state of the estimate_to_detailed_route_capacitance_scaling_factor_applied property.
+# estimate_to_detailed_route_capacitance_scaling_factor_applied has default value.
+## Tcl commands to replicate state of the estimate_to_detailed_route_resistance_scaling_factor property.
+# estimate_to_detailed_route_resistance_scaling_factor has default value.
+## Tcl commands to replicate state of the estimate_to_detailed_route_resistance_scaling_factor_applied property.
+# estimate_to_detailed_route_resistance_scaling_factor_applied has default value.
+## Tcl commands to replicate state of the exclude_delays_below_sinks property.
+# exclude_delays_below_sinks has default value for all objects.
+## Tcl commands to replicate state of the exclusive_sinks_rank property.
+# exclusive_sinks_rank has default value for all objects.
+## Tcl commands to replicate state of the expand_multi_child_regions property.
+# expand_multi_child_regions has default value for all objects.
+## Tcl commands to replicate state of the expand_multi_child_regions_above property.
+# expand_multi_child_regions_above has default value for all objects.
+## Tcl commands to replicate state of the expand_multi_child_regions_for_furthest_sinks property.
+# expand_multi_child_regions_for_furthest_sinks has default value.
+## Tcl commands to replicate state of the expand_multi_child_regions_for_sinks_with_min_depth property.
+# expand_multi_child_regions_for_sinks_with_min_depth has default value.
+## Tcl commands to replicate state of the extract_additional_clock_tree_symbols property.
+# extract_additional_clock_tree_symbols has default value.
+## Tcl commands to replicate state of the extract_clock_trees_ilm_flow_delete_temp_files property.
+# extract_clock_trees_ilm_flow_delete_temp_files has default value.
+## Tcl commands to replicate state of the extract_clock_trees_ilm_flow_run_with_fork property.
+# extract_clock_trees_ilm_flow_run_with_fork has default value.
+## Tcl commands to replicate state of the extract_clock_trees_ilm_flow_run_with_propagated_clocks property.
+# extract_clock_trees_ilm_flow_run_with_propagated_clocks has default value.
+## Tcl commands to replicate state of the extract_clock_trees_ilm_flow_use_skew_group_delays property.
+# extract_clock_trees_ilm_flow_use_skew_group_delays has default value.
+## Tcl commands to replicate state of the extract_clock_trees_use_ilm_flow property.
+# extract_clock_trees_use_ilm_flow has default value.
+## Tcl commands to replicate state of the extract_create_explicit_ignores_for_implicit_excludes_beyond_sta_clock_network property.
+# extract_create_explicit_ignores_for_implicit_excludes_beyond_sta_clock_network has default value.
+## Tcl commands to replicate state of the extract_sdc_slew_targets_for_hold property.
+# extract_sdc_slew_targets_for_hold has default value.
+## Tcl commands to replicate state of the extract_use_zero_delays property.
+# extract_use_zero_delays has default value.
+## Tcl commands to replicate state of the extracted_from_clock_name property.
+set_ccopt_property extracted_from_clock_name -skew_group default.clk/CON clk
+## Tcl commands to replicate state of the extracted_from_constraint_mode_name property.
+set_ccopt_property extracted_from_constraint_mode_name -skew_group default.clk/CON CON
+## Tcl commands to replicate state of the extracted_from_delay_corners property.
+set_ccopt_property extracted_from_delay_corners -skew_group default.clk/CON {WC BC}
+## Tcl commands to replicate state of the extractrc_after_commit_net_attributes_and_route_estimates property.
+# extractrc_after_commit_net_attributes_and_route_estimates has default value.
+## Tcl commands to replicate state of the fast_clock_extraction property.
+# fast_clock_extraction has default value.
+## Tcl commands to replicate state of the fast_path_multiple property.
+# fast_path_multiple has default value.
+## Tcl commands to replicate state of the fast_path_multiple_debug_limits property.
+# fast_path_multiple_debug_limits has default value.
+## Tcl commands to replicate state of the fast_trial_debug_placeable_regions property.
+# fast_trial_debug_placeable_regions has default value.
+## Tcl commands to replicate state of the fast_trial_use_overlay property.
+# fast_trial_use_overlay has default value.
+## Tcl commands to replicate state of the fastest_buffer property.
+# fastest_buffer has default value.
+## Tcl commands to replicate state of the fastest_buffer_max_trans property.
+# fastest_buffer_max_trans has default value.
+## Tcl commands to replicate state of the fastest_inverter property.
+# fastest_inverter has default value.
+## Tcl commands to replicate state of the fastest_inverter_max_trans property.
+# fastest_inverter_max_trans has default value.
+## Tcl commands to replicate state of the filter_cell_lists_for_frequency_dependent_max_cap_constraints property.
+# filter_cell_lists_for_frequency_dependent_max_cap_constraints has default value.
+## Tcl commands to replicate state of the fix_clock_gate_enable_slacks_after_cluster property.
+# fix_clock_gate_enable_slacks_after_cluster has default value.
+## Tcl commands to replicate state of the fix_clock_routes_during_final_implementation property.
+# fix_clock_routes_during_final_implementation has default value.
+## Tcl commands to replicate state of the flexible_htree_allow_dead_branches property.
+# flexible_htree_allow_dead_branches has default value.
+## Tcl commands to replicate state of the flexible_htree_allow_sink_grid_center_expansion property.
+# flexible_htree_allow_sink_grid_center_expansion has default value.
+## Tcl commands to replicate state of the flexible_htree_beam_width property.
+# flexible_htree_beam_width has default value.
+## Tcl commands to replicate state of the flexible_htree_best_effort_placement_expansion property.
+# flexible_htree_best_effort_placement_expansion has default value.
+## Tcl commands to replicate state of the flexible_htree_best_path_length_margin property.
+# flexible_htree_best_path_length_margin has default value.
+## Tcl commands to replicate state of the flexible_htree_blocked_driver_cost property.
+# flexible_htree_blocked_driver_cost has default value.
+## Tcl commands to replicate state of the flexible_htree_cluster_band_multiplier property.
+# flexible_htree_cluster_band_multiplier has default value.
+## Tcl commands to replicate state of the flexible_htree_cluster_tolerance_factor property.
+# flexible_htree_cluster_tolerance_factor has default value.
+## Tcl commands to replicate state of the flexible_htree_consider_blocked_strip_nets property.
+# flexible_htree_consider_blocked_strip_nets has default value.
+## Tcl commands to replicate state of the flexible_htree_consider_partitions_in_lookaheads property.
+# flexible_htree_consider_partitions_in_lookaheads has default value.
+## Tcl commands to replicate state of the flexible_htree_default_congestion property.
+# flexible_htree_default_congestion has default value.
+## Tcl commands to replicate state of the flexible_htree_default_target_grid_step_multiplier property.
+# flexible_htree_default_target_grid_step_multiplier has default value.
+## Tcl commands to replicate state of the flexible_htree_dist_tolerance_factor property.
+# flexible_htree_dist_tolerance_factor has default value.
+## Tcl commands to replicate state of the flexible_htree_diversity_interval property.
+# flexible_htree_diversity_interval has default value.
+## Tcl commands to replicate state of the flexible_htree_driven_fold_back_cost property.
+# flexible_htree_driven_fold_back_cost has default value.
+## Tcl commands to replicate state of the flexible_htree_driver_asymmetry_cost property.
+# flexible_htree_driver_asymmetry_cost has default value.
+## Tcl commands to replicate state of the flexible_htree_driver_cost_in_microns property.
+# flexible_htree_driver_cost_in_microns has default value.
+## Tcl commands to replicate state of the flexible_htree_driver_levels_increase_cost property.
+# flexible_htree_driver_levels_increase_cost has default value.
+## Tcl commands to replicate state of the flexible_htree_drv_cost property.
+# flexible_htree_drv_cost has default value.
+## Tcl commands to replicate state of the flexible_htree_enable_local_search property.
+# flexible_htree_enable_local_search has default value.
+## Tcl commands to replicate state of the flexible_htree_fold_back_cost property.
+# flexible_htree_fold_back_cost has default value.
+## Tcl commands to replicate state of the flexible_htree_global_search_iteration_limit_per_step property.
+# flexible_htree_global_search_iteration_limit_per_step has default value.
+## Tcl commands to replicate state of the flexible_htree_global_search_iterations_per_step_high property.
+# flexible_htree_global_search_iterations_per_step_high has default value.
+## Tcl commands to replicate state of the flexible_htree_global_search_iterations_per_step_low property.
+# flexible_htree_global_search_iterations_per_step_low has default value.
+## Tcl commands to replicate state of the flexible_htree_global_search_iterations_per_step_medium property.
+# flexible_htree_global_search_iterations_per_step_medium has default value.
+## Tcl commands to replicate state of the flexible_htree_grid_coarsening_factor property.
+# flexible_htree_grid_coarsening_factor has default value.
+## Tcl commands to replicate state of the flexible_htree_grid_detour_factor property.
+# flexible_htree_grid_detour_factor has default value.
+## Tcl commands to replicate state of the flexible_htree_grid_halo_expansion_multiplier property.
+# flexible_htree_grid_halo_expansion_multiplier has default value.
+## Tcl commands to replicate state of the flexible_htree_halo_violation_cost property.
+# flexible_htree_halo_violation_cost has default value.
+## Tcl commands to replicate state of the flexible_htree_hterm_locations property.
+# flexible_htree_hterm_locations has default value.
+## Tcl commands to replicate state of the flexible_htree_ignore_strip_net_min_space property.
+# flexible_htree_ignore_strip_net_min_space has default value.
+## Tcl commands to replicate state of the flexible_htree_local_search_iterations_per_step_high property.
+# flexible_htree_local_search_iterations_per_step_high has default value.
+## Tcl commands to replicate state of the flexible_htree_local_search_iterations_per_step_low property.
+# flexible_htree_local_search_iterations_per_step_low has default value.
+## Tcl commands to replicate state of the flexible_htree_local_search_iterations_per_step_medium property.
+# flexible_htree_local_search_iterations_per_step_medium has default value.
+## Tcl commands to replicate state of the flexible_htree_max_route_guide_expansion property.
+# flexible_htree_max_route_guide_expansion has default value.
+## Tcl commands to replicate state of the flexible_htree_max_source_sink_increase property.
+# flexible_htree_max_source_sink_increase has default value.
+## Tcl commands to replicate state of the flexible_htree_max_synthesis_grid_points property.
+# flexible_htree_max_synthesis_grid_points has default value.
+## Tcl commands to replicate state of the flexible_htree_min_ideal_driver_dist_multiplier property.
+# flexible_htree_min_ideal_driver_dist_multiplier has default value.
+## Tcl commands to replicate state of the flexible_htree_min_run_length_increase property.
+# flexible_htree_min_run_length_increase has default value.
+## Tcl commands to replicate state of the flexible_htree_min_split_level_violation_cost property.
+# flexible_htree_min_split_level_violation_cost has default value.
+## Tcl commands to replicate state of the flexible_htree_nets property.
+# flexible_htree_nets has default value.
+## Tcl commands to replicate state of the flexible_htree_no_cluster_band_min_tree_levels property.
+# flexible_htree_no_cluster_band_min_tree_levels has default value.
+## Tcl commands to replicate state of the flexible_htree_non_min_length_cost property.
+# flexible_htree_non_min_length_cost has default value.
+## Tcl commands to replicate state of the flexible_htree_num_quantized_slews property.
+# flexible_htree_num_quantized_slews has default value.
+## Tcl commands to replicate state of the flexible_htree_preferred_rectangle_center_factor property.
+# flexible_htree_preferred_rectangle_center_factor has default value.
+## Tcl commands to replicate state of the flexible_htree_route_gcell_grid_size property.
+# flexible_htree_route_gcell_grid_size has default value.
+## Tcl commands to replicate state of the flexible_htree_self_intersection_cost property.
+# flexible_htree_self_intersection_cost has default value.
+## Tcl commands to replicate state of the flexible_htree_simple_route_guides property.
+# flexible_htree_simple_route_guides has default value.
+## Tcl commands to replicate state of the flexible_htree_sink_expansion property.
+# flexible_htree_sink_expansion has default value.
+## Tcl commands to replicate state of the flexible_htree_split_asymmetry_cost property.
+# flexible_htree_split_asymmetry_cost has default value.
+## Tcl commands to replicate state of the flexible_htree_strip_net_width_threshold property.
+# flexible_htree_strip_net_width_threshold has default value.
+## Tcl commands to replicate state of the flexible_htree_trunk_cell_blocked_warning_threshold property.
+# flexible_htree_trunk_cell_blocked_warning_threshold has default value.
+## Tcl commands to replicate state of the flexible_htree_turn_weight property.
+# flexible_htree_turn_weight has default value.
+## Tcl commands to replicate state of the flexible_htree_use_refine_place property.
+# flexible_htree_use_refine_place has default value.
+## Tcl commands to replicate state of the flexible_htree_verbose_balancer_initialize property.
+# flexible_htree_verbose_balancer_initialize has default value.
+## Tcl commands to replicate state of the flexible_htree_wire_asymmetry_cost property.
+# flexible_htree_wire_asymmetry_cost has default value.
+## Tcl commands to replicate state of the flexible_htree_wire_length_weight property.
+# flexible_htree_wire_length_weight has default value.
+## Tcl commands to replicate state of the forbid_leaf_drivers_to_move_over_cts_optimization property.
+# forbid_leaf_drivers_to_move_over_cts_optimization has default value.
+## Tcl commands to replicate state of the force_all_module_boundaries_dont_touch property.
+# force_all_module_boundaries_dont_touch has default value.
+## Tcl commands to replicate state of the force_all_virtual_delay_updates property.
+# force_all_virtual_delay_updates has default value.
+## Tcl commands to replicate state of the force_analysis_with_estimated_routes property.
+# force_analysis_with_estimated_routes has default value.
+## Tcl commands to replicate state of the force_clock_topology_changed_after_adjustment property.
+# force_clock_topology_changed_after_adjustment has default value.
+## Tcl commands to replicate state of the force_clock_topology_changed_after_recalibrate property.
+# force_clock_topology_changed_after_recalibrate has default value.
+## Tcl commands to replicate state of the force_clock_topology_changed_before_adjustment property.
+# force_clock_topology_changed_before_adjustment has default value.
+## Tcl commands to replicate state of the force_clock_tree property.
+# force_clock_tree has default value for all objects.
+## Tcl commands to replicate state of the force_cloning_of_gates_and_logics_with_sparse_fanout property.
+# force_cloning_of_gates_and_logics_with_sparse_fanout has default value.
+## Tcl commands to replicate state of the force_design_routing_status property.
+# force_design_routing_status has default value.
+## Tcl commands to replicate state of the force_ilm_keepflatten_status property.
+set_ccopt_property force_ilm_keepflatten_status false
+## Tcl commands to replicate state of the force_nanoroute_single_threaded property.
+# force_nanoroute_single_threaded has default value.
+## Tcl commands to replicate state of the force_update_io_latency property.
+# force_update_io_latency has default value.
+## Tcl commands to replicate state of the force_virtual_delay_update_before_skewing_adjustors property.
+# force_virtual_delay_update_before_skewing_adjustors has default value.
+## Tcl commands to replicate state of the frequency_dependent_max_cap_usability_check_max_cap_fanout_factor property.
+# frequency_dependent_max_cap_usability_check_max_cap_fanout_factor has default value.
+## Tcl commands to replicate state of the generate_nanoroute_vias property.
+# generate_nanoroute_vias has default value.
+## Tcl commands to replicate state of the global_route_chains_create_routing_obstructions property.
+# global_route_chains_create_routing_obstructions has default value.
+## Tcl commands to replicate state of the global_route_chains_early_global_dump_book_shelf_files property.
+# global_route_chains_early_global_dump_book_shelf_files has default value.
+## Tcl commands to replicate state of the global_route_chains_prioritize_nets_by_underdelay property.
+# global_route_chains_prioritize_nets_by_underdelay has default value.
+## Tcl commands to replicate state of the global_route_chains_reroute_and_buffer_everything property.
+# global_route_chains_reroute_and_buffer_everything has default value.
+## Tcl commands to replicate state of the global_route_chains_route_buffering_location_multiplier property.
+# global_route_chains_route_buffering_location_multiplier has default value.
+## Tcl commands to replicate state of the gzip_debug property.
+# gzip_debug has default value.
+## Tcl commands to replicate state of the ignore_unpreserved_undriven_output_ports property.
+# ignore_unpreserved_undriven_output_ports has default value.
+## Tcl commands to replicate state of the importance property.
+set_ccopt_property importance -skew_group icts.clk/CON auto
+## Tcl commands to replicate state of the improved_conditional_arc_cell_equivalence_check property.
+# improved_conditional_arc_cell_equivalence_check has default value.
+## Tcl commands to replicate state of the improving_clock_tree_routing_preserves_route_lengths property.
+# improving_clock_tree_routing_preserves_route_lengths has default value.
+## Tcl commands to replicate state of the include_source_latency property.
+set_ccopt_property include_source_latency -skew_group default.clk/CON 1
+set_ccopt_property include_source_latency -skew_group icts.clk/CON 1
+## Tcl commands to replicate state of the include_vias_when_treating_special_nets_as_routing_blockages property.
+# include_vias_when_treating_special_nets_as_routing_blockages has default value.
+## Tcl commands to replicate state of the init_cannot_clone_reason property.
+# init_cannot_clone_reason has default value for all objects.
+## Tcl commands to replicate state of the init_cannot_merge_reason property.
+# init_cannot_merge_reason has default value for all objects.
+## Tcl commands to replicate state of the init_clock_domain_skew_group property.
+# init_clock_domain_skew_group has default value for all objects.
+## Tcl commands to replicate state of the init_clock_period property.
+# init_clock_period has default value for all objects.
+## Tcl commands to replicate state of the init_cluster_for_htree_topology property.
+# init_cluster_for_htree_topology has default value for all objects.
+## Tcl commands to replicate state of the init_clustering_region property.
+# init_clustering_region has default value for all objects.
+## Tcl commands to replicate state of the init_effort property.
+# init_effort has default value for all objects.
+## Tcl commands to replicate state of the init_exclude_delays_below_sinks property.
+# init_exclude_delays_below_sinks has default value for all objects.
+## Tcl commands to replicate state of the init_exclusion_zones property.
+# init_exclusion_zones has default value for all objects.
+## Tcl commands to replicate state of the init_exclusive_sinks_rank property.
+# init_exclusive_sinks_rank has default value for all objects.
+## Tcl commands to replicate state of the init_final_cell property.
+# init_final_cell has default value for all objects.
+## Tcl commands to replicate state of the init_gnuplot property.
+# init_gnuplot has default value for all objects.
+## Tcl commands to replicate state of the init_gnuplot_problem property.
+# init_gnuplot_problem has default value for all objects.
+## Tcl commands to replicate state of the init_htree_relative_inst_name property.
+# init_htree_relative_inst_name has default value for all objects.
+## Tcl commands to replicate state of the init_htree_sinks property.
+# init_htree_sinks has default value for all objects.
+## Tcl commands to replicate state of the init_hv_balance property.
+# init_hv_balance has default value for all objects.
+## Tcl commands to replicate state of the init_insertion_delay property.
+# init_insertion_delay has default value for all objects.
+## Tcl commands to replicate state of the init_insertion_delay_wire property.
+# init_insertion_delay_wire has default value for all objects.
+## Tcl commands to replicate state of the init_is_clone property.
+# init_is_clone has default value for all objects.
+## Tcl commands to replicate state of the init_locked_originally property.
+# init_locked_originally has default value for all objects.
+## Tcl commands to replicate state of the init_maximum_insertion_delay property.
+# init_maximum_insertion_delay has default value for all objects.
+## Tcl commands to replicate state of the init_maximum_stage_depth property.
+# init_maximum_stage_depth has default value for all objects.
+## Tcl commands to replicate state of the init_net_unbufferable_flags property.
+# init_net_unbufferable_flags has default value for all objects.
+## Tcl commands to replicate state of the init_no_symmetry_buffers property.
+# init_no_symmetry_buffers has default value for all objects.
+## Tcl commands to replicate state of the init_offset_x property.
+# init_offset_x has default value for all objects.
+## Tcl commands to replicate state of the init_offset_y property.
+# init_offset_y has default value for all objects.
+## Tcl commands to replicate state of the init_pin property.
+# init_pin has default value for all objects.
+## Tcl commands to replicate state of the init_power_weight property.
+# init_power_weight has default value for all objects.
+## Tcl commands to replicate state of the init_pre_routed property.
+# init_pre_routed has default value for all objects.
+## Tcl commands to replicate state of the init_preferred_min_split_level property.
+# init_preferred_min_split_level has default value for all objects.
+## Tcl commands to replicate state of the init_prioritize_driver_levels property.
+# init_prioritize_driver_levels has default value for all objects.
+## Tcl commands to replicate state of the init_problem property.
+# init_problem has default value for all objects.
+## Tcl commands to replicate state of the init_routing_override property.
+# init_routing_override has default value for all objects.
+## Tcl commands to replicate state of the init_routing_top_fanout_count property.
+# init_routing_top_fanout_count has default value for all objects.
+## Tcl commands to replicate state of the init_single_driver_per_grid_point property.
+# init_single_driver_per_grid_point has default value for all objects.
+## Tcl commands to replicate state of the init_sink_grid property.
+# init_sink_grid has default value for all objects.
+## Tcl commands to replicate state of the init_sink_grid_box property.
+# init_sink_grid_box has default value for all objects.
+## Tcl commands to replicate state of the init_sink_grid_exclusion_zones property.
+# init_sink_grid_exclusion_zones has default value for all objects.
+## Tcl commands to replicate state of the init_sink_grid_prefix property.
+# init_sink_grid_prefix has default value for all objects.
+## Tcl commands to replicate state of the init_sink_grid_sink_area property.
+# init_sink_grid_sink_area has default value for all objects.
+## Tcl commands to replicate state of the init_sink_pin_merge_area property.
+# init_sink_pin_merge_area has default value for all objects.
+## Tcl commands to replicate state of the init_skew_group_insertion_delay property.
+# init_skew_group_insertion_delay has default value for all objects.
+## Tcl commands to replicate state of the init_skew_group_insertion_delay_wire property.
+# init_skew_group_insertion_delay_wire has default value for all objects.
+## Tcl commands to replicate state of the init_source_group_clock_trees property.
+# init_source_group_clock_trees has default value for all objects.
+## Tcl commands to replicate state of the init_stop_at_sdc_clock_roots property.
+# init_stop_at_sdc_clock_roots has default value for all objects.
+## Tcl commands to replicate state of the init_target_centers property.
+# init_target_centers has default value for all objects.
+## Tcl commands to replicate state of the init_trunk_cell property.
+# init_trunk_cell has default value for all objects.
+## Tcl commands to replicate state of the init_user_skew_group property.
+# init_user_skew_group has default value for all objects.
+## Tcl commands to replicate state of the init_virtual_delay property.
+# init_virtual_delay has default value for all objects.
+## Tcl commands to replicate state of the initialize_cte_for_aae_mode property.
+# initialize_cte_for_aae_mode has default value.
+## Tcl commands to replicate state of the inst_name_prefix property.
+# inst_name_prefix has default value.
+## Tcl commands to replicate state of the integration property.
+# integration has default value.
+## Tcl commands to replicate state of the invalidate_timing_graph_after_disconnect_clock_trees property.
+# invalidate_timing_graph_after_disconnect_clock_trees has default value.
+## Tcl commands to replicate state of the inverter_cells property.
+# inverter_cells has default value for all objects.
+## Tcl commands to replicate state of the io_iterations property.
+# io_iterations has default value.
+## Tcl commands to replicate state of the is_clone property.
+# is_clone has default value for all objects.
+## Tcl commands to replicate state of the keep_clock_gates_in_same_family property.
+# keep_clock_gates_in_same_family has default value.
+## Tcl commands to replicate state of the keep_global_routes_source_sink_length_delta property.
+# keep_global_routes_source_sink_length_delta has default value.
+## Tcl commands to replicate state of the keep_global_routes_total_length_delta property.
+# keep_global_routes_total_length_delta has default value.
+## Tcl commands to replicate state of the keep_global_routes_where_lengths_differ property.
+# keep_global_routes_where_lengths_differ has default value.
+## Tcl commands to replicate state of the keep_nr2gr_pd_factor property.
+# keep_nr2gr_pd_factor has default value.
+## Tcl commands to replicate state of the last_target_insertion_delay property.
+set_ccopt_property last_target_insertion_delay -skew_group default.clk/CON 0.24664
+set_ccopt_property last_target_insertion_delay -skew_group icts.clk/CON 0.24664
+set_ccopt_property last_target_insertion_delay -skew_group fragment.1 0.24265
+## Tcl commands to replicate state of the last_target_insertion_delay_wire property.
+set_ccopt_property last_target_insertion_delay_wire -skew_group default.clk/CON auto
+set_ccopt_property last_target_insertion_delay_wire -skew_group icts.clk/CON auto
+set_ccopt_property last_target_insertion_delay_wire -skew_group fragment.1 auto
+## Tcl commands to replicate state of the last_target_max_trans property.
+set_ccopt_property last_target_max_trans -clock_tree clk -delay_corner WC -net_type leaf -late 0.105
+set_ccopt_property last_target_max_trans -clock_tree clk -delay_corner WC -net_type trunk -late 0.105
+set_ccopt_property last_target_max_trans -clock_tree clk -delay_corner WC -net_type top -late 0.105
+## Tcl commands to replicate state of the last_target_skew property.
+set_ccopt_property last_target_skew -delay_corner WC -skew_group default.clk/CON -early 0.0571
+set_ccopt_property last_target_skew -delay_corner WC -skew_group default.clk/CON -late 0.05712
+set_ccopt_property last_target_skew -delay_corner BC -skew_group default.clk/CON -early 0.0244
+set_ccopt_property last_target_skew -delay_corner BC -skew_group default.clk/CON -late 0.0244
+set_ccopt_property last_target_skew -delay_corner WC -skew_group icts.clk/CON -early 0.0571
+set_ccopt_property last_target_skew -delay_corner WC -skew_group icts.clk/CON -late 0.05712
+set_ccopt_property last_target_skew -delay_corner BC -skew_group icts.clk/CON -early 0.0244
+set_ccopt_property last_target_skew -delay_corner BC -skew_group icts.clk/CON -late 0.0244
+set_ccopt_property last_target_skew -delay_corner WC -skew_group fragment.1 -early 0.0553
+set_ccopt_property last_target_skew -delay_corner WC -skew_group fragment.1 -late 0.0553
+set_ccopt_property last_target_skew -delay_corner BC -skew_group fragment.1 -early 0.0236
+set_ccopt_property last_target_skew -delay_corner BC -skew_group fragment.1 -late 0.0236
+## Tcl commands to replicate state of the last_target_skew_wire property.
+set_ccopt_property last_target_skew_wire -delay_corner WC -skew_group default.clk/CON -early 0
+set_ccopt_property last_target_skew_wire -delay_corner WC -skew_group default.clk/CON -late 0
+set_ccopt_property last_target_skew_wire -delay_corner BC -skew_group default.clk/CON -early 0
+set_ccopt_property last_target_skew_wire -delay_corner BC -skew_group default.clk/CON -late 0
+set_ccopt_property last_target_skew_wire -delay_corner WC -skew_group icts.clk/CON -early 0
+set_ccopt_property last_target_skew_wire -delay_corner WC -skew_group icts.clk/CON -late 0
+set_ccopt_property last_target_skew_wire -delay_corner BC -skew_group icts.clk/CON -early 0
+set_ccopt_property last_target_skew_wire -delay_corner BC -skew_group icts.clk/CON -late 0
+set_ccopt_property last_target_skew_wire -delay_corner WC -skew_group fragment.1 -early 0
+set_ccopt_property last_target_skew_wire -delay_corner WC -skew_group fragment.1 -late 0
+set_ccopt_property last_target_skew_wire -delay_corner BC -skew_group fragment.1 -early 0
+set_ccopt_property last_target_skew_wire -delay_corner BC -skew_group fragment.1 -late 0
+## Tcl commands to replicate state of the leaf_buffer_cells property.
+# leaf_buffer_cells has default value for all objects.
+## Tcl commands to replicate state of the leaf_inverter_cells property.
+# leaf_inverter_cells has default value for all objects.
+## Tcl commands to replicate state of the legalize_on_stripes_throughout_cts property.
+# legalize_on_stripes_throughout_cts has default value.
+## Tcl commands to replicate state of the legalized_on_clock_spine property.
+# legalized_on_clock_spine has default value for all objects.
+## Tcl commands to replicate state of the liberty_min_max_path_delay_limit_absolute property.
+# liberty_min_max_path_delay_limit_absolute has default value.
+## Tcl commands to replicate state of the lock_on_clock_spine property.
+# lock_on_clock_spine has default value for all objects.
+## Tcl commands to replicate state of the locked_originally property.
+# locked_originally has default value for all objects.
+## Tcl commands to replicate state of the log_special_case_cell_selections property.
+# log_special_case_cell_selections has default value.
+## Tcl commands to replicate state of the logic_cells property.
+# logic_cells has default value for all objects.
+## Tcl commands to replicate state of the logic_movement_limit property.
+# logic_movement_limit has default value.
+## Tcl commands to replicate state of the long_path_removal_cutoff_id property.
+set_ccopt_property long_path_removal_cutoff_id -skew_group icts.clk/CON auto
+## Tcl commands to replicate state of the long_path_removal_percentile property.
+set_ccopt_property long_path_removal_percentile -skew_group icts.clk/CON auto
+## Tcl commands to replicate state of the long_path_removal_uses_min_offset property.
+# long_path_removal_uses_min_offset has default value.
+## Tcl commands to replicate state of the low_power_clustering property.
+# low_power_clustering has default value for all objects.
+## Tcl commands to replicate state of the make_dc_think_everything_needs_recomputing property.
+# make_dc_think_everything_needs_recomputing has default value.
+## Tcl commands to replicate state of the manage_power_management_illegalities property.
+# manage_power_management_illegalities has default value.
+## Tcl commands to replicate state of the max_buffer_depth property.
+set_ccopt_property max_buffer_depth -skew_group icts.clk/CON auto
+## Tcl commands to replicate state of the max_delta_band_factor property.
+# max_delta_band_factor has default value.
+## Tcl commands to replicate state of the max_delta_slack_factor property.
+# max_delta_slack_factor has default value.
+## Tcl commands to replicate state of the max_fanout property.
+# max_fanout has default value.
+## Tcl commands to replicate state of the max_hierarchy_colors property.
+# max_hierarchy_colors has default value.
+## Tcl commands to replicate state of the max_latency_margin property.
+# max_latency_margin has default value.
+## Tcl commands to replicate state of the max_skew_passes_with_insufficient_progress property.
+# max_skew_passes_with_insufficient_progress has default value.
+## Tcl commands to replicate state of the max_skew_passes_with_insufficient_progress_consider_single_pass property.
+# max_skew_passes_with_insufficient_progress_consider_single_pass has default value.
+## Tcl commands to replicate state of the max_skew_passes_with_insufficient_progress_ideal_mode property.
+# max_skew_passes_with_insufficient_progress_ideal_mode has default value.
+## Tcl commands to replicate state of the max_source_to_sink_net_length property.
+# max_source_to_sink_net_length has default value for all objects.
+## Tcl commands to replicate state of the max_source_to_sink_net_length_error_multiple property.
+# max_source_to_sink_net_length_error_multiple has default value.
+## Tcl commands to replicate state of the max_source_to_sink_net_length_warn_multiple property.
+# max_source_to_sink_net_length_warn_multiple has default value.
+## Tcl commands to replicate state of the max_source_to_sink_net_resistance property.
+# max_source_to_sink_net_resistance has default value.
+## Tcl commands to replicate state of the maximum_insertion_delay property.
+# maximum_insertion_delay has default value for all objects.
+## Tcl commands to replicate state of the maximum_stage_depth property.
+# maximum_stage_depth has default value for all objects.
+## Tcl commands to replicate state of the merge_ignore_sdc property.
+# merge_ignore_sdc has default value for all objects.
+## Tcl commands to replicate state of the min_delta_band_factor property.
+# min_delta_band_factor has default value.
+## Tcl commands to replicate state of the min_segment_length_for_shielding property.
+# min_segment_length_for_shielding has default value.
+## Tcl commands to replicate state of the mini_not_full_band_size_factor property.
+# mini_not_full_band_size_factor has default value.
+## Tcl commands to replicate state of the move_cells_below_node_before_adding_more_buffers property.
+# move_cells_below_node_before_adding_more_buffers has default value.
+## Tcl commands to replicate state of the move_clock_gates_band_size property.
+# move_clock_gates_band_size has default value.
+## Tcl commands to replicate state of the move_clock_nodes_for_slack property.
+# move_clock_nodes_for_slack has default value for all objects.
+## Tcl commands to replicate state of the move_datapath_while_clock_net_routing property.
+# move_datapath_while_clock_net_routing has default value.
+## Tcl commands to replicate state of the move_logic property.
+# move_logic has default value.
+## Tcl commands to replicate state of the move_middle_cell_first_when_adding_wire_delay property.
+# move_middle_cell_first_when_adding_wire_delay has default value.
+## Tcl commands to replicate state of the move_power_management_cells property.
+# move_power_management_cells has default value.
+## Tcl commands to replicate state of the movement_limit property.
+# movement_limit has default value for all objects.
+## Tcl commands to replicate state of the moving_gates_to_balance_delay_uses_net_lengths_directly property.
+# moving_gates_to_balance_delay_uses_net_lengths_directly has default value.
+## Tcl commands to replicate state of the nanoroute_tcl_function property.
+# nanoroute_tcl_function has default value.
+## Tcl commands to replicate state of the native_path_group_force_setup_categories property.
+# native_path_group_force_setup_categories has default value.
+## Tcl commands to replicate state of the native_path_group_opt property.
+# native_path_group_opt has default value.
+## Tcl commands to replicate state of the neg_unate_arcs_count_half_for_stage_depth_counting property.
+# neg_unate_arcs_count_half_for_stage_depth_counting has default value.
+## Tcl commands to replicate state of the neg_unate_arcs_count_half_towards_maximum_stage_depth property.
+# neg_unate_arcs_count_half_towards_maximum_stage_depth has default value.
+## Tcl commands to replicate state of the net_name_prefix property.
+# net_name_prefix has default value.
+## Tcl commands to replicate state of the net_unbufferable_flags property.
+# net_unbufferable_flags has default value for all objects.
+## Tcl commands to replicate state of the net_violation_report_show_top_n_violations property.
+# net_violation_report_show_top_n_violations has default value.
+## Tcl commands to replicate state of the netlist_add_hterm_batch_size property.
+# netlist_add_hterm_batch_size has default value.
+## Tcl commands to replicate state of the netlist_consider_assigns_in_cte_constraints property.
+# netlist_consider_assigns_in_cte_constraints has default value.
+## Tcl commands to replicate state of the next_stage_cap_estimate_pin_cap_factor property.
+# next_stage_cap_estimate_pin_cap_factor has default value.
+## Tcl commands to replicate state of the non_default_routing_rule_propagation_behaviour property.
+# non_default_routing_rule_propagation_behaviour has default value.
+## Tcl commands to replicate state of the nr2gr_disable_postcommand_hook property.
+# nr2gr_disable_postcommand_hook has default value.
+## Tcl commands to replicate state of the nr2gr_euler_install_path property.
+# nr2gr_euler_install_path has default value.
+## Tcl commands to replicate state of the only_use_aon_cells_if_in_cpf property.
+# only_use_aon_cells_if_in_cpf has default value.
+## Tcl commands to replicate state of the opt_enable_cloning property.
+# opt_enable_cloning has default value.
+## Tcl commands to replicate state of the opt_ignore property.
+# opt_ignore has default value for all objects.
+## Tcl commands to replicate state of the override_minimum_max_trans_target property.
+# override_minimum_max_trans_target has default value.
+## Tcl commands to replicate state of the override_minimum_skew_target property.
+# override_minimum_skew_target has default value.
+## Tcl commands to replicate state of the override_minimum_stage_delay property.
+# override_minimum_stage_delay has default value.
+## Tcl commands to replicate state of the override_modify_clock_latency property.
+# override_modify_clock_latency has default value.
+## Tcl commands to replicate state of the override_route_guide_file_name property.
+# override_route_guide_file_name has default value.
+## Tcl commands to replicate state of the override_vias property.
+# override_vias has default value.
+## Tcl commands to replicate state of the override_zero_placeable_area property.
+# override_zero_placeable_area has default value.
+## Tcl commands to replicate state of the pathoptimization_task_throttle_denominator property.
+# pathoptimization_task_throttle_denominator has default value.
+## Tcl commands to replicate state of the per_stage_total_delay_limit property.
+# per_stage_total_delay_limit has default value.
+## Tcl commands to replicate state of the per_stage_total_delay_limit_halved_for_inverting_stages property.
+# per_stage_total_delay_limit_halved_for_inverting_stages has default value.
+## Tcl commands to replicate state of the per_stage_wire_delay_limit property.
+# per_stage_wire_delay_limit has default value.
+## Tcl commands to replicate state of the per_stage_wire_delay_limit_halved_for_inverting_stages property.
+# per_stage_wire_delay_limit_halved_for_inverting_stages has default value.
+## Tcl commands to replicate state of the pin_allow_buffering property.
+# pin_allow_buffering has default value for all objects.
+## Tcl commands to replicate state of the pin_target_max_trans property.
+# pin_target_max_trans has default value for all objects.
+## Tcl commands to replicate state of the place_read_only property.
+# place_read_only has default value.
+## Tcl commands to replicate state of the place_use_far_eye_optimization property.
+# place_use_far_eye_optimization has default value.
+## Tcl commands to replicate state of the place_use_partial_cleanup property.
+# place_use_partial_cleanup has default value.
+## Tcl commands to replicate state of the place_use_reset_site_arr property.
+# place_use_reset_site_arr has default value.
+## Tcl commands to replicate state of the port_preservation_store property.
+set_ccopt_property port_preservation_store {}
+## Tcl commands to replicate state of the port_preservation_store_allow_location_on_any_port property.
+# port_preservation_store_allow_location_on_any_port has default value.
+## Tcl commands to replicate state of the post_conditioning property.
+# post_conditioning has default value.
+## Tcl commands to replicate state of the post_conditioning_debug_second_pass property.
+# post_conditioning_debug_second_pass has default value.
+## Tcl commands to replicate state of the post_conditioning_enable_average_id_reduction property.
+# post_conditioning_enable_average_id_reduction has default value.
+## Tcl commands to replicate state of the post_conditioning_enable_downsizing_pass property.
+# post_conditioning_enable_downsizing_pass has default value.
+## Tcl commands to replicate state of the post_conditioning_enable_drv_fixing property.
+# post_conditioning_enable_drv_fixing has default value.
+## Tcl commands to replicate state of the post_conditioning_enable_drv_fixing_by_rebuffering property.
+# post_conditioning_enable_drv_fixing_by_rebuffering has default value.
+## Tcl commands to replicate state of the post_conditioning_enable_drv_fixing_by_rebuffering_ccopt property.
+# post_conditioning_enable_drv_fixing_by_rebuffering_ccopt has default value.
+## Tcl commands to replicate state of the post_conditioning_enable_drv_fixing_ccopt property.
+# post_conditioning_enable_drv_fixing_ccopt has default value.
+## Tcl commands to replicate state of the post_conditioning_enable_refine_place property.
+# post_conditioning_enable_refine_place has default value.
+## Tcl commands to replicate state of the post_conditioning_enable_routing_eco property.
+# post_conditioning_enable_routing_eco has default value.
+## Tcl commands to replicate state of the post_conditioning_enable_skew_fixing property.
+# post_conditioning_enable_skew_fixing has default value.
+## Tcl commands to replicate state of the post_conditioning_enable_skew_fixing_by_rebuffering property.
+# post_conditioning_enable_skew_fixing_by_rebuffering has default value.
+## Tcl commands to replicate state of the post_conditioning_enable_skew_fixing_by_rebuffering_ccopt property.
+# post_conditioning_enable_skew_fixing_by_rebuffering_ccopt has default value.
+## Tcl commands to replicate state of the post_conditioning_enable_skew_fixing_ccopt property.
+# post_conditioning_enable_skew_fixing_ccopt has default value.
+## Tcl commands to replicate state of the post_conditioning_enable_timing_update property.
+# post_conditioning_enable_timing_update has default value.
+## Tcl commands to replicate state of the post_conditioning_initial_cte_update property.
+# post_conditioning_initial_cte_update has default value.
+## Tcl commands to replicate state of the post_conditioning_keep_route_buffering_best_solution property.
+# post_conditioning_keep_route_buffering_best_solution has default value.
+## Tcl commands to replicate state of the post_conditioning_reroute_clock_tree property.
+# post_conditioning_reroute_clock_tree has default value.
+## Tcl commands to replicate state of the post_conditioning_route_select_entire_clock_tree property.
+# post_conditioning_route_select_entire_clock_tree has default value.
+## Tcl commands to replicate state of the post_conditioning_save_datapath_trialroutes property.
+# post_conditioning_save_datapath_trialroutes has default value.
+## Tcl commands to replicate state of the post_conditioning_trial_route_when_nanoroute_disabled property.
+# post_conditioning_trial_route_when_nanoroute_disabled has default value.
+## Tcl commands to replicate state of the post_cts_callback property.
+# post_cts_callback has default value.
+## Tcl commands to replicate state of the pre_routed property.
+# pre_routed has default value for all objects.
+## Tcl commands to replicate state of the preferred_extra_space property.
+set_ccopt_property preferred_extra_space -net_type leaf 1
+set_ccopt_property preferred_extra_space -net_type trunk 1
+set_ccopt_property preferred_extra_space -net_type top 0
+## Tcl commands to replicate state of the prim_dijkstra_factor property.
+# prim_dijkstra_factor has default value for all objects.
+## Tcl commands to replicate state of the prim_dijkstra_factor_for_clustering property.
+# prim_dijkstra_factor_for_clustering has default value for all objects.
+## Tcl commands to replicate state of the pro_always_allow_buffer_individual_terminals property.
+# pro_always_allow_buffer_individual_terminals has default value.
+## Tcl commands to replicate state of the pro_auto_bypass_place_and_route property.
+# pro_auto_bypass_place_and_route has default value.
+## Tcl commands to replicate state of the pro_bypass_commit_rc property.
+# pro_bypass_commit_rc has default value.
+## Tcl commands to replicate state of the pro_can_move_datapath_insts property.
+# pro_can_move_datapath_insts has default value.
+## Tcl commands to replicate state of the pro_check_are_net_wires_ok property.
+# pro_check_are_net_wires_ok has default value.
+## Tcl commands to replicate state of the pro_commit_routing_rect_edges property.
+# pro_commit_routing_rect_edges has default value.
+## Tcl commands to replicate state of the pro_cte_identify_clock_tree_at_start property.
+# pro_cte_identify_clock_tree_at_start has default value.
+## Tcl commands to replicate state of the pro_downsize_id_threshold property.
+# pro_downsize_id_threshold has default value.
+## Tcl commands to replicate state of the pro_drv_buffering_second_pass_number_to_keep property.
+# pro_drv_buffering_second_pass_number_to_keep has default value.
+## Tcl commands to replicate state of the pro_enable_alt_flow property.
+# pro_enable_alt_flow has default value.
+## Tcl commands to replicate state of the pro_enable_debug_clock_dumps property.
+# pro_enable_debug_clock_dumps has default value.
+## Tcl commands to replicate state of the pro_enable_debug_design_saves property.
+# pro_enable_debug_design_saves has default value.
+## Tcl commands to replicate state of the pro_enable_drv_fixing_by_rebuffering_second_pass property.
+# pro_enable_drv_fixing_by_rebuffering_second_pass has default value.
+## Tcl commands to replicate state of the pro_enable_internals_timing_update property.
+# pro_enable_internals_timing_update has default value.
+## Tcl commands to replicate state of the pro_force_allow_datapath_overlap property.
+# pro_force_allow_datapath_overlap has default value.
+## Tcl commands to replicate state of the pro_force_shared_legalizer property.
+# pro_force_shared_legalizer has default value.
+## Tcl commands to replicate state of the pro_id_reduction_lower_threshold property.
+# pro_id_reduction_lower_threshold has default value.
+## Tcl commands to replicate state of the pro_id_reduction_top_down property.
+# pro_id_reduction_top_down has default value.
+## Tcl commands to replicate state of the pro_id_reduction_upper_threshold property.
+# pro_id_reduction_upper_threshold has default value.
+## Tcl commands to replicate state of the pro_infer_routing_info property.
+# pro_infer_routing_info has default value.
+## Tcl commands to replicate state of the pro_insert_buffer_stitching property.
+# pro_insert_buffer_stitching has default value.
+## Tcl commands to replicate state of the pro_insert_buffer_stitching_preserve_cut_segment_attributes property.
+# pro_insert_buffer_stitching_preserve_cut_segment_attributes has default value.
+## Tcl commands to replicate state of the pro_internals_timing_update_everything property.
+# pro_internals_timing_update_everything has default value.
+## Tcl commands to replicate state of the pro_invalidate_timing_at_start property.
+# pro_invalidate_timing_at_start has default value.
+## Tcl commands to replicate state of the pro_invalidate_timing_when_resizing property.
+# pro_invalidate_timing_when_resizing has default value.
+## Tcl commands to replicate state of the pro_mark_placed_insts property.
+# pro_mark_placed_insts has default value.
+## Tcl commands to replicate state of the pro_max_cell_move property.
+# pro_max_cell_move has default value.
+## Tcl commands to replicate state of the pro_max_nodes_in_slew_diagnostics_report property.
+# pro_max_nodes_in_slew_diagnostics_report has default value.
+## Tcl commands to replicate state of the pro_min_clock_tree_routed_fraction property.
+# pro_min_clock_tree_routed_fraction has default value.
+## Tcl commands to replicate state of the pro_optimization_slew_target_multiplier property.
+# pro_optimization_slew_target_multiplier has default value.
+## Tcl commands to replicate state of the pro_overlap_dont_care_threshold property.
+# pro_overlap_dont_care_threshold has default value.
+## Tcl commands to replicate state of the pro_overlap_multiplier property.
+# pro_overlap_multiplier has default value.
+## Tcl commands to replicate state of the pro_recompute_icts_targets property.
+# pro_recompute_icts_targets has default value.
+## Tcl commands to replicate state of the pro_remove_longest_paths property.
+# pro_remove_longest_paths has default value.
+## Tcl commands to replicate state of the pro_report_routing_correlation property.
+# pro_report_routing_correlation has default value.
+## Tcl commands to replicate state of the pro_report_timing_at_start property.
+# pro_report_timing_at_start has default value.
+## Tcl commands to replicate state of the pro_reset_all_bufferability property.
+# pro_reset_all_bufferability has default value.
+## Tcl commands to replicate state of the pro_respect_cell_density_and_adjacent_row_legal property.
+# pro_respect_cell_density_and_adjacent_row_legal has default value.
+## Tcl commands to replicate state of the pro_route_buffering_prune_number_to_keep property.
+# pro_route_buffering_prune_number_to_keep has default value.
+## Tcl commands to replicate state of the pro_sanitize_commit_route property.
+# pro_sanitize_commit_route has default value.
+## Tcl commands to replicate state of the pro_sanitize_min_max_delays property.
+# pro_sanitize_min_max_delays has default value.
+## Tcl commands to replicate state of the pro_save_intermediate_dbs property.
+# pro_save_intermediate_dbs has default value.
+## Tcl commands to replicate state of the pro_skew_aware_drv_buffering property.
+# pro_skew_aware_drv_buffering has default value.
+## Tcl commands to replicate state of the pro_skew_fix_buffer_overdelay property.
+# pro_skew_fix_buffer_overdelay has default value.
+## Tcl commands to replicate state of the pro_skew_fix_buffer_underdelay property.
+# pro_skew_fix_buffer_underdelay has default value.
+## Tcl commands to replicate state of the pro_skew_fix_longest property.
+# pro_skew_fix_longest has default value.
+## Tcl commands to replicate state of the pro_skew_fix_max_buffer_attempts_per_net property.
+# pro_skew_fix_max_buffer_attempts_per_net has default value.
+## Tcl commands to replicate state of the pro_skew_fix_max_outer_loop_iterations property.
+# pro_skew_fix_max_outer_loop_iterations has default value.
+## Tcl commands to replicate state of the pro_skew_fix_outer_loop_include_sizing property.
+# pro_skew_fix_outer_loop_include_sizing has default value.
+## Tcl commands to replicate state of the pro_skew_fix_relax_overdelay_in_final_pass property.
+# pro_skew_fix_relax_overdelay_in_final_pass has default value.
+## Tcl commands to replicate state of the pro_skew_fix_shortest property.
+# pro_skew_fix_shortest has default value.
+## Tcl commands to replicate state of the pro_skew_fix_size_driver_when_buffering_sinks property.
+# pro_skew_fix_size_driver_when_buffering_sinks has default value.
+## Tcl commands to replicate state of the pro_skew_fix_use_fast_buffer property.
+# pro_skew_fix_use_fast_buffer has default value.
+## Tcl commands to replicate state of the pro_skew_safe_drv_buffering property.
+# pro_skew_safe_drv_buffering has default value.
+## Tcl commands to replicate state of the pro_slack_fix_band_size property.
+# pro_slack_fix_band_size has default value.
+## Tcl commands to replicate state of the pro_slack_fix_max_adjustment_iterations property.
+# pro_slack_fix_max_adjustment_iterations has default value.
+## Tcl commands to replicate state of the pro_slack_fix_max_slack_to_fix property.
+# pro_slack_fix_max_slack_to_fix has default value.
+## Tcl commands to replicate state of the pro_slew_change_warning_threshold_ps property.
+# pro_slew_change_warning_threshold_ps has default value.
+## Tcl commands to replicate state of the pro_slew_fix_sizing_preserve_skew property.
+# pro_slew_fix_sizing_preserve_skew has default value.
+## Tcl commands to replicate state of the pro_speed_up_cell_sizing property.
+# pro_speed_up_cell_sizing has default value.
+## Tcl commands to replicate state of the pro_update_timing_graph_at_start property.
+# pro_update_timing_graph_at_start has default value.
+## Tcl commands to replicate state of the pro_use_new_rc_chain_split property.
+# pro_use_new_rc_chain_split has default value.
+## Tcl commands to replicate state of the pro_use_pin_metal_locations property.
+# pro_use_pin_metal_locations has default value.
+## Tcl commands to replicate state of the pro_use_routed_status_for_added_routes property.
+# pro_use_routed_status_for_added_routes has default value.
+## Tcl commands to replicate state of the pro_verify_legal property.
+# pro_verify_legal has default value.
+## Tcl commands to replicate state of the propagate_slews property.
+# propagate_slews has default value.
+## Tcl commands to replicate state of the quadrant_clustering_evaluator_bbox_limit_multiplier property.
+# quadrant_clustering_evaluator_bbox_limit_multiplier has default value.
+## Tcl commands to replicate state of the quadrant_clustering_evaluator_cap_limit_multiplier property.
+# quadrant_clustering_evaluator_cap_limit_multiplier has default value.
+## Tcl commands to replicate state of the quadrant_clustering_evaluator_fuse_quadrants property.
+# quadrant_clustering_evaluator_fuse_quadrants has default value.
+## Tcl commands to replicate state of the r2r_iterations property.
+# r2r_iterations has default value.
+## Tcl commands to replicate state of the ratchet_balancer_max_driver_constraint property.
+# ratchet_balancer_max_driver_constraint has default value.
+## Tcl commands to replicate state of the ratchet_balancer_max_iterations property.
+# ratchet_balancer_max_iterations has default value.
+## Tcl commands to replicate state of the rctp1_consider_skew property.
+# rctp1_consider_skew has default value.
+## Tcl commands to replicate state of the rctp3_preserve_skew property.
+# rctp3_preserve_skew has default value.
+## Tcl commands to replicate state of the rebuffering_skew_fixer_max_nets_to_consider property.
+# rebuffering_skew_fixer_max_nets_to_consider has default value.
+## Tcl commands to replicate state of the rebuffering_skew_fixer_skip_already_improved_nets property.
+# rebuffering_skew_fixer_skip_already_improved_nets has default value.
+## Tcl commands to replicate state of the rebuffering_skew_fixer_speed_of_light_multiplier property.
+# rebuffering_skew_fixer_speed_of_light_multiplier has default value.
+## Tcl commands to replicate state of the rebuffering_skew_fixer_unit_delay_multiplier_increment property.
+# rebuffering_skew_fixer_unit_delay_multiplier_increment has default value.
+## Tcl commands to replicate state of the rebuffering_skew_fixer_unit_delay_multiplier_max property.
+# rebuffering_skew_fixer_unit_delay_multiplier_max has default value.
+## Tcl commands to replicate state of the recluster_ignore_pins property.
+# recluster_ignore_pins has default value.
+## Tcl commands to replicate state of the recluster_to_reduce_power property.
+# recluster_to_reduce_power has default value for all objects.
+## Tcl commands to replicate state of the recommit_net_attributes_and_routes_during_resynthesis property.
+# recommit_net_attributes_and_routes_during_resynthesis has default value.
+## Tcl commands to replicate state of the recycle_unused_ports property.
+# recycle_unused_ports has default value.
+## Tcl commands to replicate state of the reducing_clock_tree_power_1_fast_mode property.
+# reducing_clock_tree_power_1_fast_mode has default value.
+## Tcl commands to replicate state of the refine_clock_placement_during_final_implementation property.
+# refine_clock_placement_during_final_implementation has default value.
+## Tcl commands to replicate state of the refine_clock_placement_single_pass property.
+# refine_clock_placement_single_pass has default value.
+## Tcl commands to replicate state of the refine_place_preserve_affected_routing property.
+# refine_place_preserve_affected_routing has default value.
+## Tcl commands to replicate state of the remove_bufferlike_clock_logic property.
+# remove_bufferlike_clock_logic has default value for all objects.
+## Tcl commands to replicate state of the rename_clock_tree_nets property.
+# rename_clock_tree_nets has default value.
+## Tcl commands to replicate state of the report_total_virtual_delay_in_clock_dag_stats property.
+# report_total_virtual_delay_in_clock_dag_stats has default value.
+## Tcl commands to replicate state of the report_under_slew_in_clock_dag_stats property.
+# report_under_slew_in_clock_dag_stats has default value.
+## Tcl commands to replicate state of the report_unplaced_clock_fraction property.
+# report_unplaced_clock_fraction has default value.
+## Tcl commands to replicate state of the report_unplaced_noclock_fraction property.
+# report_unplaced_noclock_fraction has default value.
+## Tcl commands to replicate state of the report_worst_chain_after_clustering property.
+# report_worst_chain_after_clustering has default value.
+## Tcl commands to replicate state of the report_worst_chain_after_implementation property.
+# report_worst_chain_after_implementation has default value.
+## Tcl commands to replicate state of the report_worst_chain_after_skewing_adjustors property.
+# report_worst_chain_after_skewing_adjustors has default value.
+## Tcl commands to replicate state of the report_worst_chain_before_clustering property.
+# report_worst_chain_before_clustering has default value.
+## Tcl commands to replicate state of the report_worst_chain_before_implementation property.
+# report_worst_chain_before_implementation has default value.
+## Tcl commands to replicate state of the report_worst_chain_before_skewing_adjustors property.
+# report_worst_chain_before_skewing_adjustors has default value.
+## Tcl commands to replicate state of the reroute_preroute_during_final_implementation property.
+# reroute_preroute_during_final_implementation has default value.
+## Tcl commands to replicate state of the reset_cppr_info_before_latch_sta_update property.
+# reset_cppr_info_before_latch_sta_update has default value.
+## Tcl commands to replicate state of the reset_cppr_info_before_slack_update property.
+# reset_cppr_info_before_slack_update has default value.
+## Tcl commands to replicate state of the reset_extraction_during_update_timing_graph property.
+# reset_extraction_during_update_timing_graph has default value.
+## Tcl commands to replicate state of the reset_stage_delay_counters_when_write_clock_dag_timing property.
+# reset_stage_delay_counters_when_write_clock_dag_timing has default value.
+## Tcl commands to replicate state of the resistance_margin_absolute property.
+# resistance_margin_absolute has default value.
+## Tcl commands to replicate state of the resistance_margin_percentage property.
+# resistance_margin_percentage has default value.
+## Tcl commands to replicate state of the respect_frequency_dependent_library_constraints property.
+# respect_frequency_dependent_library_constraints has default value.
+## Tcl commands to replicate state of the restrict_clock_gate_sizing_in_implementation property.
+# restrict_clock_gate_sizing_in_implementation has default value.
+## Tcl commands to replicate state of the restrict_clock_gate_sizing_in_implementation_threshold property.
+# restrict_clock_gate_sizing_in_implementation_threshold has default value.
+## Tcl commands to replicate state of the restrict_hold_window_consideration_to_primary_delay_corner property.
+# restrict_hold_window_consideration_to_primary_delay_corner has default value.
+## Tcl commands to replicate state of the restrict_to_floorplan_core_box property.
+# restrict_to_floorplan_core_box has default value.
+## Tcl commands to replicate state of the route_balancing_buffers_with_default_rule property.
+# route_balancing_buffers_with_default_rule has default value.
+## Tcl commands to replicate state of the route_clock_tree_nets_in_length_order property.
+set_ccopt_property route_clock_tree_nets_in_length_order 0
+## Tcl commands to replicate state of the route_clocks_during_final_implementation_save_db property.
+# route_clocks_during_final_implementation_save_db has default value.
+## Tcl commands to replicate state of the route_type property.
+set_ccopt_property route_type -clock_tree clk -net_type leaf default_route_type_leaf
+set_ccopt_property route_type -clock_tree clk -net_type trunk default_route_type_nonleaf
+set_ccopt_property route_type -clock_tree clk -net_type top default_route_type_nonleaf
+## Tcl commands to replicate state of the route_type_autotrim property.
+# route_type_autotrim has default value.
+## Tcl commands to replicate state of the route_type_override_for_clustering property.
+# route_type_override_for_clustering has default value for all objects.
+## Tcl commands to replicate state of the route_type_override_preferred_routing_layer_effort property.
+# route_type_override_preferred_routing_layer_effort has default value.
+## Tcl commands to replicate state of the routing_correlation_report_data_file property.
+# routing_correlation_report_data_file has default value.
+## Tcl commands to replicate state of the routing_correlation_report_low_fanout_cutoff property.
+# routing_correlation_report_low_fanout_cutoff has default value.
+## Tcl commands to replicate state of the routing_correlation_report_max_net_violation_count property.
+# routing_correlation_report_max_net_violation_count has default value.
+## Tcl commands to replicate state of the routing_cost_for_preferred_layer_effort_low property.
+# routing_cost_for_preferred_layer_effort_low has default value.
+## Tcl commands to replicate state of the routing_cost_for_preferred_layer_effort_medium property.
+# routing_cost_for_preferred_layer_effort_medium has default value.
+## Tcl commands to replicate state of the routing_estimate_add_extra_metal_for_through_vias property.
+# routing_estimate_add_extra_metal_for_through_vias has default value.
+## Tcl commands to replicate state of the routing_estimate_add_extra_metal_for_through_vias_length property.
+# routing_estimate_add_extra_metal_for_through_vias_length has default value.
+## Tcl commands to replicate state of the routing_estimate_detour_at_terminal_connection property.
+# routing_estimate_detour_at_terminal_connection has default value.
+## Tcl commands to replicate state of the routing_estimate_detour_override_to_layer property.
+# routing_estimate_detour_override_to_layer has default value.
+## Tcl commands to replicate state of the routing_estimate_short_terminal_connection_layer_override_passes property.
+# routing_estimate_short_terminal_connection_layer_override_passes has default value.
+## Tcl commands to replicate state of the routing_estimate_short_terminal_connection_layer_override_threshold property.
+# routing_estimate_short_terminal_connection_layer_override_threshold has default value.
+## Tcl commands to replicate state of the routing_override property.
+# routing_override has default value for all objects.
+## Tcl commands to replicate state of the routing_preferred_layer_effort_force_high property.
+# routing_preferred_layer_effort_force_high has default value.
+## Tcl commands to replicate state of the routing_save_datapath_trialroutes property.
+# routing_save_datapath_trialroutes has default value.
+## Tcl commands to replicate state of the routing_scale_factors property.
+# routing_scale_factors has default value.
+## Tcl commands to replicate state of the routing_top_fanout_count property.
+# routing_top_fanout_count has default value for all objects.
+## Tcl commands to replicate state of the routing_top_min_fanout property.
+# routing_top_min_fanout has default value for all objects.
+## Tcl commands to replicate state of the routing_use_highest_pin_layer property.
+# routing_use_highest_pin_layer has default value.
+## Tcl commands to replicate state of the run_latch_sta_during_slack_update property.
+# run_latch_sta_during_slack_update has default value.
+## Tcl commands to replicate state of the save_db_after_cts property.
+# save_db_after_cts has default value.
+## Tcl commands to replicate state of the save_design_in_qthread property.
+# save_design_in_qthread has default value.
+## Tcl commands to replicate state of the save_old_viz_on_cluster property.
+# save_old_viz_on_cluster has default value.
+## Tcl commands to replicate state of the save_state_before_out_of_sync property.
+# save_state_before_out_of_sync has default value.
+## Tcl commands to replicate state of the scan_reorder property.
+# scan_reorder has default value.
+## Tcl commands to replicate state of the schedule property.
+# schedule has default value for all objects.
+## Tcl commands to replicate state of the search_sibling_footprints_for_equivalence property.
+# search_sibling_footprints_for_equivalence has default value.
+## Tcl commands to replicate state of the set_net_avoid_chaining property.
+# set_net_avoid_chaining has default value.
+## Tcl commands to replicate state of the set_sink_centroid_as_cluster_center property.
+# set_sink_centroid_as_cluster_center has default value.
+## Tcl commands to replicate state of the show_property_errors_in_get_db property.
+# show_property_errors_in_get_db has default value.
+## Tcl commands to replicate state of the size_logic property.
+# size_logic has default value.
+## Tcl commands to replicate state of the skew_band_minimum_adjustors property.
+# skew_band_minimum_adjustors has default value.
+## Tcl commands to replicate state of the skew_band_size property.
+# skew_band_size has default value.
+## Tcl commands to replicate state of the skew_group_property_keys_include_mode property.
+set_ccopt_property skew_group_property_keys_include_mode 1
+## Tcl commands to replicate state of the skew_group_report_columns property.
+# skew_group_report_columns has default value.
+## Tcl commands to replicate state of the skew_group_report_histogram_bin_size property.
+# skew_group_report_histogram_bin_size has default value.
+## Tcl commands to replicate state of the skew_pass_sufficient_progress_band_size_factor property.
+# skew_pass_sufficient_progress_band_size_factor has default value.
+## Tcl commands to replicate state of the skew_passes_per_band property.
+# skew_passes_per_band has default value.
+## Tcl commands to replicate state of the skew_passes_per_band_with_latches property.
+# skew_passes_per_band_with_latches has default value.
+## Tcl commands to replicate state of the skew_passes_per_cluster property.
+# skew_passes_per_cluster has default value.
+## Tcl commands to replicate state of the skip_move_gates_in_chains property.
+# skip_move_gates_in_chains has default value.
+## Tcl commands to replicate state of the source_driver property.
+# source_driver has default value for all objects.
+## Tcl commands to replicate state of the source_group_clock_trees property.
+# source_group_clock_trees has default value for all objects.
+## Tcl commands to replicate state of the source_input_max_trans property.
+# source_input_max_trans has default value for all objects.
+## Tcl commands to replicate state of the source_latency property.
+# source_latency has default value for all objects.
+## Tcl commands to replicate state of the source_max_capacitance property.
+# source_max_capacitance has default value for all objects.
+## Tcl commands to replicate state of the source_output_max_trans property.
+# source_output_max_trans has default value for all objects.
+## Tcl commands to replicate state of the stop_before_implementation property.
+# stop_before_implementation has default value.
+## Tcl commands to replicate state of the stop_if_clock_trees_modified property.
+# stop_if_clock_trees_modified has default value.
+## Tcl commands to replicate state of the stop_if_useful_skew_goes_backwards property.
+# stop_if_useful_skew_goes_backwards has default value.
+## Tcl commands to replicate state of the suppress_timing_updates_after_initial_cluster property.
+# suppress_timing_updates_after_initial_cluster has default value.
+## Tcl commands to replicate state of the suppress_timing_updates_after_initial_cluster_ideal_mode property.
+# suppress_timing_updates_after_initial_cluster_ideal_mode has default value.
+## Tcl commands to replicate state of the target_em_max_capacitance property.
+# target_em_max_capacitance has default value for all objects.
+## Tcl commands to replicate state of the target_insertion_delay property.
+set_ccopt_property target_insertion_delay -skew_group icts.clk/CON auto
+set_ccopt_property target_insertion_delay -skew_group fragment.1 0.24265
+## Tcl commands to replicate state of the target_insertion_delay_wire property.
+set_ccopt_property target_insertion_delay_wire -skew_group icts.clk/CON auto
+set_ccopt_property target_insertion_delay_wire -skew_group fragment.1 auto
+## Tcl commands to replicate state of the target_max_capacitance property.
+# target_max_capacitance has default value for all objects.
+## Tcl commands to replicate state of the target_max_trans property.
+# target_max_trans has default value for all objects.
+## Tcl commands to replicate state of the target_max_trans_edge property.
+# target_max_trans_edge has default value for all objects.
+## Tcl commands to replicate state of the target_max_trans_sdc property.
+# target_max_trans_sdc has default value for all objects.
+## Tcl commands to replicate state of the target_multi_corner_allowed_insertion_delay_increase property.
+# target_multi_corner_allowed_insertion_delay_increase has default value for all objects.
+## Tcl commands to replicate state of the target_skew property.
+set_ccopt_property target_skew -delay_corner WC -skew_group icts.clk/CON -early default
+set_ccopt_property target_skew -delay_corner WC -skew_group icts.clk/CON -late default
+set_ccopt_property target_skew -delay_corner BC -skew_group icts.clk/CON -early default
+set_ccopt_property target_skew -delay_corner BC -skew_group icts.clk/CON -late default
+set_ccopt_property target_skew -delay_corner WC -skew_group fragment.1 -late 0.0553
+## Tcl commands to replicate state of the target_skew_wire property.
+set_ccopt_property target_skew_wire -delay_corner WC -skew_group icts.clk/CON -early default
+set_ccopt_property target_skew_wire -delay_corner WC -skew_group icts.clk/CON -late default
+set_ccopt_property target_skew_wire -delay_corner BC -skew_group icts.clk/CON -early default
+set_ccopt_property target_skew_wire -delay_corner BC -skew_group icts.clk/CON -late default
+set_ccopt_property target_skew_wire -delay_corner WC -skew_group fragment.1 -late 0
+## Tcl commands to replicate state of the threshold_for_design_being_routed property.
+# threshold_for_design_being_routed has default value.
+## Tcl commands to replicate state of the tighten_max_trans_band_size property.
+# tighten_max_trans_band_size has default value.
+## Tcl commands to replicate state of the time_clock_tree_disconnected property.
+# time_clock_tree_disconnected has default value.
+## Tcl commands to replicate state of the timing_delta property.
+# timing_delta has default value.
+## Tcl commands to replicate state of the top_buffer_cells property.
+# top_buffer_cells has default value for all objects.
+## Tcl commands to replicate state of the top_inverter_cells property.
+# top_inverter_cells has default value for all objects.
+## Tcl commands to replicate state of the trace_bidi_as_input property.
+# trace_bidi_as_input has default value.
+## Tcl commands to replicate state of the trade_right_size_for_delay_factor property.
+# trade_right_size_for_delay_factor has default value.
+## Tcl commands to replicate state of the treat_clock_gates_as_logics property.
+# treat_clock_gates_as_logics has default value.
+## Tcl commands to replicate state of the treat_null_power_domain_as_default property.
+# treat_null_power_domain_as_default has default value.
+## Tcl commands to replicate state of the treat_special_nets_as_routing_blockages property.
+# treat_special_nets_as_routing_blockages has default value.
+## Tcl commands to replicate state of the trial_route_after_commit_net_attributes_and_route_estimates property.
+# trial_route_after_commit_net_attributes_and_route_estimates has default value.
+## Tcl commands to replicate state of the trial_route_in_synth_clock_trees property.
+# trial_route_in_synth_clock_trees has default value.
+## Tcl commands to replicate state of the trim_cell_lists_using_cell_properties property.
+# trim_cell_lists_using_cell_properties has default value.
+## Tcl commands to replicate state of the trunk_override property.
+# trunk_override has default value for all objects.
+## Tcl commands to replicate state of the try_harder_to_minimize_skew property.
+# try_harder_to_minimize_skew has default value for all objects.
+## Tcl commands to replicate state of the update_io_latency property.
+set_ccopt_property update_io_latency 0
+## Tcl commands to replicate state of the update_io_latency_after_implementation property.
+# update_io_latency_after_implementation has default value.
+## Tcl commands to replicate state of the update_slacks_before_skewing_adjustors property.
+# update_slacks_before_skewing_adjustors has default value.
+## Tcl commands to replicate state of the update_timing_after_cts property.
+# update_timing_after_cts has default value.
+## Tcl commands to replicate state of the uplift_limit property.
+# uplift_limit has default value.
+## Tcl commands to replicate state of the uplift_max_slack_loss property.
+# uplift_max_slack_loss has default value.
+## Tcl commands to replicate state of the uplift_min property.
+# uplift_min has default value.
+## Tcl commands to replicate state of the uplifts_band_size property.
+# uplifts_band_size has default value.
+## Tcl commands to replicate state of the use_annotated_transition property.
+# use_annotated_transition has default value.
+## Tcl commands to replicate state of the use_cte_dynamic_constraints property.
+# use_cte_dynamic_constraints has default value.
+## Tcl commands to replicate state of the use_cte_virtual_delays property.
+# use_cte_virtual_delays has default value.
+## Tcl commands to replicate state of the use_default_box_for_legalization property.
+# use_default_box_for_legalization has default value.
+## Tcl commands to replicate state of the use_delayed_legalization property.
+# use_delayed_legalization has default value.
+## Tcl commands to replicate state of the use_early_global_for_clock_routing property.
+# use_early_global_for_clock_routing has default value.
+## Tcl commands to replicate state of the use_estimated_routes_during_final_implementation property.
+# use_estimated_routes_during_final_implementation has default value.
+## Tcl commands to replicate state of the use_fast_delay_arc_phase_transform property.
+# use_fast_delay_arc_phase_transform has default value.
+## Tcl commands to replicate state of the use_guides_with_freedom_regions property.
+# use_guides_with_freedom_regions has default value.
+## Tcl commands to replicate state of the use_inverters property.
+# use_inverters has default value for all objects.
+## Tcl commands to replicate state of the use_nr2gr_during_final_implementation property.
+# use_nr2gr_during_final_implementation has default value.
+## Tcl commands to replicate state of the use_old_prim_dijkstra_interface property.
+# use_old_prim_dijkstra_interface has default value.
+## Tcl commands to replicate state of the use_only_combinational_arcs property.
+# use_only_combinational_arcs has default value.
+## Tcl commands to replicate state of the use_only_setup_views_for_target_insertion_delay property.
+# use_only_setup_views_for_target_insertion_delay has default value.
+## Tcl commands to replicate state of the use_optimal_skew_band property.
+# use_optimal_skew_band has default value.
+## Tcl commands to replicate state of the use_overlay_algorithms_when_single_threaded property.
+# use_overlay_algorithms_when_single_threaded has default value.
+## Tcl commands to replicate state of the use_setup_and_hold_views_for_create_clock_tree_spec property.
+# use_setup_and_hold_views_for_create_clock_tree_spec has default value.
+## Tcl commands to replicate state of the use_setup_and_hold_views_for_implementation_windows property.
+# use_setup_and_hold_views_for_implementation_windows has default value.
+## Tcl commands to replicate state of the useful_skew_adjust_worst_n_pct_only property.
+# useful_skew_adjust_worst_n_pct_only has default value.
+## Tcl commands to replicate state of the useful_skew_adjustment_sequence property.
+# useful_skew_adjustment_sequence has default value.
+## Tcl commands to replicate state of the useful_skew_align_tns_windows property.
+# useful_skew_align_tns_windows has default value.
+## Tcl commands to replicate state of the useful_skew_align_tns_windows_min_size property.
+# useful_skew_align_tns_windows_min_size has default value.
+## Tcl commands to replicate state of the useful_skew_align_tns_windows_quantum property.
+# useful_skew_align_tns_windows_quantum has default value.
+## Tcl commands to replicate state of the useful_skew_build_below_clock_gate_skew_groups property.
+# useful_skew_build_below_clock_gate_skew_groups has default value.
+## Tcl commands to replicate state of the useful_skew_clock_gate_movement_limit property.
+# useful_skew_clock_gate_movement_limit has default value.
+## Tcl commands to replicate state of the useful_skew_clock_gate_window_slack_budget property.
+# useful_skew_clock_gate_window_slack_budget has default value.
+## Tcl commands to replicate state of the useful_skew_clustering_cache_hold_slacks property.
+# useful_skew_clustering_cache_hold_slacks has default value.
+## Tcl commands to replicate state of the useful_skew_configure_ideal_mode_reference property.
+# useful_skew_configure_ideal_mode_reference has default value.
+## Tcl commands to replicate state of the useful_skew_convert_default_mode_for_clock_domain_mode property.
+# useful_skew_convert_default_mode_for_clock_domain_mode has default value.
+## Tcl commands to replicate state of the useful_skew_cppr_timing_threshold property.
+# useful_skew_cppr_timing_threshold has default value.
+## Tcl commands to replicate state of the useful_skew_dont_skew_adjustor_if_unbufferable_children property.
+# useful_skew_dont_skew_adjustor_if_unbufferable_children has default value.
+## Tcl commands to replicate state of the useful_skew_enable_macro_only_passes property.
+# useful_skew_enable_macro_only_passes has default value.
+## Tcl commands to replicate state of the useful_skew_equalize_offsets_use_chosen_windows property.
+# useful_skew_equalize_offsets_use_chosen_windows has default value.
+## Tcl commands to replicate state of the useful_skew_equalize_offsets_use_chosen_windows_ideal_mode property.
+# useful_skew_equalize_offsets_use_chosen_windows_ideal_mode has default value.
+## Tcl commands to replicate state of the useful_skew_final_db property.
+# useful_skew_final_db has default value.
+## Tcl commands to replicate state of the useful_skew_hold_threshold_window_size property.
+# useful_skew_hold_threshold_window_size has default value.
+## Tcl commands to replicate state of the useful_skew_hyperspace_uplift_as_extra_effort_in_ideal_mode property.
+# useful_skew_hyperspace_uplift_as_extra_effort_in_ideal_mode has default value.
+## Tcl commands to replicate state of the useful_skew_hyperspace_uplift_as_extra_effort_num_iterations property.
+# useful_skew_hyperspace_uplift_as_extra_effort_num_iterations has default value.
+## Tcl commands to replicate state of the useful_skew_hyperspace_uplift_max_fraction_per_subtree property.
+# useful_skew_hyperspace_uplift_max_fraction_per_subtree has default value.
+## Tcl commands to replicate state of the useful_skew_ideal_mode_min_forwarding_skew property.
+# useful_skew_ideal_mode_min_forwarding_skew has default value.
+## Tcl commands to replicate state of the useful_skew_ideal_mode_reference_by_clock property.
+# useful_skew_ideal_mode_reference_by_clock has default value.
+## Tcl commands to replicate state of the useful_skew_ideal_mode_reference_quantum property.
+# useful_skew_ideal_mode_reference_quantum has default value.
+## Tcl commands to replicate state of the useful_skew_ideal_mode_set_clock_latency_on_propagated_mode_clocks property.
+# useful_skew_ideal_mode_set_clock_latency_on_propagated_mode_clocks has default value.
+## Tcl commands to replicate state of the useful_skew_implement_with_clock_gate_skew_groups property.
+# useful_skew_implement_with_clock_gate_skew_groups has default value.
+## Tcl commands to replicate state of the useful_skew_implementation_cache_hold_slacks property.
+# useful_skew_implementation_cache_hold_slacks has default value.
+## Tcl commands to replicate state of the useful_skew_implementation_chosen_window_adjust property.
+# useful_skew_implementation_chosen_window_adjust has default value.
+## Tcl commands to replicate state of the useful_skew_incremental_latch_sta property.
+# useful_skew_incremental_latch_sta has default value.
+## Tcl commands to replicate state of the useful_skew_macro_pin_count_threshold property.
+# useful_skew_macro_pin_count_threshold has default value.
+## Tcl commands to replicate state of the useful_skew_max_sources_per_clock_gate_skew_group property.
+# useful_skew_max_sources_per_clock_gate_skew_group has default value.
+## Tcl commands to replicate state of the useful_skew_max_window_down_delay_factor property.
+# useful_skew_max_window_down_delay_factor has default value.
+## Tcl commands to replicate state of the useful_skew_max_window_up_delay_factor property.
+# useful_skew_max_window_up_delay_factor has default value.
+## Tcl commands to replicate state of the useful_skew_min_delta property.
+# useful_skew_min_delta has default value.
+## Tcl commands to replicate state of the useful_skew_minimum_slack_change property.
+# useful_skew_minimum_slack_change has default value.
+## Tcl commands to replicate state of the useful_skew_overshoot property.
+# useful_skew_overshoot has default value.
+## Tcl commands to replicate state of the useful_skew_post_clustering_latch_sta property.
+# useful_skew_post_clustering_latch_sta has default value.
+## Tcl commands to replicate state of the useful_skew_postconditioning_check_sibling_slacks property.
+# useful_skew_postconditioning_check_sibling_slacks has default value.
+## Tcl commands to replicate state of the useful_skew_postconditioning_enable_buffer_insertion property.
+# useful_skew_postconditioning_enable_buffer_insertion has default value.
+## Tcl commands to replicate state of the useful_skew_postconditioning_enable_buffer_removal property.
+# useful_skew_postconditioning_enable_buffer_removal has default value.
+## Tcl commands to replicate state of the useful_skew_postconditioning_enable_move_gate property.
+# useful_skew_postconditioning_enable_move_gate has default value.
+## Tcl commands to replicate state of the useful_skew_postconditioning_enable_resize_gate property.
+# useful_skew_postconditioning_enable_resize_gate has default value.
+## Tcl commands to replicate state of the useful_skew_postconditioning_enable_sink_buffering property.
+# useful_skew_postconditioning_enable_sink_buffering has default value.
+## Tcl commands to replicate state of the useful_skew_postconditioning_enable_slack_estimation property.
+# useful_skew_postconditioning_enable_slack_estimation has default value.
+## Tcl commands to replicate state of the useful_skew_postconditioning_initial_min_delay_unit_delay_factor property.
+# useful_skew_postconditioning_initial_min_delay_unit_delay_factor has default value.
+## Tcl commands to replicate state of the useful_skew_postconditioning_iterations property.
+# useful_skew_postconditioning_iterations has default value.
+## Tcl commands to replicate state of the useful_skew_postconditioning_min_delta_factor property.
+# useful_skew_postconditioning_min_delta_factor has default value.
+## Tcl commands to replicate state of the useful_skew_postconditioning_optimizations_per_iteration property.
+# useful_skew_postconditioning_optimizations_per_iteration has default value.
+## Tcl commands to replicate state of the useful_skew_postconditioning_slack_estimation_factor property.
+# useful_skew_postconditioning_slack_estimation_factor has default value.
+## Tcl commands to replicate state of the useful_skew_recluster_push_clock_gates_into_windows property.
+# useful_skew_recluster_push_clock_gates_into_windows has default value.
+## Tcl commands to replicate state of the useful_skew_refresh_adjustors_per_band_skew_pass property.
+# useful_skew_refresh_adjustors_per_band_skew_pass has default value.
+## Tcl commands to replicate state of the useful_skew_removable_clustering_delay_factor property.
+# useful_skew_removable_clustering_delay_factor has default value.
+## Tcl commands to replicate state of the useful_skew_report_detailed_slack_changes property.
+# useful_skew_report_detailed_slack_changes has default value.
+## Tcl commands to replicate state of the useful_skew_save_ccopt_mode_for_save_restore property.
+set_ccopt_property useful_skew_save_ccopt_mode_for_save_restore default
+## Tcl commands to replicate state of the useful_skew_show_all_high_effort_path_group_timing_stats property.
+# useful_skew_show_all_high_effort_path_group_timing_stats has default value.
+## Tcl commands to replicate state of the useful_skew_sink_safety_margin property.
+# useful_skew_sink_safety_margin has default value.
+## Tcl commands to replicate state of the useful_skew_slack_window_tns_baseline_factor property.
+# useful_skew_slack_window_tns_baseline_factor has default value.
+## Tcl commands to replicate state of the useful_skew_use_clock_gate_network_latencies property.
+# useful_skew_use_clock_gate_network_latencies has default value.
+## Tcl commands to replicate state of the useful_skew_use_clock_network_slacks property.
+# useful_skew_use_clock_network_slacks has default value.
+## Tcl commands to replicate state of the useful_skew_use_gigaopt_for_mfn_chain_speed property.
+# useful_skew_use_gigaopt_for_mfn_chain_speed has default value.
+## Tcl commands to replicate state of the useful_skew_use_native_ideal_delta property.
+# useful_skew_use_native_ideal_delta has default value.
+## Tcl commands to replicate state of the useful_skew_use_zero_delays_for_clock_domain_mode property.
+# useful_skew_use_zero_delays_for_clock_domain_mode has default value.
+## Tcl commands to replicate state of the useful_skew_window_size property.
+# useful_skew_window_size has default value.
+## Tcl commands to replicate state of the useful_skew_window_top_unit_delay_factor property.
+# useful_skew_window_top_unit_delay_factor has default value.
+## Tcl commands to replicate state of the user_skew_group property.
+set_ccopt_property user_skew_group -skew_group default.clk/CON 1
+## Tcl commands to replicate state of the virtual_delay property.
+# virtual_delay has default value for all objects.
+## Tcl commands to replicate state of the weak_driver_check_bounding_box_vs_drive_distance property.
+# weak_driver_check_bounding_box_vs_drive_distance has default value.
+## Tcl commands to replicate state of the write_clock_dag_hash_for_every_step property.
+# write_clock_dag_hash_for_every_step has default value.
+## Tcl commands to replicate state of the write_sink_depths_to_file property.
+# write_sink_depths_to_file has default value.
+#### End of writing state for properties.
