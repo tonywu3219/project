@@ -1,6 +1,6 @@
 # PPCMD 1 
 # sroute 
-# 4 
+# 8 
 # 16 
 # 0 
 # 0 
@@ -14,7 +14,7 @@
 
 # PPCMD 2 
 # addStripe -skip_via_on_wire_shape Noshape -block_ring_top_layer_limit M1 -max_same_layer_jog_length 0.8 -padcore_ring_bottom_layer_limit M1 -number_of_sets 50 -skip_via_on_pin Standardcell -stacked_via_top_layer M8 -padcore_ring_top_layer_limit M1 -spacing 3 -merge_stripes_value 0.1 -direction horizontal -layer M5 -block_ring_bottom_layer_limit M1 -width 2 -area {} -nets {VDD VSS} -stacked_via_bottom_layer M1
-# 3 
+# 7 
 # 2 
 # 1 
 # 0 
@@ -31,6 +31,65 @@
 
 # PPCMD 3 
 # addRing -nets {VDD VSS} -type block_rings -around each_block -layer {top M3 bottom M3 left M2 right M2} -width {top 2 bottom 2 left 2 right 2} -spacing {top 1 bottom 1 left 1 right 1}
+# 6 
+# 8 
+# 0 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 3 
+
+# PPCMD 4 
+# addRing -spacing {top 2 bottom 2 left 2 right 2} -width {top 2 bottom 2 left 2 right 2} -layer {top M1 bottom M1 left M2 right M2} -center 1 -type core_rings -nets {VSS  VDD}
+# 5 
+# 32 
+# 0 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 4 
+
+# PPCMD 5 
+# sroute 
+# 4 
+# 16 
+# 0 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 5 
+
+# PPCMD 6 
+# addStripe -skip_via_on_wire_shape Noshape -block_ring_top_layer_limit M1 -max_same_layer_jog_length 0.8 -padcore_ring_bottom_layer_limit M1 -number_of_sets 50 -skip_via_on_pin Standardcell -stacked_via_top_layer M8 -padcore_ring_top_layer_limit M1 -spacing 3 -merge_stripes_value 0.1 -direction horizontal -layer M5 -block_ring_bottom_layer_limit M1 -width 2 -area {} -nets {VDD VSS} -stacked_via_bottom_layer M1
+# 3 
+# 2 
+# 1 
+# 0 
+# 0 
+# 1 
+# BOX_LIST 
+# 20000 20000 2820000 5620000 0 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# VSS 4000 5 0 30000 5622000 114000 0 0 
+# VDD 4000 5 0 20000 5622000 114000 0 0 
+# END_NET_INFO_LIST 
+# END_PPCMD 6 
+
+# PPCMD 7 
+# addRing -nets {VDD VSS} -type block_rings -around each_block -layer {top M3 bottom M3 left M2 right M2} -width {top 2 bottom 2 left 2 right 2} -spacing {top 1 bottom 1 left 1 right 1}
 # 2 
 # 8 
 # 1 
@@ -42,24 +101,24 @@
 # NET_INFO_LIST 
 # VSS 4000 3 1 0 0 0 0 0 
 # RING_PT_INFO_LIST 
-# 1420000 190000 1420000 2650000 1420000 2990000 1420000 5450000 
+# 1320000 190000 1320000 2450000 1320000 2990000 1320000 5250000 
 # END_RING_PT_INFO_LIST 
 # VSS 4000 2 1 0 0 0 0 0 
 # RING_PT_INFO_LIST 
-# 190000 1420000 2650000 1420000 190000 4220000 2650000 4220000 
+# 190000 1320000 2450000 1320000 190000 4120000 2450000 4120000 
 # END_RING_PT_INFO_LIST 
 # VDD 4000 3 1 0 0 0 0 0 
 # RING_PT_INFO_LIST 
-# 1420000 196000 1420000 2644000 1420000 2996000 1420000 5444000 
+# 1320000 196000 1320000 2444000 1320000 2996000 1320000 5244000 
 # END_RING_PT_INFO_LIST 
 # VDD 4000 2 1 0 0 0 0 0 
 # RING_PT_INFO_LIST 
-# 196000 1420000 2644000 1420000 196000 4220000 2644000 4220000 
+# 196000 1320000 2444000 1320000 196000 4120000 2444000 4120000 
 # END_RING_PT_INFO_LIST 
 # END_NET_INFO_LIST 
-# END_PPCMD 3 
+# END_PPCMD 7 
 
-# PPCMD 4 
+# PPCMD 8 
 # addRing -spacing {top 2 bottom 2 left 2 right 2} -width {top 2 bottom 2 left 2 right 2} -layer {top M1 bottom M1 left M2 right M2} -center 1 -type core_rings -nets {VSS  VDD}
 # 1 
 # 32 
@@ -87,5 +146,5 @@
 # 14000 2819500 2826000 2819500 
 # END_RING_PT_INFO_LIST 
 # END_NET_INFO_LIST 
-# END_PPCMD 4 
+# END_PPCMD 8 
 
