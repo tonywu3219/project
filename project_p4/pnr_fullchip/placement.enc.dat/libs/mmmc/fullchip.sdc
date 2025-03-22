@@ -1,0 +1,1 @@
+/home/linux/ieng6/ee260bwi25/yas029/project/project_p4/pnr_fullchip/constraints/fullchip.sdc
