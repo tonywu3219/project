@@ -23,7 +23,5 @@ optDesign -postRoute -drv
 optDesign -postRoute -inc
 optDesign -postRoute -drv
 optDesign -postRoute -inc
-optDesign -postRoute -drv
-optDesign -postRoute -inc
 
 saveDesign route.enc
