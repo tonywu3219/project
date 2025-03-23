@@ -1,4 +1,4 @@
-set clock_cycle 1.0 
+set clock_cycle 50.0 
 set io_delay 0.2 
 
 set clock_port CLK

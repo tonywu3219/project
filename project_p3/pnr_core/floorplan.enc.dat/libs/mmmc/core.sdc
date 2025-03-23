@@ -1,0 +1,1 @@
+/home/linux/ieng6/ee260bwi25/zuy001/project/project/project_p3/pnr_core/constraints/core.sdc

@@ -1,7 +1,7 @@
 # Floorplan
 floorPlan -site core -s 1100 1100 10 10 10 10
 
-#addRing -spacing {top 2 bottom 2 left 2 right 2} -width {top 2 bottom 2 left 2 right 2}  -layer {top M1 bottom M1 left M2 right M2} -center 1 -type core_rings -nets {VSS  VDD}
+addRing -spacing {top 2 bottom 2 left 2 right 2} -width {top 2 bottom 2 left 2 right 2}  -layer {top M1 bottom M1 left M2 right M2} -center 1 -type core_rings -nets {VSS  VDD}
 
 setObjFPlanBox Instance kmem_instance 42.935 399.9755 332.935 689.9755
 setObjFPlanBox Instance qmem_instance 53.708 752.784 343.708 1042.784
